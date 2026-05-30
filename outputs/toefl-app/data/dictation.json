@@ -1,0 +1,345 @@
+[
+  {
+    "id": "dictation-听力词汇-rule-of-thumb",
+    "text": "rule of thumb",
+    "section": "听力词汇",
+    "hint": "经验法则",
+    "source": "words"
+  },
+  {
+    "id": "dictation-听力词汇-find-out",
+    "text": "find out",
+    "section": "听力词汇",
+    "hint": "查明",
+    "source": "words"
+  },
+  {
+    "id": "dictation-听力词汇-respond-to",
+    "text": "respond to",
+    "section": "听力词汇",
+    "hint": "回应",
+    "source": "words"
+  },
+  {
+    "id": "dictation-听力词汇-sign-up",
+    "text": "sign up",
+    "section": "听力词汇",
+    "hint": "报名",
+    "source": "words"
+  },
+  {
+    "id": "dictation-听力词汇-fill-out",
+    "text": "fill out",
+    "section": "听力词汇",
+    "hint": "填写",
+    "source": "words"
+  },
+  {
+    "id": "dictation-动物与演化-adapt-to",
+    "text": "adapt to",
+    "section": "动物与演化",
+    "hint": "适应",
+    "source": "words"
+  },
+  {
+    "id": "dictation-学术阅读常见词-location-located",
+    "text": "location / located",
+    "section": "学术阅读常见词",
+    "hint": "位置；位于",
+    "source": "words"
+  },
+  {
+    "id": "dictation-学术阅读常见词-several-of",
+    "text": "several of",
+    "section": "学术阅读常见词",
+    "hint": "几个",
+    "source": "words"
+  },
+  {
+    "id": "dictation-阅读词汇-adjust-to",
+    "text": "adjust to",
+    "section": "阅读词汇",
+    "hint": "适应",
+    "source": "words"
+  },
+  {
+    "id": "dictation-阅读词汇-work-on",
+    "text": "work on",
+    "section": "阅读词汇",
+    "hint": "从事；继续改进",
+    "source": "words"
+  },
+  {
+    "id": "dictation-阅读词汇-a-handful-of",
+    "text": "a handful of",
+    "section": "阅读词汇",
+    "hint": "少量的",
+    "source": "words"
+  },
+  {
+    "id": "dictation-阅读词汇-charging-admission",
+    "text": "charging admission",
+    "section": "阅读词汇",
+    "hint": "收入场费",
+    "source": "words"
+  },
+  {
+    "id": "dictation-阅读词汇-such-as",
+    "text": "such as",
+    "section": "阅读词汇",
+    "hint": "例如",
+    "source": "words"
+  },
+  {
+    "id": "dictation-阅读词汇-even-though",
+    "text": "even though",
+    "section": "阅读词汇",
+    "hint": "尽管",
+    "source": "words"
+  },
+  {
+    "id": "dictation-阅读词汇-no-longer",
+    "text": "no longer",
+    "section": "阅读词汇",
+    "hint": "不再",
+    "source": "words"
+  },
+  {
+    "id": "dictation-5-22-口语短语-respond-very-well-to-",
+    "text": "respond very well to ...",
+    "section": "5.22 口语短语",
+    "hint": "对……反应很好",
+    "source": "words"
+  },
+  {
+    "id": "dictation-5-22-口语短语-the-concert-was-a-huge-hit-",
+    "text": "The concert was a huge hit.",
+    "section": "5.22 口语短语",
+    "hint": "演出大受欢迎",
+    "source": "words"
+  },
+  {
+    "id": "dictation-5-22-口语短语-the-crowd-went-wild-",
+    "text": "The crowd went wild.",
+    "section": "5.22 口语短语",
+    "hint": "群情激昂；观众很兴奋",
+    "source": "words"
+  },
+  {
+    "id": "dictation-5-22-口语短语-deal-with-this-pressure-problem-on-my-own",
+    "text": "deal with this pressure/problem on my own",
+    "section": "5.22 口语短语",
+    "hint": "独自处理压力/问题",
+    "source": "words"
+  },
+  {
+    "id": "dictation-5-22-口语短语-exercise-and-good-sleep-form-a-positive-cycle",
+    "text": "exercise and good sleep form a positive cycle",
+    "section": "5.22 口语短语",
+    "hint": "运动和良好睡眠形成正向循环",
+    "source": "words"
+  },
+  {
+    "id": "dictation-5-22-口语短语-play-a-vital-role-in-",
+    "text": "play a vital role in ...",
+    "section": "5.22 口语短语",
+    "hint": "在……中发挥重要作用",
+    "source": "words"
+  },
+  {
+    "id": "dictation-5-22-目标词-vicious-cycle",
+    "text": "vicious cycle",
+    "section": "5.22 目标词",
+    "hint": "恶性循环",
+    "source": "words"
+  },
+  {
+    "id": "dictation-5-22-目标词-make-progress",
+    "text": "make progress",
+    "section": "5.22 目标词",
+    "hint": "取得进展",
+    "source": "words"
+  },
+  {
+    "id": "dictation-5-22-目标词-engage-in",
+    "text": "engage in",
+    "section": "5.22 目标词",
+    "hint": "参与",
+    "source": "words"
+  },
+  {
+    "id": "dictation-口语-听力复习词-depend-on",
+    "text": "depend on",
+    "section": "口语/听力复习词",
+    "hint": "依赖",
+    "source": "words"
+  },
+  {
+    "id": "dictation-口语-听力复习词-sense-of-achievement-satisfaction",
+    "text": "sense of achievement/satisfaction",
+    "section": "口语/听力复习词",
+    "hint": "成就感/满足感",
+    "source": "words"
+  },
+  {
+    "id": "dictation-口语-听力复习词-on-purpose",
+    "text": "on purpose",
+    "section": "口语/听力复习词",
+    "hint": "故意地",
+    "source": "words"
+  },
+  {
+    "id": "dictation-口语-听力复习词-recharge-one-s-battery",
+    "text": "recharge one's battery",
+    "section": "口语/听力复习词",
+    "hint": "恢复精力",
+    "source": "words"
+  },
+  {
+    "id": "dictation-口语-听力复习词-academic-performance",
+    "text": "academic performance",
+    "section": "口语/听力复习词",
+    "hint": "学业表现",
+    "source": "words"
+  },
+  {
+    "id": "dictation-口语-听力复习词-apply-for",
+    "text": "apply for",
+    "section": "口语/听力复习词",
+    "hint": "申请",
+    "source": "words"
+  },
+  {
+    "id": "dictation-口语-听力复习词-voice-out",
+    "text": "voice out",
+    "section": "口语/听力复习词",
+    "hint": "说出",
+    "source": "words"
+  },
+  {
+    "id": "dictation-口语-听力复习词-social-status",
+    "text": "social status",
+    "section": "口语/听力复习词",
+    "hint": "社会地位",
+    "source": "words"
+  },
+  {
+    "id": "dictation-口语-听力复习词-it-takes-two-to-tango",
+    "text": "it takes two to tango",
+    "section": "口语/听力复习词",
+    "hint": "一个巴掌拍不响；双方都有责任",
+    "source": "words"
+  },
+  {
+    "id": "dictation-口语-听力复习词-turning-point",
+    "text": "turning point",
+    "section": "口语/听力复习词",
+    "hint": "转折点",
+    "source": "words"
+  },
+  {
+    "id": "dictation-口语-听力复习词-from-time-to-time",
+    "text": "from time to time",
+    "section": "口语/听力复习词",
+    "hint": "不时地",
+    "source": "words"
+  },
+  {
+    "id": "dictation-口语-听力复习词-sound-proper",
+    "text": "sound proper",
+    "section": "口语/听力复习词",
+    "hint": "听起来得体",
+    "source": "words"
+  },
+  {
+    "id": "dictation-口语-听力复习词-in-my-opinion",
+    "text": "in my opinion",
+    "section": "口语/听力复习词",
+    "hint": "在我看来",
+    "source": "words"
+  },
+  {
+    "id": "dictation-易混点-affect-effect",
+    "text": "affect / effect",
+    "section": "易混点",
+    "hint": "affect 多作动词“影响”；effect 多作名词“影响、效果”。",
+    "source": "words"
+  },
+  {
+    "id": "dictation-易混点-personal-personnel",
+    "text": "personal / personnel",
+    "section": "易混点",
+    "hint": "personal = 个人的；personnel = 人员。笔记里是 personal。",
+    "source": "words"
+  },
+  {
+    "id": "dictation-易混点-imply-identify",
+    "text": "imply / identify",
+    "section": "易混点",
+    "hint": "imply = 暗示；identify = 识别、认出。",
+    "source": "words"
+  },
+  {
+    "id": "dictation-易混点-valuable-invaluable",
+    "text": "valuable / invaluable",
+    "section": "易混点",
+    "hint": "valuable = 有价值的；invaluable = 极其宝贵的，不是“没价值”。",
+    "source": "words"
+  },
+  {
+    "id": "dictation-易混点-desert-dessert",
+    "text": "desert / dessert",
+    "section": "易混点",
+    "hint": "desert = 沙漠；dessert = 甜点。",
+    "source": "words"
+  },
+  {
+    "id": "dictation-易混点-sensible-sensitive-susceptible",
+    "text": "sensible / sensitive / susceptible",
+    "section": "易混点",
+    "hint": "sensible = 明智的；sensitive = 敏感的；susceptible = 易受影响的。",
+    "source": "words"
+  },
+  {
+    "id": "dictation-易混点-admission-permission",
+    "text": "admission / permission",
+    "section": "易混点",
+    "hint": "admission = 准入/入场；permission = 许可。",
+    "source": "words"
+  },
+  {
+    "id": "dictation-易混点-current-constant",
+    "text": "current / constant",
+    "section": "易混点",
+    "hint": "current = 当前的；constant = 持续的。",
+    "source": "words"
+  },
+  {
+    "id": "dictation-speaking-001",
+    "text": "Some students prefer to deal with pressure on their own, while others ask friends or advisors for help. Which do you prefer?",
+    "section": "口语题目",
+    "hint": "deal with pressure, form a positive cycle, play a vital role in, make progress",
+    "source": "speaking"
+  },
+  {
+    "id": "dictation-speaking-002",
+    "text": "Do you prefer joining a study group or studying independently for TOEFL vocabulary?",
+    "section": "口语题目",
+    "hint": "depend on, motivate, academic performance, from time to time",
+    "source": "speaking"
+  },
+  {
+    "id": "dictation-speaking-003",
+    "text": "Describe one habit that helps you make progress in English learning.",
+    "section": "口语题目",
+    "hint": "regularly, sustainable, priority, in my opinion",
+    "source": "speaking"
+  },
+  {
+    "id": "dictation-speaking-004",
+    "text": "Some students like immersive learning environments. Do you think they are useful?",
+    "section": "口语题目",
+    "hint": "immersive, engage in, experience, possibly",
+    "source": "speaking"
+  }
+]

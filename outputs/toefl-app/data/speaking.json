@@ -1,0 +1,65 @@
+[
+  {
+    "id": "speaking-002",
+    "taskType": "",
+    "title": "Speaking 2",
+    "question": "Do you prefer joining a study group or studying independently for TOEFL vocabulary?",
+    "preparationTime": null,
+    "responseTime": null,
+    "tips": [
+      "depend on",
+      "motivate",
+      "academic performance",
+      "from time to time"
+    ],
+    "prompt": "Do you prefer joining a study group or studying independently for TOEFL vocabulary?",
+    "targets": [
+      "depend on",
+      "motivate",
+      "academic performance",
+      "from time to time"
+    ]
+  },
+  {
+    "id": "speaking-003",
+    "taskType": "",
+    "title": "Speaking 3",
+    "question": "Describe one habit that helps you make progress in English learning.",
+    "preparationTime": null,
+    "responseTime": null,
+    "tips": [
+      "regularly",
+      "sustainable",
+      "priority",
+      "in my opinion"
+    ],
+    "prompt": "Describe one habit that helps you make progress in English learning.",
+    "targets": [
+      "regularly",
+      "sustainable",
+      "priority",
+      "in my opinion"
+    ]
+  },
+  {
+    "id": "speaking-004",
+    "taskType": "",
+    "title": "Speaking 4",
+    "question": "Some students like immersive learning environments. Do you think they are useful?",
+    "preparationTime": null,
+    "responseTime": null,
+    "tips": [
+      "immersive",
+      "engage in",
+      "experience",
+      "possibly"
+    ],
+    "prompt": "Some students like immersive learning environments. Do you think they are useful?",
+    "targets": [
+      "immersive",
+      "engage in",
+      "experience",
+      "possibly"
+    ]
+  }
+]

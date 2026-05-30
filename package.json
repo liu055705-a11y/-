@@ -1,0 +1,11 @@
+{
+  "name": "toefl-review-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-netlify.mjs",
+    "check:data": "node scripts/check-data-quality.mjs",
+    "start": "node scripts/serve-static.mjs"
+  }
+}

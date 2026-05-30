@@ -1,0 +1,534 @@
+:root {
+  color-scheme: light;
+  --ink: #17212b;
+  --muted: #697583;
+  --line: #d8e0e7;
+  --paper: #f8f6ef;
+  --panel: #ffffff;
+  --blue: #143d59;
+  --teal: #1b7f79;
+  --gold: #f3b23c;
+  --red: #c84d4d;
+  --green: #2d7a4f;
+  --shadow: 0 12px 32px rgba(17, 33, 47, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: linear-gradient(180deg, #f2f7f7 0%, var(--paper) 46%, #fbfbf8 100%);
+  color: var(--ink);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button,
+select,
+input {
+  min-height: 44px;
+}
+
+button {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--ink);
+  padding: 0 14px;
+  font-weight: 700;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.app-shell {
+  width: min(100%, 840px);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: max(18px, env(safe-area-inset-top)) 16px max(24px, env(safe-area-inset-bottom));
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 0 14px;
+}
+
+.eyebrow {
+  margin: 0 0 2px;
+  color: var(--teal);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(30px, 7vw, 46px);
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.icon-button {
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border-radius: 50%;
+  background: var(--blue);
+  color: #fff;
+  font-size: 24px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin: 8px 0 14px;
+}
+
+.stats-grid div {
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.76);
+  padding: 12px 8px;
+  text-align: center;
+}
+
+.stats-grid span {
+  display: block;
+  font-size: 22px;
+  font-weight: 900;
+  color: var(--blue);
+}
+
+.stats-grid small {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 6px;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #e8eef1;
+}
+
+.tab {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  padding: 0 6px;
+}
+
+.tab.is-active {
+  background: var(--panel);
+  color: var(--blue);
+  box-shadow: 0 3px 10px rgba(20, 61, 89, 0.12);
+}
+
+.toolbar {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 10px;
+  margin: 12px 0;
+}
+
+.toolbar label {
+  min-width: 0;
+}
+
+.toolbar span {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+select,
+input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--ink);
+  padding: 0 12px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 116px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--ink);
+  padding: 12px;
+  line-height: 1.45;
+  resize: vertical;
+}
+
+.view {
+  display: none;
+}
+
+.view.is-active {
+  display: block;
+}
+
+.quiz-card,
+.flash-card,
+.spelling-card,
+.dictation-card,
+.speaking-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.quiz-card {
+  min-height: 330px;
+  padding: 18px;
+}
+
+.speak-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: start;
+  width: auto;
+  min-height: 40px;
+  margin-top: 12px;
+  border-color: #bdd1d7;
+  background: #eef8f6;
+  color: var(--teal);
+  padding: 0 12px;
+}
+
+.quiz-meta,
+.flash-card span,
+.speaking-card span {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.prompt {
+  display: grid;
+  min-height: 116px;
+  place-items: center;
+  padding: 18px 6px;
+  font-size: clamp(34px, 11vw, 64px);
+  font-weight: 900;
+  line-height: 1.05;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.button-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.button-row button {
+  width: 100%;
+}
+
+.button-row .primary {
+  background: var(--blue);
+  color: #fff;
+  border-color: var(--blue);
+}
+
+.spelling-submit-row {
+  grid-template-columns: 1fr;
+}
+
+.spelling-mastery-actions {
+  margin-top: 0;
+}
+
+.feedback {
+  min-height: 48px;
+  margin-top: 12px;
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: var(--muted);
+  background: #f4f6f3;
+  line-height: 1.45;
+}
+
+.feedback.good {
+  color: var(--green);
+  background: #eef8f0;
+}
+
+.feedback.bad {
+  color: var(--red);
+  background: #fff1ef;
+}
+
+.bottom-actions {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 12px;
+}
+
+.flash-card {
+  display: grid;
+  min-height: 360px;
+  align-content: center;
+  gap: 18px;
+  padding: 22px;
+  text-align: center;
+}
+
+.flash-card strong {
+  display: block;
+  font-size: clamp(36px, 12vw, 74px);
+  line-height: 1.05;
+  overflow-wrap: anywhere;
+}
+
+.flash-card p {
+  min-height: 54px;
+  color: var(--blue);
+  font-size: clamp(22px, 6vw, 36px);
+  font-weight: 900;
+  overflow-wrap: anywhere;
+}
+
+.flash-card .speak-button,
+.speaking-card .speak-button {
+  margin: 0 auto;
+}
+
+.list-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 4px 0 10px;
+}
+
+.list-head h2 {
+  font-size: 22px;
+}
+
+.word-list {
+  display: grid;
+  gap: 8px;
+}
+
+.word-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  padding: 12px;
+}
+
+.word-item strong {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.word-item small {
+  color: var(--muted);
+}
+
+.word-item button {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+}
+
+.dictation-card {
+  display: grid;
+  gap: 12px;
+  min-height: 330px;
+  padding: 18px;
+}
+
+.spelling-card {
+  display: grid;
+  gap: 12px;
+  min-height: 330px;
+  padding: 18px;
+}
+
+.meaning-prompt {
+  min-height: 82px;
+  display: grid;
+  place-items: center;
+  color: var(--blue);
+  font-size: clamp(28px, 8vw, 48px);
+  font-weight: 900;
+  line-height: 1.14;
+  text-align: center;
+}
+
+.example-line {
+  min-height: 28px;
+  color: var(--muted);
+  line-height: 1.45;
+  text-align: center;
+}
+
+.dictation-result {
+  min-height: 92px;
+  border-radius: 8px;
+  background: #f4f6f3;
+  padding: 12px;
+}
+
+.score-line {
+  margin-bottom: 10px;
+  color: var(--blue);
+  font-weight: 900;
+}
+
+.word-diff {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  line-height: 1.8;
+}
+
+.word-diff span {
+  border-radius: 6px;
+  padding: 2px 7px;
+  font-weight: 800;
+}
+
+.word-diff .correct {
+  background: #e8f6ee;
+  color: var(--green);
+}
+
+.word-diff .wrong {
+  background: #fff0ed;
+  color: var(--red);
+  text-decoration: line-through;
+}
+
+.word-diff .missing {
+  background: #fff5d8;
+  color: #8d620d;
+}
+
+.speaking-card {
+  min-height: 310px;
+  padding: 20px;
+}
+
+.speaking-card h2 {
+  margin: 18px 0;
+  font-size: clamp(24px, 7vw, 38px);
+  line-height: 1.14;
+}
+
+.speaking-card ul {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.recording-panel {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  padding: 14px;
+}
+
+.recording-status {
+  color: var(--blue);
+  font-weight: 900;
+}
+
+.recording-panel audio {
+  width: 100%;
+}
+
+button:disabled {
+  opacity: 0.48;
+}
+
+@media (min-width: 720px) {
+  .app-shell {
+    padding-top: 30px;
+  }
+
+  .quiz-card {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 390px) {
+  .app-shell {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .stats-grid {
+    gap: 6px;
+  }
+
+  .toolbar {
+    grid-template-columns: 1fr;
+  }
+
+  .button-row {
+    gap: 8px;
+  }
+
+  .tabs {
+    gap: 4px;
+  }
+
+  .tab {
+    font-size: 14px;
+  }
+}
