@@ -1,4 +1,4 @@
-const CACHE_NAME = "toefl-review-v8";
+const CACHE_NAME = "toefl-review-v9";
 const ASSETS = [
   "./",
   "./index.html",

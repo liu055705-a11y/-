@@ -313,33 +313,5 @@
     "section": "易混点",
     "hint": "current = 当前的；constant = 持续的。",
     "source": "words"
-  },
-  {
-    "id": "dictation-speaking-001",
-    "text": "Some students prefer to deal with pressure on their own, while others ask friends or advisors for help. Which do you prefer?",
-    "section": "口语题目",
-    "hint": "deal with pressure, form a positive cycle, play a vital role in, make progress",
-    "source": "speaking"
-  },
-  {
-    "id": "dictation-speaking-002",
-    "text": "Do you prefer joining a study group or studying independently for TOEFL vocabulary?",
-    "section": "口语题目",
-    "hint": "depend on, motivate, academic performance, from time to time",
-    "source": "speaking"
-  },
-  {
-    "id": "dictation-speaking-003",
-    "text": "Describe one habit that helps you make progress in English learning.",
-    "section": "口语题目",
-    "hint": "regularly, sustainable, priority, in my opinion",
-    "source": "speaking"
-  },
-  {
-    "id": "dictation-speaking-004",
-    "text": "Some students like immersive learning environments. Do you think they are useful?",
-    "section": "口语题目",
-    "hint": "immersive, engage in, experience, possibly",
-    "source": "speaking"
   }
 ]

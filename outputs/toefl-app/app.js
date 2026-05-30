@@ -69,6 +69,7 @@
     recordingFeedback: document.querySelector("#recordingFeedback")
   };
 
+  const speakingPrompts = (data.speaking || []).filter((item) => item.source === "speaking.json");
   const dictationPool = buildDictationPool();
 
   function loadProgress() {
@@ -89,7 +90,9 @@
       "2026-06-" + "06",
       "今天 " + "2026-05-" + "30",
       "明天 " + "2026-05-" + "31",
-      "3 " + "天后 " + "2026-06-" + "02"
+      "3 " + "天后 " + "2026-06-" + "02",
+      "study " + "group",
+      "TOEFL " + "vocabulary"
     ];
     const hasBadTerm = (value) => badTerms.some((term) => String(value || "").includes(term));
     let changed = false;
@@ -318,8 +321,7 @@
   }
 
   function renderSpeaking() {
-    const prompts = data.speaking || [];
-    const item = prompts[state.speakingIndex % prompts.length];
+    const item = speakingPrompts[state.speakingIndex % speakingPrompts.length];
     if (!item) return;
     el.speakingPrompt.textContent = item.prompt;
     el.speakingTargets.innerHTML = item.targets.map((target) => `<li>${escapeHtml(target)}</li>`).join("");
@@ -495,12 +497,12 @@
     });
 
     document.querySelector("#newSpeaking").addEventListener("click", () => {
-      state.speakingIndex = (state.speakingIndex + 1) % data.speaking.length;
+      state.speakingIndex = (state.speakingIndex + 1) % speakingPrompts.length;
       renderSpeaking();
     });
 
     document.querySelector("#speakSpeaking").addEventListener("click", () => {
-      const item = (data.speaking || [])[state.speakingIndex % data.speaking.length];
+      const item = speakingPrompts[state.speakingIndex % speakingPrompts.length];
       if (item) speakText(item.prompt);
     });
 
@@ -509,7 +511,7 @@
       state.progress.streak += 1;
       saveProgress();
       renderStats();
-      state.speakingIndex = (state.speakingIndex + 1) % data.speaking.length;
+      state.speakingIndex = (state.speakingIndex + 1) % speakingPrompts.length;
       renderSpeaking();
     });
 

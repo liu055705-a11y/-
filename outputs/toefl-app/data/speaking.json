@@ -1,65 +1,26 @@
 [
   {
-    "id": "speaking-002",
-    "taskType": "",
-    "title": "Speaking 2",
-    "question": "Do you prefer joining a study group or studying independently for TOEFL vocabulary?",
-    "preparationTime": null,
-    "responseTime": null,
-    "tips": [
-      "depend on",
-      "motivate",
-      "academic performance",
-      "from time to time"
-    ],
-    "prompt": "Do you prefer joining a study group or studying independently for TOEFL vocabulary?",
-    "targets": [
-      "depend on",
-      "motivate",
-      "academic performance",
-      "from time to time"
-    ]
+    "id": "speaking-printed-books-vs-ebooks",
+    "taskType": "Task 1",
+    "title": "Printed Books or E-books",
+    "question": "Some people prefer reading printed books, while others prefer e-books. Which do you prefer?",
+    "preparationTime": 15,
+    "responseTime": 45,
+    "sampleAnswer": "",
+    "tips": [],
+    "prompt": "Some people prefer reading printed books, while others prefer e-books. Which do you prefer?",
+    "targets": []
   },
   {
-    "id": "speaking-003",
-    "taskType": "",
-    "title": "Speaking 3",
-    "question": "Describe one habit that helps you make progress in English learning.",
-    "preparationTime": null,
-    "responseTime": null,
-    "tips": [
-      "regularly",
-      "sustainable",
-      "priority",
-      "in my opinion"
-    ],
-    "prompt": "Describe one habit that helps you make progress in English learning.",
-    "targets": [
-      "regularly",
-      "sustainable",
-      "priority",
-      "in my opinion"
-    ]
-  },
-  {
-    "id": "speaking-004",
-    "taskType": "",
-    "title": "Speaking 4",
-    "question": "Some students like immersive learning environments. Do you think they are useful?",
-    "preparationTime": null,
-    "responseTime": null,
-    "tips": [
-      "immersive",
-      "engage in",
-      "experience",
-      "possibly"
-    ],
-    "prompt": "Some students like immersive learning environments. Do you think they are useful?",
-    "targets": [
-      "immersive",
-      "engage in",
-      "experience",
-      "possibly"
-    ]
+    "id": "speaking-online-classes-vs-classroom",
+    "taskType": "Task 1",
+    "title": "Online Classes or Traditional Classroom Learning",
+    "question": "Some students like taking online classes, while others prefer traditional classroom learning. Which do you prefer?",
+    "preparationTime": 15,
+    "responseTime": 45,
+    "sampleAnswer": "",
+    "tips": [],
+    "prompt": "Some students like taking online classes, while others prefer traditional classroom learning. Which do you prefer?",
+    "targets": []
   }
 ]

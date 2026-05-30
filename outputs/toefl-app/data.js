@@ -12,6 +12,7 @@ window.TOEFL_DATA_READY = Promise.all([
 
   const speakingItems = speaking.map((item) => ({
     ...item,
+    source: "speaking.json",
     prompt: item.prompt || item.question,
     targets: item.targets || item.tips || []
   }));
