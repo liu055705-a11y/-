@@ -29,25 +29,27 @@
     "id": "听力词汇-graph",
     "word": "graph",
     "phonetic": "",
-    "meaning": "图表",
+    "meaning": "图表；曲线图",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "graph",
-    "zh": "图表",
-    "section": "听力词汇"
+    "zh": "图表；曲线图",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-stuff",
     "word": "stuff",
     "phonetic": "",
-    "meaning": "东西；材料",
+    "meaning": "东西；材料；填充；塞满",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "stuff",
-    "zh": "东西；材料",
-    "section": "听力词汇"
+    "zh": "东西；材料；填充；塞满",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-expert",
@@ -129,13 +131,14 @@
     "id": "听力词汇-chart",
     "word": "chart",
     "phonetic": "",
-    "meaning": "图表",
+    "meaning": "图表；绘制；记录",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "chart",
-    "zh": "图表",
-    "section": "听力词汇"
+    "zh": "图表；绘制；记录",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-method",
@@ -195,13 +198,14 @@
     "id": "听力词汇-tool",
     "word": "tool",
     "phonetic": "",
-    "meaning": "工具",
+    "meaning": "工具；方法；手段",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "tool",
-    "zh": "工具",
-    "section": "听力词汇"
+    "zh": "工具；方法；手段",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-regional",
@@ -272,13 +276,14 @@
     "id": "听力词汇-collect",
     "word": "collect",
     "phonetic": "",
-    "meaning": "收集",
+    "meaning": "收集；领取；聚集",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "collect",
-    "zh": "收集",
-    "section": "听力词汇"
+    "zh": "收集；领取；聚集",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-publication",
@@ -365,13 +370,14 @@
     "id": "听力词汇-paragraph",
     "word": "paragraph",
     "phonetic": "",
-    "meaning": "段落",
+    "meaning": "段落；段",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "paragraph",
-    "zh": "段落",
-    "section": "听力词汇"
+    "zh": "段落；段",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-specify",
@@ -445,13 +451,14 @@
     "id": "听力词汇-field",
     "word": "field",
     "phonetic": "",
-    "meaning": "领域；实地；田野",
+    "meaning": "领域；实地；田野；场地",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "field",
-    "zh": "领域；实地；田野",
-    "section": "听力词汇"
+    "zh": "领域；实地；田野；场地",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-personal",
@@ -617,25 +624,27 @@
     "id": "听力词汇-entrepreneur",
     "word": "entrepreneur",
     "phonetic": "",
-    "meaning": "企业家",
+    "meaning": "企业家；创业者",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "entrepreneur",
-    "zh": "企业家",
-    "section": "听力词汇"
+    "zh": "企业家；创业者",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-campus",
     "word": "campus",
     "phonetic": "",
-    "meaning": "校园",
+    "meaning": "校园；校区",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "campus",
-    "zh": "校园",
-    "section": "听力词汇"
+    "zh": "校园；校区",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-contact",
@@ -1002,13 +1011,14 @@
     "id": "听力词汇-communicate",
     "word": "communicate",
     "phonetic": "",
-    "meaning": "传递信息；交流",
+    "meaning": "交流；沟通；传递信息",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "communicate",
-    "zh": "传递信息；交流",
-    "section": "听力词汇"
+    "zh": "交流；沟通；传递信息",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-politely",
