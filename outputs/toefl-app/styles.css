@@ -234,6 +234,10 @@ h1 {
   line-height: 1.35;
 }
 
+.voice-select-label {
+  grid-column: span 2;
+}
+
 .toolbar span {
   display: block;
   margin-bottom: 5px;

@@ -47,7 +47,8 @@
       },
       voice: {
         accent: "en-US",
-        rate: "slow"
+        rate: "slow",
+        selected: ""
       }
     }
   };
@@ -69,6 +70,7 @@
     directionSelect: document.querySelector("#directionSelect"),
     voiceAccentSelect: document.querySelector("#voiceAccentSelect"),
     voiceRateSelect: document.querySelector("#voiceRateSelect"),
+    voiceSelect: document.querySelector("#voiceSelect"),
     voiceStatus: document.querySelector("#voiceStatus"),
     quizIndex: document.querySelector("#quizIndex"),
     quizSection: document.querySelector("#quizSection"),
@@ -123,6 +125,7 @@
         state.progress.voice = {
           accent: "en-US",
           rate: "slow",
+          selected: "",
           ...(saved.progress.voice || {})
         };
       }
@@ -187,6 +190,7 @@
     state.progress.tomorrowReview ||= {};
     state.progress.stats ||= {};
     state.progress.voice ||= { accent: "en-US", rate: "slow" };
+    state.progress.voice.selected ||= "";
     state.progress.stats.wordReview ||= 0;
     state.progress.stats.spellingPractice ||= 0;
     state.progress.stats.dictationPractice ||= 0;
@@ -425,6 +429,7 @@
   function speakText(text) {
     if (!text || !("speechSynthesis" in window)) return;
     window.speechSynthesis.cancel();
+    refreshVoiceList(false);
     const utterance = new SpeechSynthesisUtterance(text);
     const preferred = selectVoice();
     if (preferred) utterance.voice = preferred;
@@ -437,8 +442,11 @@
 
   function selectVoice() {
     if (!("speechSynthesis" in window)) return null;
-    const accent = state.progress.voice?.accent || "en-US";
     const voices = window.speechSynthesis.getVoices();
+    const selected = state.progress.voice?.selected || "";
+    const saved = voices.find((voice) => voiceKey(voice) === selected);
+    if (saved) return saved;
+    const accent = state.progress.voice?.accent || "en-US";
     const natural = (voice) => /natural|premium|enhanced|samantha|daniel|google|microsoft|ava|jenny|libby|serena/i.test(voice.name);
     const exactLang = (lang) => voices.filter((voice) => (voice.lang || "").toLowerCase() === lang.toLowerCase());
     const englishVoices = voices.filter((voice) => (voice.lang || "").toLowerCase().startsWith("en"));
@@ -456,10 +464,39 @@
 
     return candidates.find(natural)
       || candidates[0]
+      || exactLang("en-US").find(natural)
+      || exactLang("en-US")[0]
+      || exactLang("en-GB").find(natural)
+      || exactLang("en-GB")[0]
       || englishVoices.find(natural)
       || englishVoices[0]
       || voices[0]
       || null;
+  }
+
+  function voiceKey(voice) {
+    return `${voice.name}__${voice.lang}`;
+  }
+
+  function refreshVoiceList(save = true) {
+    if (!el.voiceSelect || !("speechSynthesis" in window)) return;
+    const voices = window.speechSynthesis.getVoices().filter((voice) => (voice.lang || "").toLowerCase().startsWith("en"));
+    const current = state.progress.voice?.selected || "";
+    el.voiceSelect.innerHTML = [
+      '<option value="">自动选择英文语音</option>',
+      ...voices.map((voice) => {
+        const key = voiceKey(voice);
+        return `<option value="${escapeHtml(key)}">${escapeHtml(voice.name)} (${escapeHtml(voice.lang || "unknown")})</option>`;
+      })
+    ].join("");
+    if (current && voices.some((voice) => voiceKey(voice) === current)) {
+      el.voiceSelect.value = current;
+    } else {
+      el.voiceSelect.value = "";
+      if (current) state.progress.voice.selected = "";
+    }
+    if (save) saveProgress();
+    updateVoiceStatus();
   }
 
   function updateVoiceStatus(voice = selectVoice()) {
@@ -473,7 +510,8 @@
       return;
     }
     const accent = state.progress.voice?.accent || "en-US";
-    const expected = accent === "en-GB"
+    const selected = state.progress.voice?.selected || "";
+    const expected = selected ? true : accent === "en-GB"
       ? (/(en-GB|en-UK)/i.test(voice.lang || "") || /british|uk|united kingdom/i.test(voice.name || ""))
       : /^en-US$/i.test(voice.lang || "");
     const fallback = expected ? "" : " 当前设备没有该语音包，已使用可用英文语音。";
@@ -789,6 +827,16 @@
       state.progress.voice.rate = el.voiceRateSelect.value;
       saveProgress();
       updateVoiceStatus();
+    });
+
+    el.voiceSelect.addEventListener("change", () => {
+      state.progress.voice.selected = el.voiceSelect.value;
+      saveProgress();
+      updateVoiceStatus();
+    });
+
+    document.querySelector("#refreshVoices").addEventListener("click", () => {
+      refreshVoiceList();
     });
 
     document.querySelector("#shuffleBtn").addEventListener("click", startQuiz);
@@ -1186,9 +1234,12 @@
   el.voiceAccentSelect.value = state.progress.voice.accent || "en-US";
   el.voiceRateSelect.value = state.progress.voice.rate || "slow";
   if ("speechSynthesis" in window) {
-    window.speechSynthesis.onvoiceschanged = () => updateVoiceStatus();
+    window.speechSynthesis.getVoices();
+    window.speechSynthesis.onvoiceschanged = () => refreshVoiceList(false);
+    window.setTimeout(() => refreshVoiceList(false), 250);
+    window.setTimeout(() => refreshVoiceList(false), 1000);
   }
-  updateVoiceStatus();
+  refreshVoiceList(false);
   setupSections();
   bindEvents();
   startQuiz();
