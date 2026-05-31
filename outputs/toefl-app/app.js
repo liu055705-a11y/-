@@ -57,6 +57,7 @@
     directionSelect: document.querySelector("#directionSelect"),
     voiceAccentSelect: document.querySelector("#voiceAccentSelect"),
     voiceRateSelect: document.querySelector("#voiceRateSelect"),
+    voiceStatus: document.querySelector("#voiceStatus"),
     quizIndex: document.querySelector("#quizIndex"),
     quizSection: document.querySelector("#quizSection"),
     quizPrompt: document.querySelector("#quizPrompt"),
@@ -275,16 +276,58 @@
     if (!text || !("speechSynthesis" in window)) return;
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
+    const preferred = selectVoice();
+    if (preferred) utterance.voice = preferred;
+    utterance.lang = preferred?.lang || state.progress.voice?.accent || "en-US";
+    utterance.rate = state.progress.voice?.rate === "normal" ? 0.92 : 0.68;
+    utterance.pitch = 1;
+    updateVoiceStatus(preferred);
+    window.speechSynthesis.speak(utterance);
+  }
+
+  function selectVoice() {
+    if (!("speechSynthesis" in window)) return null;
     const accent = state.progress.voice?.accent || "en-US";
     const voices = window.speechSynthesis.getVoices();
-    const preferred = voices.find((voice) => voice.lang === accent && /natural|premium|samantha|daniel|google|microsoft/i.test(voice.name))
-      || voices.find((voice) => voice.lang === accent)
-      || voices.find((voice) => voice.lang?.startsWith("en"));
-    if (preferred) utterance.voice = preferred;
-    utterance.lang = preferred?.lang || accent;
-    utterance.rate = state.progress.voice?.rate === "normal" ? 0.9 : 0.74;
-    utterance.pitch = 1;
-    window.speechSynthesis.speak(utterance);
+    const natural = (voice) => /natural|premium|enhanced|samantha|daniel|google|microsoft|ava|jenny|libby|serena/i.test(voice.name);
+    const exactLang = (lang) => voices.filter((voice) => (voice.lang || "").toLowerCase() === lang.toLowerCase());
+    const englishVoices = voices.filter((voice) => (voice.lang || "").toLowerCase().startsWith("en"));
+
+    let candidates = [];
+    if (accent === "en-GB") {
+      candidates = [
+        ...exactLang("en-GB"),
+        ...exactLang("en-UK"),
+        ...englishVoices.filter((voice) => /british|uk|united kingdom/i.test(`${voice.name} ${voice.lang}`))
+      ];
+    } else {
+      candidates = exactLang("en-US");
+    }
+
+    return candidates.find(natural)
+      || candidates[0]
+      || englishVoices.find(natural)
+      || englishVoices[0]
+      || voices[0]
+      || null;
+  }
+
+  function updateVoiceStatus(voice = selectVoice()) {
+    if (!el.voiceStatus) return;
+    if (!("speechSynthesis" in window)) {
+      el.voiceStatus.textContent = "当前浏览器不支持发音。";
+      return;
+    }
+    if (!voice) {
+      el.voiceStatus.textContent = "语音加载中";
+      return;
+    }
+    const accent = state.progress.voice?.accent || "en-US";
+    const expected = accent === "en-GB"
+      ? (/(en-GB|en-UK)/i.test(voice.lang || "") || /british|uk|united kingdom/i.test(voice.name || ""))
+      : /^en-US$/i.test(voice.lang || "");
+    const fallback = expected ? "" : " 当前设备没有该语音包，已使用可用英文语音。";
+    el.voiceStatus.textContent = `当前语音：${voice.name} (${voice.lang || "unknown"})${fallback}`;
   }
 
   function normalize(value) {
@@ -490,11 +533,13 @@
     el.voiceAccentSelect.addEventListener("change", () => {
       state.progress.voice.accent = el.voiceAccentSelect.value;
       saveProgress();
+      updateVoiceStatus();
     });
 
     el.voiceRateSelect.addEventListener("change", () => {
       state.progress.voice.rate = el.voiceRateSelect.value;
       saveProgress();
+      updateVoiceStatus();
     });
 
     document.querySelector("#shuffleBtn").addEventListener("click", startQuiz);
@@ -922,6 +967,10 @@
   cleanupLegacyProgress();
   el.voiceAccentSelect.value = state.progress.voice.accent || "en-US";
   el.voiceRateSelect.value = state.progress.voice.rate || "slow";
+  if ("speechSynthesis" in window) {
+    window.speechSynthesis.onvoiceschanged = () => updateVoiceStatus();
+  }
+  updateVoiceStatus();
   setupSections();
   bindEvents();
   startQuiz();
