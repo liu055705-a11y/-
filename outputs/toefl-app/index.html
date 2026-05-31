@@ -39,8 +39,16 @@
             <small>错词</small>
           </div>
           <div>
+            <span id="todayPracticeCount">0</span>
+            <small>今日练习</small>
+          </div>
+          <div>
+            <span id="spellingAccuracy">0%</span>
+            <small>拼写正确率</small>
+          </div>
+          <div>
             <span id="streakCount">0</span>
-            <small>连续</small>
+            <small>连续天数</small>
           </div>
         </section>
 
@@ -63,6 +71,20 @@
             <select id="directionSelect">
               <option value="en-zh">英译中</option>
               <option value="zh-en">中译英</option>
+            </select>
+          </label>
+          <label>
+            <span>发音</span>
+            <select id="voiceAccentSelect">
+              <option value="en-US">美音</option>
+              <option value="en-GB">英音</option>
+            </select>
+          </label>
+          <label>
+            <span>语速</span>
+            <select id="voiceRateSelect">
+              <option value="slow">慢速</option>
+              <option value="normal">正常</option>
             </select>
           </label>
         </section>
@@ -93,9 +115,11 @@
           <div class="flash-card" id="flashCard" role="button" tabindex="0">
             <span id="cardSection"></span>
             <button class="speak-button" id="speakCard" aria-label="播放当前卡片发音">▶ 发音</button>
+            <button class="speak-button" id="lookupCard" aria-label="查询当前单词词典">查询词典</button>
             <strong id="cardFront"></strong>
             <p id="cardBack"></p>
           </div>
+          <div class="feedback" id="dictionaryFeedback" aria-live="polite"></div>
           <div class="button-row bottom-actions">
             <button id="cardPrev">上一张</button>
             <button id="cardFlip">翻面</button>

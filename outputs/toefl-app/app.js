@@ -2,6 +2,7 @@
   const data = await (window.TOEFL_DATA_READY || Promise.resolve(window.TOEFL_DATA || { entries: [], speaking: [], dictation: [] }));
   const entries = data.entries;
   const storeKey = "toefl-review-state-v1";
+  const dictionaryEndpoint = window.TOEFL_DICTIONARY_ENDPOINT || "";
 
   const state = {
     view: "quiz",
@@ -29,7 +30,19 @@
       mastered: {},
       wrong: {},
       streak: 0,
-      speakingDone: 0
+      speakingDone: 0,
+      stats: {
+        todayDate: "",
+        todayPractice: 0,
+        spellingCorrect: 0,
+        spellingWrong: 0,
+        streakDays: 0,
+        lastStudyDate: ""
+      },
+      voice: {
+        accent: "en-US",
+        rate: "slow"
+      }
     }
   };
 
@@ -37,9 +50,13 @@
     totalCount: document.querySelector("#totalCount"),
     masteredCount: document.querySelector("#masteredCount"),
     wrongCount: document.querySelector("#wrongCount"),
+    todayPracticeCount: document.querySelector("#todayPracticeCount"),
+    spellingAccuracy: document.querySelector("#spellingAccuracy"),
     streakCount: document.querySelector("#streakCount"),
     sectionSelect: document.querySelector("#sectionSelect"),
     directionSelect: document.querySelector("#directionSelect"),
+    voiceAccentSelect: document.querySelector("#voiceAccentSelect"),
+    voiceRateSelect: document.querySelector("#voiceRateSelect"),
     quizIndex: document.querySelector("#quizIndex"),
     quizSection: document.querySelector("#quizSection"),
     quizPrompt: document.querySelector("#quizPrompt"),
@@ -49,6 +66,7 @@
     cardFront: document.querySelector("#cardFront"),
     cardBack: document.querySelector("#cardBack"),
     flashCard: document.querySelector("#flashCard"),
+    dictionaryFeedback: document.querySelector("#dictionaryFeedback"),
     spellingSection: document.querySelector("#spellingSection"),
     spellingStats: document.querySelector("#spellingStats"),
     spellingMeaning: document.querySelector("#spellingMeaning"),
@@ -77,6 +95,20 @@
       const saved = JSON.parse(localStorage.getItem(storeKey));
       if (saved && saved.progress) {
         Object.assign(state.progress, saved.progress);
+        state.progress.stats = {
+          todayDate: "",
+          todayPractice: 0,
+          spellingCorrect: 0,
+          spellingWrong: 0,
+          streakDays: 0,
+          lastStudyDate: "",
+          ...(saved.progress.stats || {})
+        };
+        state.progress.voice = {
+          accent: "en-US",
+          rate: "slow",
+          ...(saved.progress.voice || {})
+        };
       }
     } catch {
       localStorage.removeItem(storeKey);
@@ -113,6 +145,51 @@
     }
 
     if (changed) saveProgress();
+  }
+
+  function todayKey() {
+    return new Date().toISOString().slice(0, 10);
+  }
+
+  function daysBetween(before, after) {
+    if (!before || !after) return 0;
+    return Math.round((new Date(`${after}T00:00:00`) - new Date(`${before}T00:00:00`)) / 86400000);
+  }
+
+  function ensureProgressShape() {
+    state.progress.mastered ||= {};
+    state.progress.wrong ||= {};
+    state.progress.stats ||= {};
+    state.progress.voice ||= { accent: "en-US", rate: "slow" };
+    for (const [key, item] of Object.entries(state.progress.wrong)) {
+      const type = item.type || "单词";
+      state.progress.wrong[key] = {
+        id: item.id || key,
+        type,
+        at: item.at || Date.now(),
+        en: item.en || item.text || key,
+        zh: item.zh || item.original || item.hint || "",
+        section: item.section || type,
+        count: item.count || 1
+      };
+    }
+  }
+
+  function recordPractice() {
+    const today = todayKey();
+    const stats = state.progress.stats;
+    if (stats.todayDate !== today) {
+      stats.todayDate = today;
+      stats.todayPractice = 0;
+    }
+    if (stats.lastStudyDate !== today) {
+      const gap = daysBetween(stats.lastStudyDate, today);
+      stats.streakDays = gap === 1 ? (stats.streakDays || 0) + 1 : 1;
+      stats.lastStudyDate = today;
+    }
+    stats.todayPractice = (stats.todayPractice || 0) + 1;
+    saveProgress();
+    renderStats();
   }
 
   function saveProgress() {
@@ -198,8 +275,14 @@
     if (!text || !("speechSynthesis" in window)) return;
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "en-US";
-    utterance.rate = 0.78;
+    const accent = state.progress.voice?.accent || "en-US";
+    const voices = window.speechSynthesis.getVoices();
+    const preferred = voices.find((voice) => voice.lang === accent && /natural|premium|samantha|daniel|google|microsoft/i.test(voice.name))
+      || voices.find((voice) => voice.lang === accent)
+      || voices.find((voice) => voice.lang?.startsWith("en"));
+    if (preferred) utterance.voice = preferred;
+    utterance.lang = preferred?.lang || accent;
+    utterance.rate = state.progress.voice?.rate === "normal" ? 0.9 : 0.74;
     utterance.pitch = 1;
     window.speechSynthesis.speak(utterance);
   }
@@ -223,18 +306,24 @@
     delete state.progress.wrong[item.id];
     state.progress.streak += 1;
     saveProgress();
+    recordPractice();
     renderStats();
   }
 
-  function markWrong(item) {
+  function markWrong(item, type = "单词") {
+    const previous = state.progress.wrong[item.id] || {};
     state.progress.wrong[item.id] = {
+      id: item.id,
+      type,
       at: Date.now(),
       en: item.en,
       zh: item.zh,
-      section: item.section
+      section: item.section,
+      count: (previous.count || 0) + 1
     };
     state.progress.streak = 0;
     saveProgress();
+    recordPractice();
     renderStats();
   }
 
@@ -245,10 +334,15 @@
   }
 
   function renderStats() {
+    const stats = state.progress.stats || {};
+    const spellingTotal = (stats.spellingCorrect || 0) + (stats.spellingWrong || 0);
+    const spellingAccuracy = spellingTotal ? Math.round(((stats.spellingCorrect || 0) / spellingTotal) * 100) : 0;
     el.totalCount.textContent = String(entries.length);
     el.masteredCount.textContent = String(Object.keys(state.progress.mastered).length);
     el.wrongCount.textContent = String(Object.keys(state.progress.wrong).length);
-    el.streakCount.textContent = String(state.progress.streak || 0);
+    el.todayPracticeCount.textContent = String(stats.todayDate === todayKey() ? stats.todayPractice || 0 : 0);
+    el.spellingAccuracy.textContent = `${spellingAccuracy}%`;
+    el.streakCount.textContent = String(stats.streakDays || 0);
   }
 
   function renderQuiz() {
@@ -302,10 +396,16 @@
     el.wrongList.innerHTML = wrong.map((item) => `
       <div class="word-item">
         <div>
+          <small>${escapeHtml(item.type || "单词")}</small>
           <strong>${escapeHtml(item.en)}</strong>
-          <small>${escapeHtml(item.zh)} · ${escapeHtml(item.section)}</small>
+          <small>${escapeHtml(item.zh || "")} · ${escapeHtml(item.section || "")}</small>
+          <small>错误 ${item.count || 1} 次 · 最近 ${formatDateTime(item.at)}</small>
         </div>
-        <button data-remove="${escapeHtml(item.en)}" aria-label="移除">✓</button>
+        <div class="wrong-actions">
+          <button data-speak="${escapeHtml(item.id)}" aria-label="播放">▶</button>
+          <button data-master="${escapeHtml(item.id)}" aria-label="已掌握">✓</button>
+          <button data-remove="${escapeHtml(item.id)}" aria-label="删除">×</button>
+        </div>
       </div>
     `).join("");
   }
@@ -387,6 +487,16 @@
       renderCard();
     });
 
+    el.voiceAccentSelect.addEventListener("change", () => {
+      state.progress.voice.accent = el.voiceAccentSelect.value;
+      saveProgress();
+    });
+
+    el.voiceRateSelect.addEventListener("change", () => {
+      state.progress.voice.rate = el.voiceRateSelect.value;
+      saveProgress();
+    });
+
     document.querySelector("#shuffleBtn").addEventListener("click", startQuiz);
 
     document.querySelector("#speakQuiz").addEventListener("click", () => {
@@ -447,6 +557,10 @@
       const item = currentPool()[state.cardIndex];
       if (item) speakText(englishText(termFront(item)) || item.en);
     });
+    document.querySelector("#lookupCard").addEventListener("click", (event) => {
+      event.stopPropagation();
+      lookupDictionary(currentPool()[state.cardIndex]);
+    });
     el.flashCard.addEventListener("click", flipCard);
     el.flashCard.addEventListener("keydown", (event) => {
       if (event.key === "Enter" || event.key === " ") flipCard();
@@ -486,11 +600,25 @@
     });
 
     el.wrongList.addEventListener("click", (event) => {
-      const button = event.target.closest("button[data-remove]");
-      if (!button) return;
-      const en = button.dataset.remove;
-      const match = Object.entries(state.progress.wrong).find(([, item]) => item.en === en);
-      if (match) delete state.progress.wrong[match[0]];
+      const speakButton = event.target.closest("button[data-speak]");
+      const masterButton = event.target.closest("button[data-master]");
+      const removeButton = event.target.closest("button[data-remove]");
+      if (speakButton) {
+        const item = state.progress.wrong[speakButton.dataset.speak];
+        if (item) speakText(item.en);
+        return;
+      }
+      if (masterButton) {
+        const item = state.progress.wrong[masterButton.dataset.master];
+        if (item) {
+          state.progress.mastered[item.id] = Date.now();
+          delete state.progress.wrong[item.id];
+        }
+      } else if (removeButton) {
+        delete state.progress.wrong[removeButton.dataset.remove];
+      } else {
+        return;
+      }
       saveProgress();
       renderStats();
       renderWrong();
@@ -510,6 +638,7 @@
       state.progress.speakingDone = (state.progress.speakingDone || 0) + 1;
       state.progress.streak += 1;
       saveProgress();
+      recordPractice();
       renderStats();
       state.speakingIndex = (state.speakingIndex + 1) % speakingPrompts.length;
       renderSpeaking();
@@ -560,13 +689,16 @@
 
     if (ok) {
       state.spellingCorrect += 1;
+      state.progress.stats.spellingCorrect = (state.progress.stats.spellingCorrect || 0) + 1;
       el.spellingFeedback.className = "feedback good";
       el.spellingFeedback.textContent = "拼写正确。建议选择“我会了”。";
     } else {
       state.spellingWrong += 1;
+      state.progress.stats.spellingWrong = (state.progress.stats.spellingWrong || 0) + 1;
       el.spellingFeedback.className = "feedback bad";
       el.spellingFeedback.textContent = `拼写错误。正确单词：${item.en}。建议选择“还不会”。`;
     }
+    recordPractice();
     updateSpellingStats();
   }
 
@@ -576,16 +708,35 @@
     el.spellingStats.textContent = `${state.spellingCorrect} 对 · ${state.spellingWrong} 错 · 已掌握 ${state.spellingMastered} · 未掌握 ${state.spellingUnmastered} · ${accuracy}%`;
   }
 
+  function formatDateTime(value) {
+    if (!value) return "暂无";
+    return new Date(value).toLocaleString("zh-CN", { month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" });
+  }
+
   function finishSpelling(isMastered) {
     const item = state.spellingItem;
     if (!item || !state.spellingAnswered) return;
 
     if (isMastered) {
       state.spellingMastered += 1;
-      markMastered(item);
+      state.progress.mastered[item.id] = Date.now();
+      delete state.progress.wrong[item.id];
+      saveProgress();
+      renderStats();
     } else {
       state.spellingUnmastered += 1;
-      markWrong(item);
+      const previous = state.progress.wrong[item.id] || {};
+      state.progress.wrong[item.id] = {
+        id: item.id,
+        type: "拼写",
+        at: Date.now(),
+        en: item.en,
+        zh: item.zh,
+        section: item.section,
+        count: (previous.count || 0) + 1
+      };
+      saveProgress();
+      renderStats();
     }
     updateSpellingStats();
     nextSpelling();
@@ -653,6 +804,16 @@
 
   function renderDictationResult(originalText, answerText) {
     const result = diffWords(originalText, answerText);
+    if (result.accuracy < 100 && state.dictationItem) {
+      markWrong({
+        id: state.dictationItem.id,
+        en: state.dictationItem.text,
+        zh: state.dictationItem.hint || originalText,
+        section: state.dictationItem.section
+      }, "听写");
+    } else {
+      recordPractice();
+    }
     el.dictationResult.innerHTML = `
       <div class="score-line">准确率 ${result.accuracy}% · 正确 ${result.correct} · 错误 ${result.wrong} · 漏写 ${result.missing}</div>
       <div class="word-diff">
@@ -745,8 +906,22 @@
     navigator.serviceWorker.register("./service-worker.js").catch(() => {});
   }
 
+  function lookupDictionary(item) {
+    if (!item) return;
+    if (!dictionaryEndpoint) {
+      el.dictionaryFeedback.className = "feedback";
+      el.dictionaryFeedback.textContent = "词典接口尚未配置。";
+      return;
+    }
+    el.dictionaryFeedback.className = "feedback";
+    el.dictionaryFeedback.textContent = "词典查询接口已预留。";
+  }
+
   loadProgress();
+  ensureProgressShape();
   cleanupLegacyProgress();
+  el.voiceAccentSelect.value = state.progress.voice.accent || "en-US";
+  el.voiceRateSelect.value = state.progress.voice.rate || "slow";
   setupSections();
   bindEvents();
   startQuiz();
