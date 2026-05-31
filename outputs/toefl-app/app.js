@@ -3,6 +3,7 @@
   const entries = data.entries;
   const storeKey = "toefl-review-state-v1";
   const dictionaryEndpoint = window.TOEFL_DICTIONARY_ENDPOINT || "";
+  const dailyGoals = { word: 100, spelling: 50, dictation: 50 };
 
   const state = {
     view: "quiz",
@@ -29,11 +30,16 @@
     progress: {
       mastered: {},
       wrong: {},
+      tomorrowReview: {},
       streak: 0,
       speakingDone: 0,
       stats: {
         todayDate: "",
         todayPractice: 0,
+        taskDate: "",
+        wordReview: 0,
+        spellingPractice: 0,
+        dictationPractice: 0,
         spellingCorrect: 0,
         spellingWrong: 0,
         streakDays: 0,
@@ -53,6 +59,12 @@
     todayPracticeCount: document.querySelector("#todayPracticeCount"),
     spellingAccuracy: document.querySelector("#spellingAccuracy"),
     streakCount: document.querySelector("#streakCount"),
+    wordTaskCount: document.querySelector("#wordTaskCount"),
+    spellingTaskCount: document.querySelector("#spellingTaskCount"),
+    dictationTaskCount: document.querySelector("#dictationTaskCount"),
+    tomorrowReviewCount: document.querySelector("#tomorrowReviewCount"),
+    todayReviewCount: document.querySelector("#todayReviewCount"),
+    todayReviewList: document.querySelector("#todayReviewList"),
     sectionSelect: document.querySelector("#sectionSelect"),
     directionSelect: document.querySelector("#directionSelect"),
     voiceAccentSelect: document.querySelector("#voiceAccentSelect"),
@@ -99,6 +111,10 @@
         state.progress.stats = {
           todayDate: "",
           todayPractice: 0,
+          taskDate: "",
+          wordReview: 0,
+          spellingPractice: 0,
+          dictationPractice: 0,
           spellingCorrect: 0,
           spellingWrong: 0,
           streakDays: 0,
@@ -149,7 +165,16 @@
   }
 
   function todayKey() {
-    return new Date().toISOString().slice(0, 10);
+    return dateKey();
+  }
+
+  function dateKey(offset = 0) {
+    const date = new Date();
+    date.setDate(date.getDate() + offset);
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, "0");
+    const day = String(date.getDate()).padStart(2, "0");
+    return `${year}-${month}-${day}`;
   }
 
   function daysBetween(before, after) {
@@ -160,8 +185,12 @@
   function ensureProgressShape() {
     state.progress.mastered ||= {};
     state.progress.wrong ||= {};
+    state.progress.tomorrowReview ||= {};
     state.progress.stats ||= {};
     state.progress.voice ||= { accent: "en-US", rate: "slow" };
+    state.progress.stats.wordReview ||= 0;
+    state.progress.stats.spellingPractice ||= 0;
+    state.progress.stats.dictationPractice ||= 0;
     for (const [key, item] of Object.entries(state.progress.wrong)) {
       const type = item.type || "单词";
       state.progress.wrong[key] = {
@@ -176,7 +205,18 @@
     }
   }
 
-  function recordPractice() {
+  function resetDailyTasks() {
+    const today = dateKey();
+    const stats = state.progress.stats;
+    if (stats.taskDate !== today) {
+      stats.taskDate = today;
+      stats.wordReview = 0;
+      stats.spellingPractice = 0;
+      stats.dictationPractice = 0;
+    }
+  }
+
+  function recordPractice(kind = "") {
     const today = todayKey();
     const stats = state.progress.stats;
     if (stats.todayDate !== today) {
@@ -188,6 +228,10 @@
       stats.streakDays = gap === 1 ? (stats.streakDays || 0) + 1 : 1;
       stats.lastStudyDate = today;
     }
+    resetDailyTasks();
+    if (kind === "word") stats.wordReview = (stats.wordReview || 0) + 1;
+    if (kind === "spelling") stats.spellingPractice = (stats.spellingPractice || 0) + 1;
+    if (kind === "dictation") stats.dictationPractice = (stats.dictationPractice || 0) + 1;
     stats.todayPractice = (stats.todayPractice || 0) + 1;
     saveProgress();
     renderStats();
@@ -195,6 +239,40 @@
 
   function saveProgress() {
     localStorage.setItem(storeKey, JSON.stringify({ progress: state.progress }));
+  }
+
+  function reviewKey(type, id, text) {
+    return `${type}:${id || text}`;
+  }
+
+  function addTomorrowReview(item) {
+    state.progress.tomorrowReview ||= {};
+    const key = reviewKey(item.type, item.id, item.text);
+    const previous = state.progress.tomorrowReview[key] || {};
+    state.progress.tomorrowReview[key] = {
+      type: item.type,
+      id: item.id,
+      text: item.text,
+      meaning: item.meaning || "",
+      answer: item.answer || "",
+      addedAt: previous.addedAt || Date.now(),
+      dueDate: dateKey(1),
+      errorCount: (previous.errorCount || 0) + 1
+    };
+    saveProgress();
+  }
+
+  function dueReviewItems(offset = 0) {
+    const dueDate = dateKey(offset);
+    return Object.values(state.progress.tomorrowReview || {}).filter((item) => item.dueDate === dueDate);
+  }
+
+  function removeReviewById(id, type = "") {
+    for (const [key, item] of Object.entries(state.progress.tomorrowReview || {})) {
+      if (item.id === id && (!type || item.type === type)) {
+        delete state.progress.tomorrowReview[key];
+      }
+    }
   }
 
   function sections() {
@@ -205,7 +283,12 @@
     const base = state.section === "全部"
       ? entries
       : entries.filter((item) => item.section === state.section);
-    return base.length ? base : entries;
+    const pool = base.length ? base : entries;
+    const dueWords = dueReviewItems()
+      .filter((item) => item.type === "word")
+      .map((item) => entries.find((entry) => entry.id === item.id))
+      .filter(Boolean);
+    return uniqueById([...dueWords, ...pool]);
   }
 
   function isValidSpellingItem(item) {
@@ -217,7 +300,21 @@
 
   function spellingPool() {
     const pool = currentPool().filter(isValidSpellingItem);
-    return pool.length ? pool : entries.filter(isValidSpellingItem);
+    const fallback = pool.length ? pool : entries.filter(isValidSpellingItem);
+    const dueSpelling = dueReviewItems()
+      .filter((item) => item.type === "spelling")
+      .map((item) => entries.find((entry) => entry.id === item.id))
+      .filter(Boolean);
+    return uniqueById([...dueSpelling, ...fallback]);
+  }
+
+  function uniqueById(items) {
+    const seen = new Set();
+    return items.filter((item) => {
+      if (!item || seen.has(item.id)) return false;
+      seen.add(item.id);
+      return true;
+    });
   }
 
   function buildDictationPool() {
@@ -237,6 +334,28 @@
       hint: item.targets.join(", ")
     }));
     return [...phrases, ...prompts].filter((item) => item.text);
+  }
+
+  function prioritizeDictation(pool) {
+    const due = dueReviewItems()
+      .filter((item) => item.type === "dictation")
+      .map((review) => pool.find((item) => item.id === review.id || item.text === review.text) || {
+        id: review.id,
+        text: review.text,
+        section: "今日错题",
+        hint: review.answer || review.meaning
+      });
+    const seen = new Set();
+    return [...due, ...pool].filter((item) => {
+      const key = item.id || item.text;
+      if (!key || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }
+
+  function currentDictationPool() {
+    return prioritizeDictation(dictationPool);
   }
 
   function shuffle(items) {
@@ -344,16 +463,18 @@
     return e.includes(a) || a.includes(e);
   }
 
-  function markMastered(item) {
+  function markMastered(item, kind = "word") {
     state.progress.mastered[item.id] = Date.now();
     delete state.progress.wrong[item.id];
+    removeReviewById(item.id);
     state.progress.streak += 1;
     saveProgress();
-    recordPractice();
+    recordPractice(kind);
     renderStats();
   }
 
   function markWrong(item, type = "单词") {
+    const reviewType = type === "听写" ? "dictation" : type === "拼写" ? "spelling" : "word";
     const previous = state.progress.wrong[item.id] || {};
     state.progress.wrong[item.id] = {
       id: item.id,
@@ -364,9 +485,16 @@
       section: item.section,
       count: (previous.count || 0) + 1
     };
+    addTomorrowReview({
+      type: reviewType,
+      id: item.id,
+      text: item.en,
+      meaning: item.zh,
+      answer: type === "听写" ? item.zh : ""
+    });
     state.progress.streak = 0;
     saveProgress();
-    recordPractice();
+    recordPractice(reviewType);
     renderStats();
   }
 
@@ -377,15 +505,35 @@
   }
 
   function renderStats() {
+    resetDailyTasks();
     const stats = state.progress.stats || {};
     const spellingTotal = (stats.spellingCorrect || 0) + (stats.spellingWrong || 0);
     const spellingAccuracy = spellingTotal ? Math.round(((stats.spellingCorrect || 0) / spellingTotal) * 100) : 0;
+    const dueToday = dueReviewItems();
+    const dueTomorrow = dueReviewItems(1);
     el.totalCount.textContent = String(entries.length);
     el.masteredCount.textContent = String(Object.keys(state.progress.mastered).length);
     el.wrongCount.textContent = String(Object.keys(state.progress.wrong).length);
     el.todayPracticeCount.textContent = String(stats.todayDate === todayKey() ? stats.todayPractice || 0 : 0);
     el.spellingAccuracy.textContent = `${spellingAccuracy}%`;
     el.streakCount.textContent = String(stats.streakDays || 0);
+    el.wordTaskCount.textContent = `${Math.min(stats.wordReview || 0, dailyGoals.word)}/${dailyGoals.word}`;
+    el.spellingTaskCount.textContent = `${Math.min(stats.spellingPractice || 0, dailyGoals.spelling)}/${dailyGoals.spelling}`;
+    el.dictationTaskCount.textContent = `${Math.min(stats.dictationPractice || 0, dailyGoals.dictation)}/${dailyGoals.dictation}`;
+    el.todayReviewCount.textContent = `今日错题复习：${dueToday.length} 条`;
+    el.tomorrowReviewCount.textContent = `已加入明日复习：${dueTomorrow.length} 条`;
+    el.todayReviewList.innerHTML = dueToday.length
+      ? dueToday.map((item) => `
+        <div class="daily-review-item">
+          <span>${escapeHtml(reviewLabel(item.type))} · ${escapeHtml(item.text)}</span>
+          <button data-review-master="${escapeHtml(item.id || item.text)}" data-review-type="${escapeHtml(item.type)}">已掌握</button>
+        </div>
+      `).join("")
+      : "";
+  }
+
+  function reviewLabel(type) {
+    return type === "dictation" ? "听写" : type === "spelling" ? "拼写" : "单词";
   }
 
   function renderQuiz() {
@@ -454,9 +602,10 @@
   }
 
   function renderDictation() {
-    if (!dictationPool.length) return;
+    const pool = currentDictationPool();
+    if (!pool.length) return;
     if (!state.dictationItem) {
-      state.dictationItem = shuffle(dictationPool)[0];
+      state.dictationItem = shuffle(pool)[0];
     }
     el.dictationSection.textContent = state.dictationItem.section;
     el.dictationInput.value = "";
@@ -511,6 +660,18 @@
   function bindEvents() {
     document.querySelectorAll(".tab").forEach((tab) => {
       tab.addEventListener("click", () => switchView(tab.dataset.view));
+    });
+
+    document.querySelectorAll("[data-task-view]").forEach((button) => {
+      button.addEventListener("click", () => switchView(button.dataset.taskView));
+    });
+
+    el.todayReviewList.addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-review-master]");
+      if (!button) return;
+      removeReviewById(button.dataset.reviewMaster, button.dataset.reviewType);
+      saveProgress();
+      renderStats();
     });
 
     el.sectionSelect.addEventListener("change", () => {
@@ -627,7 +788,7 @@
     });
 
     document.querySelector("#newDictation").addEventListener("click", () => {
-      state.dictationItem = shuffle(dictationPool)[0];
+      state.dictationItem = shuffle(currentDictationPool())[0];
       renderDictation();
       window.setTimeout(() => speakText(state.dictationItem.text), 80);
     });
@@ -658,8 +819,10 @@
         if (item) {
           state.progress.mastered[item.id] = Date.now();
           delete state.progress.wrong[item.id];
+          removeReviewById(item.id);
         }
       } else if (removeButton) {
+        removeReviewById(removeButton.dataset.remove);
         delete state.progress.wrong[removeButton.dataset.remove];
       } else {
         return;
@@ -743,7 +906,7 @@
       el.spellingFeedback.className = "feedback bad";
       el.spellingFeedback.textContent = `拼写错误。正确单词：${item.en}。建议选择“还不会”。`;
     }
-    recordPractice();
+    recordPractice("spelling");
     updateSpellingStats();
   }
 
@@ -766,6 +929,7 @@
       state.spellingMastered += 1;
       state.progress.mastered[item.id] = Date.now();
       delete state.progress.wrong[item.id];
+      removeReviewById(item.id, "spelling");
       saveProgress();
       renderStats();
     } else {
@@ -780,6 +944,12 @@
         section: item.section,
         count: (previous.count || 0) + 1
       };
+      addTomorrowReview({
+        type: "spelling",
+        id: item.id,
+        text: item.en,
+        meaning: item.zh
+      });
       saveProgress();
       renderStats();
     }
@@ -857,7 +1027,7 @@
         section: state.dictationItem.section
       }, "听写");
     } else {
-      recordPractice();
+      recordPractice("dictation");
     }
     el.dictationResult.innerHTML = `
       <div class="score-line">准确率 ${result.accuracy}% · 正确 ${result.correct} · 错误 ${result.wrong} · 漏写 ${result.missing}</div>

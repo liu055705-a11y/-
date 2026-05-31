@@ -132,6 +132,66 @@ h1 {
   white-space: nowrap;
 }
 
+.daily-card {
+  display: grid;
+  gap: 10px;
+  margin: 0 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.82);
+  padding: 12px;
+}
+
+.daily-head,
+.daily-review-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.daily-head h2 {
+  font-size: 18px;
+}
+
+.daily-head span,
+.daily-card p {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.daily-task-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.daily-task-grid button {
+  padding: 0 10px;
+  text-align: center;
+}
+
+.daily-review {
+  display: grid;
+  gap: 6px;
+}
+
+.daily-review-item {
+  border-radius: 8px;
+  background: #f4f6f3;
+  padding: 8px;
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.daily-review-item button {
+  width: auto;
+  min-height: 36px;
+  padding: 0 10px;
+}
+
 .tabs {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
@@ -532,6 +592,10 @@ button:disabled {
 
   .toolbar {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .daily-task-grid {
+    grid-template-columns: 1fr;
   }
 
   .button-row {

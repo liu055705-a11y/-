@@ -52,6 +52,20 @@
           </div>
         </section>
 
+        <section class="daily-card" aria-label="今日任务">
+          <div class="daily-head">
+            <h2>今日任务</h2>
+            <span id="todayReviewCount">今日错题复习：0 条</span>
+          </div>
+          <div class="daily-task-grid">
+            <button data-task-view="quiz">单词复习：<span id="wordTaskCount">0/100</span></button>
+            <button data-task-view="spelling">拼写练习：<span id="spellingTaskCount">0/50</span></button>
+            <button data-task-view="dictation">听写练习：<span id="dictationTaskCount">0/50</span></button>
+          </div>
+          <div class="daily-review" id="todayReviewList"></div>
+          <p id="tomorrowReviewCount">已加入明日复习：0 条</p>
+        </section>
+
         <nav class="tabs" aria-label="复习模式">
           <button class="tab is-active" data-view="quiz">测验</button>
           <button class="tab" data-view="cards">卡片</button>
