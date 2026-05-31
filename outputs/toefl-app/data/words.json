@@ -219,13 +219,14 @@
     "id": "听力词汇-journal",
     "word": "journal",
     "phonetic": "",
-    "meaning": "期刊",
+    "meaning": "期刊；日志；日记",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "journal",
-    "zh": "期刊",
-    "section": "听力词汇"
+    "zh": "期刊；日志；日记",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-demonstrate",
@@ -297,13 +298,14 @@
     "id": "听力词汇-length",
     "word": "length",
     "phonetic": "",
-    "meaning": "长度",
+    "meaning": "长度；时长；篇幅",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "length",
-    "zh": "长度",
-    "section": "听力词汇"
+    "zh": "长度；时长；篇幅",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-encouragement",
@@ -493,37 +495,40 @@
     "id": "听力词汇-medicine",
     "word": "medicine",
     "phonetic": "",
-    "meaning": "药物",
+    "meaning": "药物；医学",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "medicine",
-    "zh": "药物",
-    "section": "听力词汇"
+    "zh": "药物；医学",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-organization",
     "word": "organization",
     "phonetic": "",
-    "meaning": "组织",
+    "meaning": "组织；机构；组织方式",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "organization",
-    "zh": "组织",
-    "section": "听力词汇"
+    "zh": "组织；机构；组织方式",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-academic",
     "word": "academic",
     "phonetic": "",
-    "meaning": "学术的",
+    "meaning": "学术的；学校的；学业的",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "academic",
-    "zh": "学术的",
-    "section": "听力词汇"
+    "zh": "学术的；学校的；学业的",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-influence",
@@ -543,13 +548,14 @@
     "id": "听力词汇-athletic",
     "word": "athletic",
     "phonetic": "",
-    "meaning": "运动的",
+    "meaning": "运动的；健壮的",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "athletic",
-    "zh": "运动的",
-    "section": "听力词汇"
+    "zh": "运动的；健壮的",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-receive",
@@ -969,13 +975,14 @@
     "id": "听力词汇-journalism",
     "word": "journalism",
     "phonetic": "",
-    "meaning": "新闻业",
+    "meaning": "新闻业；新闻学",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "journalism",
-    "zh": "新闻业",
-    "section": "听力词汇"
+    "zh": "新闻业；新闻学",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-aware",
@@ -1383,13 +1390,14 @@
     "id": "动物与演化-modern",
     "word": "modern",
     "phonetic": "",
-    "meaning": "现代的",
+    "meaning": "现代的；近代的；新式的",
     "example": "",
     "difficulty": "",
     "category": "动物与演化",
     "en": "modern",
-    "zh": "现代的",
-    "section": "动物与演化"
+    "zh": "现代的；近代的；新式的",
+    "section": "动物与演化",
+    "meaningReviewed": true
   },
   {
     "id": "动物与演化-adapt-to",
@@ -1799,13 +1807,14 @@
     "id": "学术阅读常见词-enlarge",
     "word": "enlarge",
     "phonetic": "",
-    "meaning": "放大",
+    "meaning": "放大；扩大",
     "example": "",
     "difficulty": "",
     "category": "学术阅读常见词",
     "en": "enlarge",
-    "zh": "放大",
-    "section": "学术阅读常见词"
+    "zh": "放大；扩大",
+    "section": "学术阅读常见词",
+    "meaningReviewed": true
   },
   {
     "id": "学术阅读常见词-receive",
@@ -2067,13 +2076,14 @@
     "id": "阅读词汇-absorption",
     "word": "absorption",
     "phonetic": "",
-    "meaning": "吸收",
+    "meaning": "吸收；吸收过程；吸收量",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "absorption",
-    "zh": "吸收",
-    "section": "阅读词汇"
+    "zh": "吸收；吸收过程；吸收量",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-runoff",
