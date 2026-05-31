@@ -3619,85 +3619,92 @@
     "id": "阅读词汇-differ",
     "word": "differ",
     "phonetic": "",
-    "meaning": "不同于",
+    "meaning": "不同；有差异；不同于",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "differ",
-    "zh": "不同于",
-    "section": "阅读词汇"
+    "zh": "不同；有差异；不同于",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-involvement",
     "word": "involvement",
     "phonetic": "",
-    "meaning": "参与",
+    "meaning": "参与；卷入；涉及",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "involvement",
-    "zh": "参与",
-    "section": "阅读词汇"
+    "zh": "参与；卷入；涉及",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-assembled",
     "word": "assembled",
     "phonetic": "",
-    "meaning": "组装的",
+    "meaning": "组装的；集合的；聚集的",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "assembled",
-    "zh": "组装的",
-    "section": "阅读词汇"
+    "zh": "组装的；集合的；聚集的",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-program",
     "word": "program",
     "phonetic": "",
-    "meaning": "节目；项目",
+    "meaning": "节目；项目；计划；程序",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "program",
-    "zh": "节目；项目",
-    "section": "阅读词汇"
+    "zh": "节目；项目；计划；程序",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-educational",
     "word": "educational",
     "phonetic": "",
-    "meaning": "教育的",
+    "meaning": "教育的；有教育意义的",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "educational",
-    "zh": "教育的",
-    "section": "阅读词汇"
+    "zh": "教育的；有教育意义的",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-regularly",
     "word": "regularly",
     "phonetic": "",
-    "meaning": "定期地",
+    "meaning": "定期地；经常地；规律地",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "regularly",
-    "zh": "定期地",
-    "section": "阅读词汇"
+    "zh": "定期地；经常地；规律地",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-participation",
     "word": "participation",
     "phonetic": "",
-    "meaning": "参与",
+    "meaning": "参与；参加",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "participation",
-    "zh": "参与",
-    "section": "阅读词汇"
+    "zh": "参与；参加",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-even-though",
@@ -3727,13 +3734,14 @@
     "id": "阅读词汇-lecture",
     "word": "lecture",
     "phonetic": "",
-    "meaning": "演讲",
+    "meaning": "演讲；讲座；授课",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "lecture",
-    "zh": "演讲",
-    "section": "阅读词汇"
+    "zh": "演讲；讲座；授课",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-movie",
@@ -3751,37 +3759,40 @@
     "id": "阅读词汇-commonplace",
     "word": "commonplace",
     "phonetic": "",
-    "meaning": "平凡的；常见的",
+    "meaning": "平凡的；常见的；普通的",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "commonplace",
-    "zh": "平凡的；常见的",
-    "section": "阅读词汇"
+    "zh": "平凡的；常见的；普通的",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-wave",
     "word": "wave",
     "phonetic": "",
-    "meaning": "波浪",
+    "meaning": "波浪；波；挥手",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "wave",
-    "zh": "波浪",
-    "section": "阅读词汇"
+    "zh": "波浪；波；挥手",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-shore",
     "word": "shore",
     "phonetic": "",
-    "meaning": "岸边",
+    "meaning": "岸边；海岸",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "shore",
-    "zh": "岸边",
-    "section": "阅读词汇"
+    "zh": "岸边；海岸",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-possible",
@@ -3799,85 +3810,92 @@
     "id": "阅读词汇-photograph",
     "word": "photograph",
     "phonetic": "",
-    "meaning": "摄影；照片",
+    "meaning": "照片；拍照；摄影",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "photograph",
-    "zh": "摄影；照片",
-    "section": "阅读词汇"
+    "zh": "照片；拍照；摄影",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-manipulation",
     "word": "manipulation",
     "phonetic": "",
-    "meaning": "操纵",
+    "meaning": "操纵；操作；处理",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "manipulation",
-    "zh": "操纵",
-    "section": "阅读词汇"
+    "zh": "操纵；操作；处理",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-component",
     "word": "component",
     "phonetic": "",
-    "meaning": "部分；组件",
+    "meaning": "组成部分；组件；部分",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "component",
-    "zh": "部分；组件",
-    "section": "阅读词汇"
+    "zh": "组成部分；组件；部分",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-presentation",
     "word": "presentation",
     "phonetic": "",
-    "meaning": "展示",
+    "meaning": "展示；报告；呈现",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "presentation",
-    "zh": "展示",
-    "section": "阅读词汇"
+    "zh": "展示；报告；呈现",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-combine",
     "word": "combine",
     "phonetic": "",
-    "meaning": "结合",
+    "meaning": "结合；合并；组合",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "combine",
-    "zh": "结合",
-    "section": "阅读词汇"
+    "zh": "结合；合并；组合",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-appropriate",
     "word": "appropriate",
     "phonetic": "",
-    "meaning": "合适的",
+    "meaning": "合适的；恰当的",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "appropriate",
-    "zh": "合适的",
-    "section": "阅读词汇"
+    "zh": "合适的；恰当的",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-relatively",
     "word": "relatively",
     "phonetic": "",
-    "meaning": "相当地",
+    "meaning": "相对地；比较地",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "relatively",
-    "zh": "相当地",
-    "section": "阅读词汇"
+    "zh": "相对地；比较地",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-no-longer",
@@ -3895,25 +3913,27 @@
     "id": "阅读词汇-displayed",
     "word": "displayed",
     "phonetic": "",
-    "meaning": "显示的",
+    "meaning": "显示的；展示的；陈列的",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "displayed",
-    "zh": "显示的",
-    "section": "阅读词汇"
+    "zh": "显示的；展示的；陈列的",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-acquire",
     "word": "acquire",
     "phonetic": "",
-    "meaning": "获得",
+    "meaning": "获得；取得；习得",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "acquire",
-    "zh": "获得",
-    "section": "阅读词汇"
+    "zh": "获得；取得；习得",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-口语短语-respond-very-well-to-",
@@ -4015,25 +4035,27 @@
     "id": "5-22-目标词-pressure",
     "word": "pressure",
     "phonetic": "",
-    "meaning": "压力",
+    "meaning": "压力；施压",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "pressure",
-    "zh": "压力",
-    "section": "5.22 目标词"
+    "zh": "压力；施压",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-experiment",
     "word": "experiment",
     "phonetic": "",
-    "meaning": "实验",
+    "meaning": "实验；做实验",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "experiment",
-    "zh": "实验",
-    "section": "5.22 目标词"
+    "zh": "实验；做实验",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-experimental",
@@ -4063,25 +4085,27 @@
     "id": "5-22-目标词-form",
     "word": "form",
     "phonetic": "",
-    "meaning": "形成",
+    "meaning": "形成；形式；表格",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "form",
-    "zh": "形成",
-    "section": "5.22 目标词"
+    "zh": "形成；形式；表格",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-develop",
     "word": "develop",
     "phonetic": "",
-    "meaning": "发展",
+    "meaning": "发展；培养；开发",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "develop",
-    "zh": "发展",
-    "section": "5.22 目标词"
+    "zh": "发展；培养；开发",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-cooperation",
@@ -4135,25 +4159,27 @@
     "id": "5-22-目标词-standard",
     "word": "standard",
     "phonetic": "",
-    "meaning": "标准",
+    "meaning": "标准；标准的",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "standard",
-    "zh": "标准",
-    "section": "5.22 目标词"
+    "zh": "标准；标准的",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-gain",
     "word": "gain",
     "phonetic": "",
-    "meaning": "获得",
+    "meaning": "获得；增加；收益",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "gain",
-    "zh": "获得",
-    "section": "5.22 目标词"
+    "zh": "获得；增加；收益",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-experience",
@@ -4243,13 +4269,14 @@
     "id": "5-22-目标词-disruption",
     "word": "disruption",
     "phonetic": "",
-    "meaning": "中断",
+    "meaning": "中断；扰乱；干扰",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "disruption",
-    "zh": "中断",
-    "section": "5.22 目标词"
+    "zh": "中断；扰乱；干扰",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-affect",
@@ -4351,13 +4378,14 @@
     "id": "口语-听力复习词-founder",
     "word": "founder",
     "phonetic": "",
-    "meaning": "创始人",
+    "meaning": "创始人；建立者",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "founder",
-    "zh": "创始人",
-    "section": "口语/听力复习词"
+    "zh": "创始人；建立者",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-constant",
@@ -4399,13 +4427,14 @@
     "id": "口语-听力复习词-preference",
     "word": "preference",
     "phonetic": "",
-    "meaning": "偏爱",
+    "meaning": "偏爱；偏好",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "preference",
-    "zh": "偏爱",
-    "section": "口语/听力复习词"
+    "zh": "偏爱；偏好",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-choose",
@@ -4423,13 +4452,14 @@
     "id": "口语-听力复习词-sense",
     "word": "sense",
     "phonetic": "",
-    "meaning": "感觉",
+    "meaning": "感觉；意义；意识；判断力",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "sense",
-    "zh": "感觉",
-    "section": "口语/听力复习词"
+    "zh": "感觉；意义；意识；判断力",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语短语-sense-of-achievement",
