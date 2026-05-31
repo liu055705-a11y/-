@@ -10,6 +10,6 @@ Cloudflare Pages 设置：
 
 SPA fallback：
 
-- 已在 `outputs/toefl-app/_redirects` 预留 Cloudflare Pages fallback。
-- 构建时会复制到 `dist/_redirects`。
-- 规则：`/* /index.html 200`
+- 当前 App 主要通过首页使用，不配置 `_redirects`。
+- Cloudflare Pages 不使用 Netlify 风格的 `/* /index.html 200`，避免 Infinite loop detected。
+- 如以后需要子路径刷新，再单独配置 Cloudflare Pages 支持的路由方案。
