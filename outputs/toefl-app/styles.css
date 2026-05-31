@@ -194,7 +194,7 @@ h1 {
 
 .tabs {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 6px;
   padding: 4px;
   border: 1px solid var(--line);
@@ -370,8 +370,15 @@ textarea {
 }
 
 .bottom-actions {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   margin-top: 12px;
+}
+
+#showBtn {
+  width: 100%;
+  background: var(--blue);
+  color: #fff;
+  border-color: var(--blue);
 }
 
 .flash-card {

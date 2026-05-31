@@ -8,11 +8,11 @@
   const state = {
     view: "quiz",
     section: "全部",
-    direction: "en-zh",
+    direction: "mixed",
     quiz: [],
+    quizDirections: [],
     quizIndex: 0,
-    cardIndex: 0,
-    cardFlipped: false,
+    quizAnswerShown: false,
     spellingItem: null,
     spellingCorrect: 0,
     spellingWrong: 0,
@@ -73,12 +73,7 @@
     quizIndex: document.querySelector("#quizIndex"),
     quizSection: document.querySelector("#quizSection"),
     quizPrompt: document.querySelector("#quizPrompt"),
-    answerInput: document.querySelector("#answerInput"),
     feedback: document.querySelector("#feedback"),
-    cardSection: document.querySelector("#cardSection"),
-    cardFront: document.querySelector("#cardFront"),
-    cardBack: document.querySelector("#cardBack"),
-    flashCard: document.querySelector("#flashCard"),
     dictionaryFeedback: document.querySelector("#dictionaryFeedback"),
     spellingSection: document.querySelector("#spellingSection"),
     spellingStats: document.querySelector("#spellingStats"),
@@ -392,7 +387,9 @@
 
   function startQuiz() {
     state.quiz = shuffle(currentPool()).slice(0, 5);
+    state.quizDirections = state.quiz.map(() => Math.random() > 0.5 ? "en-zh" : "zh-en");
     state.quizIndex = 0;
+    state.quizAnswerShown = false;
     clearFeedback();
     renderQuiz();
   }
@@ -403,11 +400,18 @@
   }
 
   function termFront(item) {
-    return state.direction === "en-zh" ? item.en : item.zh;
+    const direction = quizDirection();
+    return direction === "en-zh" ? item.en : item.zh;
   }
 
   function termBack(item) {
-    return state.direction === "en-zh" ? item.zh : item.en;
+    const direction = quizDirection();
+    return direction === "en-zh" ? item.zh : item.en;
+  }
+
+  function quizDirection() {
+    if (state.direction !== "mixed") return state.direction;
+    return state.quizDirections[state.quizIndex] || "en-zh";
   }
 
   function englishText(value) {
@@ -524,7 +528,9 @@
   function clearFeedback() {
     el.feedback.className = "feedback";
     el.feedback.textContent = "";
-    el.answerInput.value = "";
+    state.quizAnswerShown = false;
+    document.querySelector("#knowBtn").disabled = true;
+    document.querySelector("#missBtn").disabled = true;
   }
 
   function renderStats() {
@@ -562,20 +568,9 @@
   function renderQuiz() {
     const item = currentQuizItem();
     el.quizIndex.textContent = `${state.quizIndex + 1} / ${state.quiz.length || 5}`;
-    el.quizSection.textContent = item.section;
+    el.quizSection.textContent = `${item.section} · ${quizDirection() === "en-zh" ? "英译中" : "中译英"}`;
     el.quizPrompt.textContent = termFront(item);
     clearFeedback();
-    window.setTimeout(() => el.answerInput.focus({ preventScroll: true }), 30);
-  }
-
-  function renderCard() {
-    const pool = currentPool();
-    if (!pool.length) return;
-    if (state.cardIndex >= pool.length) state.cardIndex = 0;
-    const item = pool[state.cardIndex];
-    el.cardSection.textContent = `${item.section} · ${state.cardIndex + 1}/${pool.length}`;
-    el.cardFront.textContent = termFront(item);
-    el.cardBack.textContent = state.cardFlipped ? termBack(item) : "";
   }
 
   function renderSpelling() {
@@ -604,7 +599,7 @@
   function renderWrong() {
     const wrong = Object.values(state.progress.wrong).sort((a, b) => b.at - a.at);
     if (!wrong.length) {
-      el.wrongList.innerHTML = '<div class="word-item"><div><strong>暂无错词</strong><small>测验时点“加入错词”会出现在这里</small></div></div>';
+      el.wrongList.innerHTML = '<div class="word-item"><div><strong>暂无错词</strong><small>自测卡片点“还不会”会出现在这里</small></div></div>';
       return;
     }
     el.wrongList.innerHTML = wrong.map((item) => `
@@ -645,7 +640,6 @@
   function renderAll() {
     renderStats();
     renderQuiz();
-    renderCard();
     renderSpelling();
     renderDictation();
     renderWrong();
@@ -661,7 +655,6 @@
       panel.classList.toggle("is-active", panel.id === `${view}View`);
     });
     if (view === "wrong") renderWrong();
-    if (view === "cards") renderCard();
     if (view === "spelling") renderSpelling();
     if (view === "dictation") renderDictation();
   }
@@ -699,19 +692,14 @@
 
     el.sectionSelect.addEventListener("change", () => {
       state.section = el.sectionSelect.value;
-      state.cardIndex = 0;
-      state.cardFlipped = false;
       state.spellingItem = null;
       startQuiz();
-      renderCard();
       renderSpelling();
     });
 
     el.directionSelect.addEventListener("change", () => {
       state.direction = el.directionSelect.value;
-      state.cardFlipped = false;
-      renderQuiz();
-      renderCard();
+      startQuiz();
     });
 
     el.voiceAccentSelect.addEventListener("change", () => {
@@ -733,66 +721,31 @@
       speakText(englishText(termFront(item)) || item.en);
     });
 
-    document.querySelector("#checkBtn").addEventListener("click", () => {
-      const item = currentQuizItem();
-      const expected = termBack(item);
-      const ok = isCorrect(el.answerInput.value, expected);
-      el.feedback.className = `feedback ${ok ? "good" : "bad"}`;
-      el.feedback.textContent = ok ? `对：${expected}` : `答案：${expected}`;
-      if (ok) markMastered(item);
-      else markWrong(item);
-    });
-
     document.querySelector("#showBtn").addEventListener("click", () => {
       const item = currentQuizItem();
       el.feedback.className = "feedback";
       el.feedback.textContent = `答案：${termBack(item)}`;
-      if (state.direction === "zh-en") speakText(item.en);
+      state.quizAnswerShown = true;
+      document.querySelector("#knowBtn").disabled = false;
+      document.querySelector("#missBtn").disabled = false;
+      if (quizDirection() === "zh-en") speakText(item.en);
     });
 
     document.querySelector("#knowBtn").addEventListener("click", () => {
+      if (!state.quizAnswerShown) return;
       markMastered(currentQuizItem());
       nextQuiz();
     });
 
     document.querySelector("#missBtn").addEventListener("click", () => {
+      if (!state.quizAnswerShown) return;
       markWrong(currentQuizItem());
       nextQuiz();
     });
 
-    document.querySelector("#nextBtn").addEventListener("click", nextQuiz);
-
-    el.answerInput.addEventListener("keydown", (event) => {
-      if (event.key === "Enter") document.querySelector("#checkBtn").click();
-    });
-
-    document.querySelector("#cardPrev").addEventListener("click", () => {
-      const pool = currentPool();
-      state.cardIndex = (state.cardIndex - 1 + pool.length) % pool.length;
-      state.cardFlipped = false;
-      renderCard();
-    });
-
-    document.querySelector("#cardNext").addEventListener("click", () => {
-      const pool = currentPool();
-      state.cardIndex = (state.cardIndex + 1) % pool.length;
-      state.cardFlipped = false;
-      renderCard();
-    });
-
-    document.querySelector("#cardFlip").addEventListener("click", flipCard);
-    document.querySelector("#speakCard").addEventListener("click", (event) => {
-      event.stopPropagation();
-      const item = currentPool()[state.cardIndex];
-      if (item) speakText(englishText(termFront(item)) || item.en);
-    });
     document.querySelector("#lookupCard").addEventListener("click", (event) => {
       event.stopPropagation();
-      lookupDictionary(currentPool()[state.cardIndex]);
-    });
-    el.flashCard.addEventListener("click", flipCard);
-    el.flashCard.addEventListener("keydown", (event) => {
-      if (event.key === "Enter" || event.key === " ") flipCard();
+      lookupDictionary(currentQuizItem());
     });
 
     document.querySelector("#speakSpelling").addEventListener("click", () => {
@@ -891,11 +844,6 @@
     }
     state.quizIndex += 1;
     renderQuiz();
-  }
-
-  function flipCard() {
-    state.cardFlipped = !state.cardFlipped;
-    renderCard();
   }
 
   function normalizeSpelling(value) {
