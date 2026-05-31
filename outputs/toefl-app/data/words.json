@@ -67,13 +67,14 @@
     "id": "听力词汇-casual",
     "word": "casual",
     "phonetic": "",
-    "meaning": "休闲的；随意的",
+    "meaning": "休闲的；随意的；非正式的；偶然的",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "casual",
-    "zh": "休闲的；随意的",
-    "section": "听力词汇"
+    "zh": "休闲的；随意的；非正式的；偶然的",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-rule-of-thumb",
@@ -105,13 +106,14 @@
     "id": "听力词汇-evolution",
     "word": "evolution",
     "phonetic": "",
-    "meaning": "进化",
+    "meaning": "进化；演变；发展",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "evolution",
-    "zh": "进化",
-    "section": "听力词汇"
+    "zh": "进化；演变；发展",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-approach",
@@ -211,13 +213,14 @@
     "id": "听力词汇-regional",
     "word": "regional",
     "phonetic": "",
-    "meaning": "地区的",
+    "meaning": "地区的；区域性的",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "regional",
-    "zh": "地区的",
-    "section": "听力词汇"
+    "zh": "地区的；区域性的",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-journal",
@@ -264,13 +267,14 @@
     "id": "听力词汇-emphasize",
     "word": "emphasize",
     "phonetic": "",
-    "meaning": "强调",
+    "meaning": "强调；重视",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "emphasize",
-    "zh": "强调",
-    "section": "听力词汇"
+    "zh": "强调；重视",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-collect",
@@ -316,13 +320,14 @@
     "id": "听力词汇-encouragement",
     "word": "encouragement",
     "phonetic": "",
-    "meaning": "鼓励",
+    "meaning": "鼓励；支持",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "encouragement",
-    "zh": "鼓励",
-    "section": "听力词汇"
+    "zh": "鼓励；支持",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-dispute",
@@ -744,13 +749,14 @@
     "id": "听力词汇-risky",
     "word": "risky",
     "phonetic": "",
-    "meaning": "有危险的",
+    "meaning": "有风险的；冒险的",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "risky",
-    "zh": "有危险的",
-    "section": "听力词汇"
+    "zh": "有风险的；冒险的",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-instinct",
@@ -782,13 +788,14 @@
     "id": "听力词汇-assistance",
     "word": "assistance",
     "phonetic": "",
-    "meaning": "帮助",
+    "meaning": "帮助；援助",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "assistance",
-    "zh": "帮助",
-    "section": "听力词汇"
+    "zh": "帮助；援助",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-schedule",
@@ -946,13 +953,14 @@
     "id": "听力词汇-advisor",
     "word": "advisor",
     "phonetic": "",
-    "meaning": "导师",
+    "meaning": "导师；顾问",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "advisor",
-    "zh": "导师",
-    "section": "听力词汇"
+    "zh": "导师；顾问",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-sign-up",
@@ -1048,13 +1056,14 @@
     "id": "听力词汇-registrar",
     "word": "registrar",
     "phonetic": "",
-    "meaning": "教务主任",
+    "meaning": "教务主任；注册主管；登记员",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "registrar",
-    "zh": "教务主任",
-    "section": "听力词汇"
+    "zh": "教务主任；注册主管；登记员",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-permission",
@@ -1086,13 +1095,14 @@
     "id": "听力词汇-signature",
     "word": "signature",
     "phonetic": "",
-    "meaning": "签名",
+    "meaning": "签名；署名；特征",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "signature",
-    "zh": "签名",
-    "section": "听力词汇"
+    "zh": "签名；署名；特征",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-senior",
@@ -1254,13 +1264,14 @@
     "id": "动物与演化-limb",
     "word": "limb",
     "phonetic": "",
-    "meaning": "四肢",
+    "meaning": "肢；臂；腿",
     "example": "",
     "difficulty": "",
     "category": "动物与演化",
     "en": "limb",
-    "zh": "四肢",
-    "section": "动物与演化"
+    "zh": "肢；臂；腿",
+    "section": "动物与演化",
+    "meaningReviewed": true
   },
   {
     "id": "动物与演化-functional",
@@ -1280,49 +1291,53 @@
     "id": "动物与演化-extinct",
     "word": "extinct",
     "phonetic": "",
-    "meaning": "灭绝的",
+    "meaning": "灭绝的；绝种的",
     "example": "",
     "difficulty": "",
     "category": "动物与演化",
     "en": "extinct",
-    "zh": "灭绝的",
-    "section": "动物与演化"
+    "zh": "灭绝的；绝种的",
+    "section": "动物与演化",
+    "meaningReviewed": true
   },
   {
     "id": "动物与演化-marine",
     "word": "marine",
     "phonetic": "",
-    "meaning": "海洋的",
+    "meaning": "海洋的；海生的",
     "example": "",
     "difficulty": "",
     "category": "动物与演化",
     "en": "marine",
-    "zh": "海洋的",
-    "section": "动物与演化"
+    "zh": "海洋的；海生的",
+    "section": "动物与演化",
+    "meaningReviewed": true
   },
   {
     "id": "动物与演化-fossil",
     "word": "fossil",
     "phonetic": "",
-    "meaning": "化石",
+    "meaning": "化石；化石的",
     "example": "",
     "difficulty": "",
     "category": "动物与演化",
     "en": "fossil",
-    "zh": "化石",
-    "section": "动物与演化"
+    "zh": "化石；化石的",
+    "section": "动物与演化",
+    "meaningReviewed": true
   },
   {
     "id": "动物与演化-skeleton",
     "word": "skeleton",
     "phonetic": "",
-    "meaning": "骨架",
+    "meaning": "骨架；骨骼",
     "example": "",
     "difficulty": "",
     "category": "动物与演化",
     "en": "skeleton",
-    "zh": "骨架",
-    "section": "动物与演化"
+    "zh": "骨架；骨骼",
+    "section": "动物与演化",
+    "meaningReviewed": true
   },
   {
     "id": "动物与演化-toe",
@@ -1340,13 +1355,14 @@
     "id": "动物与演化-tail",
     "word": "tail",
     "phonetic": "",
-    "meaning": "尾巴",
+    "meaning": "尾巴；尾部",
     "example": "",
     "difficulty": "",
     "category": "动物与演化",
     "en": "tail",
-    "zh": "尾巴",
-    "section": "动物与演化"
+    "zh": "尾巴；尾部",
+    "section": "动物与演化",
+    "meaningReviewed": true
   },
   {
     "id": "动物与演化-vestigial",
@@ -1376,13 +1392,14 @@
     "id": "动物与演化-ancestor",
     "word": "ancestor",
     "phonetic": "",
-    "meaning": "祖先",
+    "meaning": "祖先；祖先物种",
     "example": "",
     "difficulty": "",
     "category": "动物与演化",
     "en": "ancestor",
-    "zh": "祖先",
-    "section": "动物与演化"
+    "zh": "祖先；祖先物种",
+    "section": "动物与演化",
+    "meaningReviewed": true
   },
   {
     "id": "动物与演化-archaeocete",
@@ -1725,25 +1742,27 @@
     "id": "学术阅读常见词-location",
     "word": "location",
     "phonetic": "",
-    "meaning": "位置",
+    "meaning": "位置；地点",
     "example": "",
     "difficulty": "",
     "category": "学术阅读常见词",
     "en": "location",
-    "zh": "位置",
-    "section": "学术阅读常见词"
+    "zh": "位置；地点",
+    "section": "学术阅读常见词",
+    "meaningReviewed": true
   },
   {
     "id": "学术阅读常见词-located",
     "word": "located",
     "phonetic": "",
-    "meaning": "位于；坐落于",
+    "meaning": "位于；坐落于；位于某处的",
     "example": "",
     "difficulty": "",
     "category": "学术阅读常见词",
     "en": "located",
-    "zh": "位于；坐落于",
-    "section": "学术阅读常见词"
+    "zh": "位于；坐落于；位于某处的",
+    "section": "学术阅读常见词",
+    "meaningReviewed": true
   },
   {
     "id": "学术阅读常见词-exposed",
@@ -1994,13 +2013,14 @@
     "id": "阅读词汇-vegetation",
     "word": "vegetation",
     "phonetic": "",
-    "meaning": "植被",
+    "meaning": "植被；植物群",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "vegetation",
-    "zh": "植被",
-    "section": "阅读词汇"
+    "zh": "植被；植物群",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-consequence",
@@ -2046,13 +2066,14 @@
     "id": "阅读词汇-stony",
     "word": "stony",
     "phonetic": "",
-    "meaning": "多石的",
+    "meaning": "多石的；石质的",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "stony",
-    "zh": "多石的",
-    "section": "阅读词汇"
+    "zh": "多石的；石质的",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-content",
@@ -2099,13 +2120,14 @@
     "id": "阅读词汇-runoff",
     "word": "runoff",
     "phonetic": "",
-    "meaning": "径流",
+    "meaning": "径流；流失水",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "runoff",
-    "zh": "径流",
-    "section": "阅读词汇"
+    "zh": "径流；流失水",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-delicate",
@@ -2235,13 +2257,14 @@
     "id": "阅读词汇-fertility",
     "word": "fertility",
     "phonetic": "",
-    "meaning": "肥力",
+    "meaning": "肥力；繁殖力",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "fertility",
-    "zh": "肥力",
-    "section": "阅读词汇"
+    "zh": "肥力；繁殖力",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-desertification",
@@ -2301,13 +2324,14 @@
     "id": "阅读词汇-progressively",
     "word": "progressively",
     "phonetic": "",
-    "meaning": "逐渐地",
+    "meaning": "逐渐地；逐步地",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "progressively",
-    "zh": "逐渐地",
-    "section": "阅读词汇"
+    "zh": "逐渐地；逐步地",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-openly",
@@ -2431,13 +2455,14 @@
     "id": "阅读词汇-excessive",
     "word": "excessive",
     "phonetic": "",
-    "meaning": "过度的",
+    "meaning": "过度的；过多的",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "excessive",
-    "zh": "过度的",
-    "section": "阅读词汇"
+    "zh": "过度的；过多的",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-dried",
@@ -2481,13 +2506,14 @@
     "id": "阅读词汇-salt",
     "word": "salt",
     "phonetic": "",
-    "meaning": "盐",
+    "meaning": "盐；盐分",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "salt",
-    "zh": "盐",
-    "section": "阅读词汇"
+    "zh": "盐；盐分",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-surface",
@@ -2589,13 +2615,14 @@
     "id": "阅读词汇-accelerate",
     "word": "accelerate",
     "phonetic": "",
-    "meaning": "加速",
+    "meaning": "加速；促进",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "accelerate",
-    "zh": "加速",
-    "section": "阅读词汇"
+    "zh": "加速；促进",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-erosion",
@@ -2665,13 +2692,14 @@
     "id": "阅读词汇-decade",
     "word": "decade",
     "phonetic": "",
-    "meaning": "十年",
+    "meaning": "十年；十年期",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "decade",
-    "zh": "十年",
-    "section": "阅读词汇"
+    "zh": "十年；十年期",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-agricultural",
@@ -2733,13 +2761,14 @@
     "id": "阅读词汇-cattle",
     "word": "cattle",
     "phonetic": "",
-    "meaning": "家畜",
+    "meaning": "牛；牛群；牲畜",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "cattle",
-    "zh": "家畜",
-    "section": "阅读词汇"
+    "zh": "牛；牛群；牲畜",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-firewood",
@@ -2811,13 +2840,14 @@
     "id": "阅读词汇-semi-arid",
     "word": "semi-arid",
     "phonetic": "",
-    "meaning": "半干旱的",
+    "meaning": "半干旱的；较干旱的",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "semi-arid",
-    "zh": "半干旱的",
-    "section": "阅读词汇"
+    "zh": "半干旱的；较干旱的",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-emerge",
