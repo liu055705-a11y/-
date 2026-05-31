@@ -4825,25 +4825,27 @@
     "id": "口语-听力复习词-summary",
     "word": "summary",
     "phonetic": "",
-    "meaning": "总结",
+    "meaning": "总结；摘要；概要",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "summary",
-    "zh": "总结",
-    "section": "口语/听力复习词"
+    "zh": "总结；摘要；概要",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-implication",
     "word": "implication",
     "phonetic": "",
-    "meaning": "含义",
+    "meaning": "含义；暗示；影响",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "implication",
-    "zh": "含义",
-    "section": "口语/听力复习词"
+    "zh": "含义；暗示；影响",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-voice-out",
@@ -4873,61 +4875,66 @@
     "id": "口语-听力复习词-priority",
     "word": "priority",
     "phonetic": "",
-    "meaning": "优先事项",
+    "meaning": "优先事项；优先权；重点",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "priority",
-    "zh": "优先事项",
-    "section": "口语/听力复习词"
+    "zh": "优先事项；优先权；重点",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-complicated",
     "word": "complicated",
     "phonetic": "",
-    "meaning": "复杂的",
+    "meaning": "复杂的；难处理的",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "complicated",
-    "zh": "复杂的",
-    "section": "口语/听力复习词"
+    "zh": "复杂的；难处理的",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-obligation",
     "word": "obligation",
     "phonetic": "",
-    "meaning": "义务",
+    "meaning": "义务；责任",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "obligation",
-    "zh": "义务",
-    "section": "口语/听力复习词"
+    "zh": "义务；责任",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-society",
     "word": "society",
     "phonetic": "",
-    "meaning": "社会",
+    "meaning": "社会；社团；群体",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "society",
-    "zh": "社会",
-    "section": "口语/听力复习词"
+    "zh": "社会；社团；群体",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-sustain",
     "word": "sustain",
     "phonetic": "",
-    "meaning": "维持",
+    "meaning": "维持；支撑；承受",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "sustain",
-    "zh": "维持",
-    "section": "口语/听力复习词"
+    "zh": "维持；支撑；承受",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-keep",
@@ -4969,13 +4976,14 @@
     "id": "口语-听力复习词-value",
     "word": "value",
     "phonetic": "",
-    "meaning": "价值",
+    "meaning": "价值；重视；估价",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "value",
-    "zh": "价值",
-    "section": "口语/听力复习词"
+    "zh": "价值；重视；估价",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-turning-point",
@@ -4993,13 +5001,14 @@
     "id": "口语-听力复习词-feature",
     "word": "feature",
     "phonetic": "",
-    "meaning": "特征",
+    "meaning": "特征；以……为特色",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "feature",
-    "zh": "特征",
-    "section": "口语/听力复习词"
+    "zh": "特征；以……为特色",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-mindset",
@@ -5029,25 +5038,27 @@
     "id": "口语-听力复习词-edit",
     "word": "edit",
     "phonetic": "",
-    "meaning": "编辑",
+    "meaning": "编辑；修改",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "edit",
-    "zh": "编辑",
-    "section": "口语/听力复习词"
+    "zh": "编辑；修改",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-polish",
     "word": "polish",
     "phonetic": "",
-    "meaning": "润色",
+    "meaning": "润色；打磨；改善",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "polish",
-    "zh": "润色",
-    "section": "口语/听力复习词"
+    "zh": "润色；打磨；改善",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-sound-proper",
@@ -5077,13 +5088,14 @@
     "id": "口语-听力复习词-distance",
     "word": "distance",
     "phonetic": "",
-    "meaning": "距离",
+    "meaning": "距离；远处；疏远",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "distance",
-    "zh": "距离",
-    "section": "口语/听力复习词"
+    "zh": "距离；远处；疏远",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-time-consuming",
@@ -5113,13 +5125,14 @@
     "id": "口语-听力复习词-personable",
     "word": "personable",
     "phonetic": "",
-    "meaning": "风度好的；讨人喜欢的",
+    "meaning": "风度好的；讨人喜欢的；和蔼可亲的",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "personable",
-    "zh": "风度好的；讨人喜欢的",
-    "section": "口语/听力复习词"
+    "zh": "风度好的；讨人喜欢的；和蔼可亲的",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-in-my-opinion",
@@ -5137,49 +5150,53 @@
     "id": "口语-听力复习词-restrict",
     "word": "restrict",
     "phonetic": "",
-    "meaning": "限制",
+    "meaning": "限制；约束",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "restrict",
-    "zh": "限制",
-    "section": "口语/听力复习词"
+    "zh": "限制；约束",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-limit",
     "word": "limit",
     "phonetic": "",
-    "meaning": "限制",
+    "meaning": "限制；限度；界限",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "limit",
-    "zh": "限制",
-    "section": "口语/听力复习词"
+    "zh": "限制；限度；界限",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-promotion",
     "word": "promotion",
     "phonetic": "",
-    "meaning": "晋升；推广",
+    "meaning": "晋升；推广；促销；促进",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "promotion",
-    "zh": "晋升；推广",
-    "section": "口语/听力复习词"
+    "zh": "晋升；推广；促销；促进",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "易混词-effect",
     "word": "effect",
     "phonetic": "",
-    "meaning": "影响；效果",
+    "meaning": "影响；效果；结果",
     "example": "",
     "difficulty": "",
     "category": "易混词",
     "en": "effect",
-    "zh": "影响；效果",
-    "section": "易混词"
+    "zh": "影响；效果；结果",
+    "section": "易混词",
+    "meaningReviewed": true
   },
   {
     "id": "易混词-personnel",
@@ -5257,12 +5274,13 @@
     "id": "易混词-current",
     "word": "current",
     "phonetic": "",
-    "meaning": "当前的；流动的",
+    "meaning": "当前的；流动的；水流；电流",
     "example": "",
     "difficulty": "",
     "category": "易混词",
     "en": "current",
-    "zh": "当前的；流动的",
-    "section": "易混词"
+    "zh": "当前的；流动的；水流；电流",
+    "section": "易混词",
+    "meaningReviewed": true
   }
 ]
