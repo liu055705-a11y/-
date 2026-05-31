@@ -1,8 +1,9 @@
 window.TOEFL_DATA_READY = Promise.all([
   fetch("./data/words.json").then((response) => response.json()),
   fetch("./data/speaking.json").then((response) => response.json()),
-  fetch("./data/dictation.json").then((response) => response.json())
-]).then(([words, speaking, dictation]) => {
+  fetch("./data/dictation.json").then((response) => response.json()),
+  fetch("./data/word-updates.json").then((response) => response.ok ? response.json() : []).catch(() => [])
+]).then(([words, speaking, dictation, updates]) => {
   const entries = words.map((item) => ({
     ...item,
     en: item.en || item.word,
@@ -21,7 +22,8 @@ window.TOEFL_DATA_READY = Promise.all([
     generatedAt: new Date().toISOString(),
     entries,
     speaking: speakingItems,
-    dictation
+    dictation,
+    updates: Array.isArray(updates) ? updates : []
   };
 
   return window.TOEFL_DATA;

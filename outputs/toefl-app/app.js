@@ -92,7 +92,11 @@
     speakingTargets: document.querySelector("#speakingTargets"),
     recordingStatus: document.querySelector("#recordingStatus"),
     recordingPlayback: document.querySelector("#recordingPlayback"),
-    recordingFeedback: document.querySelector("#recordingFeedback")
+    recordingFeedback: document.querySelector("#recordingFeedback"),
+    librarySearch: document.querySelector("#librarySearch"),
+    libraryType: document.querySelector("#libraryType"),
+    libraryList: document.querySelector("#libraryList"),
+    libraryCount: document.querySelector("#libraryCount")
   };
 
   const speakingPrompts = (data.speaking || []).filter((item) => item.source === "speaking.json");
@@ -637,6 +641,74 @@
     el.speakingTargets.innerHTML = item.targets.map((target) => `<li>${escapeHtml(target)}</li>`).join("");
   }
 
+  function libraryItems() {
+    const wordItems = entries.map((item) => ({
+      type: "word",
+      label: "单词/短语",
+      speak: item.en,
+      title: item.en,
+      meta: [item.zh, item.section, item.difficulty].filter(Boolean).join(" · "),
+      search: [item.en, item.zh, item.section, item.difficulty].join(" ")
+    }));
+    const dictationItems = (data.dictation || []).map((item) => ({
+      type: "dictation",
+      label: "听写",
+      speak: item.text,
+      title: item.text,
+      meta: [item.category, item.source, item.section].filter(Boolean).join(" · "),
+      search: [item.text, item.category, item.source, item.section].join(" ")
+    }));
+    const speakingItems = speakingPrompts.map((item) => ({
+      type: "speaking",
+      label: "口语",
+      speak: item.prompt,
+      title: item.title || item.prompt,
+      meta: `${item.prompt} · 准备 ${item.preparationTime || 0}s · 回答 ${item.responseTime || 0}s`,
+      search: [item.title, item.prompt, item.taskType].join(" ")
+    }));
+    const updateItems = (data.updates || []).map((item) => ({
+      type: "updates",
+      label: "最近修改",
+      speak: item.word || item.text || "",
+      title: item.word || item.text || item.id || "修改记录",
+      meta: [item.meaning, item.note, item.updatedAt, item.category].filter(Boolean).join(" · "),
+      search: Object.values(item).join(" ")
+    }));
+    return [...wordItems, ...dictationItems, ...speakingItems, ...updateItems];
+  }
+
+  function renderLibrary() {
+    const query = (el.librarySearch?.value || "").trim().toLowerCase();
+    const type = el.libraryType?.value || "all";
+    const items = libraryItems().filter((item) => {
+      const typeOk = type === "all" || item.type === type;
+      const searchOk = !query || item.search.toLowerCase().includes(query);
+      return typeOk && searchOk;
+    });
+    el.libraryCount.textContent = `${items.length} 条`;
+    if (!items.length) {
+      const empty = type === "updates" ? "暂无记录" : "没有匹配内容";
+      el.libraryList.innerHTML = `<div class="word-item"><div><strong>${empty}</strong><small>可调整搜索或类型筛选</small></div></div>`;
+      return;
+    }
+    el.libraryList.innerHTML = items.map((item, index) => `
+      <div class="library-item">
+        <div>
+          <small>${escapeHtml(item.label)}</small>
+          <strong>${escapeHtml(item.title)}</strong>
+          <small>${escapeHtml(item.meta || "暂无补充信息")}</small>
+        </div>
+        ${englishText(item.speak) ? `<button data-library-speak="${index}" aria-label="播放">▶</button>` : ""}
+      </div>
+    `).join("");
+    el.libraryList.querySelectorAll("[data-library-speak]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const item = items[Number(button.dataset.librarySpeak)];
+        if (item) speakText(item.speak);
+      });
+    });
+  }
+
   function renderAll() {
     renderStats();
     renderQuiz();
@@ -644,6 +716,7 @@
     renderDictation();
     renderWrong();
     renderSpeaking();
+    renderLibrary();
   }
 
   function switchView(view) {
@@ -657,6 +730,7 @@
     if (view === "wrong") renderWrong();
     if (view === "spelling") renderSpelling();
     if (view === "dictation") renderDictation();
+    if (view === "library") renderLibrary();
   }
 
   function escapeHtml(value) {
@@ -681,6 +755,9 @@
     document.querySelectorAll("[data-task-view]").forEach((button) => {
       button.addEventListener("click", () => switchView(button.dataset.taskView));
     });
+
+    el.librarySearch.addEventListener("input", renderLibrary);
+    el.libraryType.addEventListener("change", renderLibrary);
 
     el.todayReviewList.addEventListener("click", (event) => {
       const button = event.target.closest("button[data-review-master]");

@@ -72,6 +72,7 @@
           <button class="tab" data-view="dictation">听写</button>
           <button class="tab" data-view="wrong">错词</button>
           <button class="tab" data-view="speaking">口语</button>
+          <button class="tab" data-view="library">资料库</button>
         </nav>
 
         <section class="toolbar">
@@ -191,6 +192,26 @@
           <div class="button-row bottom-actions">
             <button id="newSpeaking">换一题</button>
             <button id="markSpeaking">完成一次</button>
+          </div>
+        </section>
+
+        <section class="view" id="libraryView">
+          <div class="library-panel">
+            <div class="list-head">
+              <h2>资料库</h2>
+              <span id="libraryCount">0 条</span>
+            </div>
+            <div class="library-controls">
+              <input id="librarySearch" autocomplete="off" placeholder="搜索英文 / 中文 / 分类">
+              <select id="libraryType">
+                <option value="all">全部</option>
+                <option value="word">单词/短语</option>
+                <option value="dictation">听写</option>
+                <option value="speaking">口语</option>
+                <option value="updates">最近修改</option>
+              </select>
+            </div>
+            <div class="library-list" id="libraryList"></div>
           </div>
         </section>
       </main>
