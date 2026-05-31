@@ -487,13 +487,14 @@
     "id": "听力词汇-overboard",
     "word": "go overboard",
     "phonetic": "",
-    "meaning": "做得过头；过分",
+    "meaning": "做得过头；过分；过火",
     "example": "",
     "difficulty": "",
     "category": "听力短语",
     "en": "go overboard",
-    "zh": "做得过头；过分",
-    "section": "听力短语"
+    "zh": "做得过头；过分；过火",
+    "section": "听力短语",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-asthma",
@@ -4020,37 +4021,40 @@
     "id": "口语短语-deal-with-this-pressure-on-my-own",
     "word": "deal with this pressure on my own",
     "phonetic": "",
-    "meaning": "独自应对这种压力",
+    "meaning": "独自应对这种压力；靠自己处理压力",
     "example": "",
     "difficulty": "",
     "category": "口语短语",
     "en": "deal with this pressure on my own",
-    "zh": "独自应对这种压力",
-    "section": "口语短语"
+    "zh": "独自应对这种压力；靠自己处理压力",
+    "section": "口语短语",
+    "meaningReviewed": true
   },
   {
     "id": "口语短语-deal-with-this-problem-on-my-own",
     "word": "deal with this problem on my own",
     "phonetic": "",
-    "meaning": "独自处理这个问题",
+    "meaning": "独自处理这个问题；靠自己解决问题",
     "example": "",
     "difficulty": "",
     "category": "口语短语",
     "en": "deal with this problem on my own",
-    "zh": "独自处理这个问题",
-    "section": "口语短语"
+    "zh": "独自处理这个问题；靠自己解决问题",
+    "section": "口语短语",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-口语短语-exercise-and-good-sleep-form-a-positive-cycle",
     "word": "exercise and good sleep form a positive cycle",
     "phonetic": "",
-    "meaning": "运动和良好睡眠形成正向循环",
+    "meaning": "运动和良好睡眠形成正向循环；形成良性循环",
     "example": "",
     "difficulty": "",
     "category": "5.22 口语短语",
     "en": "exercise and good sleep form a positive cycle",
-    "zh": "运动和良好睡眠形成正向循环",
-    "section": "5.22 口语短语"
+    "zh": "运动和良好睡眠形成正向循环；形成良性循环",
+    "section": "5.22 口语短语",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-口语短语-play-a-vital-role-in-",
@@ -4537,25 +4541,27 @@
     "id": "口语短语-sense-of-achievement",
     "word": "sense of achievement",
     "phonetic": "",
-    "meaning": "成就感",
+    "meaning": "成就感；获得成就感",
     "example": "",
     "difficulty": "",
     "category": "口语短语",
     "en": "sense of achievement",
-    "zh": "成就感",
-    "section": "口语短语"
+    "zh": "成就感；获得成就感",
+    "section": "口语短语",
+    "meaningReviewed": true
   },
   {
     "id": "口语短语-sense-of-satisfaction",
     "word": "sense of satisfaction",
     "phonetic": "",
-    "meaning": "满足感",
+    "meaning": "满足感；获得满足感",
     "example": "",
     "difficulty": "",
     "category": "口语短语",
     "en": "sense of satisfaction",
-    "zh": "满足感",
-    "section": "口语短语"
+    "zh": "满足感；获得满足感",
+    "section": "口语短语",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-appear",
@@ -4626,13 +4632,14 @@
     "id": "口语-听力复习词-on-purpose",
     "word": "on purpose",
     "phonetic": "",
-    "meaning": "故意地",
+    "meaning": "故意地；有意地",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "on purpose",
-    "zh": "故意地",
-    "section": "口语/听力复习词"
+    "zh": "故意地；有意地",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-contain",
@@ -4768,25 +4775,27 @@
     "id": "口语-听力复习词-spectacle",
     "word": "spectacle",
     "phonetic": "",
-    "meaning": "景象；壮观场面",
+    "meaning": "景象；壮观场面；奇观",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "spectacle",
-    "zh": "景象；壮观场面",
-    "section": "口语/听力复习词"
+    "zh": "景象；壮观场面；奇观",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-recharge-one-s-battery",
     "word": "recharge one's battery",
     "phonetic": "",
-    "meaning": "恢复精力",
+    "meaning": "恢复精力；充电；恢复状态",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "recharge one's battery",
-    "zh": "恢复精力",
-    "section": "口语/听力复习词"
+    "zh": "恢复精力；充电；恢复状态",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-overlook",
@@ -4818,25 +4827,27 @@
     "id": "口语-听力复习词-academic-performance",
     "word": "academic performance",
     "phonetic": "",
-    "meaning": "学业表现",
+    "meaning": "学业表现；学业成绩",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "academic performance",
-    "zh": "学业表现",
-    "section": "口语/听力复习词"
+    "zh": "学业表现；学业成绩",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-apply-for",
     "word": "apply for",
     "phonetic": "",
-    "meaning": "申请",
+    "meaning": "申请；申请获得",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "apply for",
-    "zh": "申请",
-    "section": "口语/听力复习词"
+    "zh": "申请；申请获得",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-motivate",
@@ -4881,25 +4892,27 @@
     "id": "口语-听力复习词-voice-out",
     "word": "voice out",
     "phonetic": "",
-    "meaning": "说出",
+    "meaning": "说出；表达出来",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "voice out",
-    "zh": "说出",
-    "section": "口语/听力复习词"
+    "zh": "说出；表达出来",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-social-status",
     "word": "social status",
     "phonetic": "",
-    "meaning": "社会地位",
+    "meaning": "社会地位；社会身份",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "social status",
-    "zh": "社会地位",
-    "section": "口语/听力复习词"
+    "zh": "社会地位；社会身份",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-priority",
@@ -4970,13 +4983,14 @@
     "id": "口语-听力复习词-keep",
     "word": "keep",
     "phonetic": "",
-    "meaning": "保持",
+    "meaning": "保持；保留；继续",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "keep",
-    "zh": "保持",
-    "section": "口语/听力复习词"
+    "zh": "保持；保留；继续",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-it-takes-two-to-tango",
@@ -5019,13 +5033,14 @@
     "id": "口语-听力复习词-turning-point",
     "word": "turning point",
     "phonetic": "",
-    "meaning": "转折点",
+    "meaning": "转折点；关键转变",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "turning point",
-    "zh": "转折点",
-    "section": "口语/听力复习词"
+    "zh": "转折点；关键转变",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-feature",
@@ -5044,25 +5059,27 @@
     "id": "口语-听力复习词-mindset",
     "word": "mindset",
     "phonetic": "",
-    "meaning": "思维模式",
+    "meaning": "思维模式；心态",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "mindset",
-    "zh": "思维模式",
-    "section": "口语/听力复习词"
+    "zh": "思维模式；心态",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-from-time-to-time",
     "word": "from time to time",
     "phonetic": "",
-    "meaning": "不时地",
+    "meaning": "不时地；偶尔",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "from time to time",
-    "zh": "不时地",
-    "section": "口语/听力复习词"
+    "zh": "不时地；偶尔",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-edit",
@@ -5094,25 +5111,27 @@
     "id": "口语-听力复习词-sound-proper",
     "word": "sound proper",
     "phonetic": "",
-    "meaning": "听起来得体",
+    "meaning": "听起来得体；听起来合适",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "sound proper",
-    "zh": "听起来得体",
-    "section": "口语/听力复习词"
+    "zh": "听起来得体；听起来合适",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-stressful",
     "word": "stressful",
     "phonetic": "",
-    "meaning": "有压力的",
+    "meaning": "有压力的；紧张的",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "stressful",
-    "zh": "有压力的",
-    "section": "口语/听力复习词"
+    "zh": "有压力的；紧张的",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-distance",
@@ -5131,13 +5150,14 @@
     "id": "口语-听力复习词-time-consuming",
     "word": "time-consuming",
     "phonetic": "",
-    "meaning": "耗时的",
+    "meaning": "耗时的；费时间的",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "time-consuming",
-    "zh": "耗时的",
-    "section": "口语/听力复习词"
+    "zh": "耗时的；费时间的",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-freedom",
@@ -5168,13 +5188,14 @@
     "id": "口语-听力复习词-in-my-opinion",
     "word": "in my opinion",
     "phonetic": "",
-    "meaning": "在我看来",
+    "meaning": "在我看来；依我看",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "in my opinion",
-    "zh": "在我看来",
-    "section": "口语/听力复习词"
+    "zh": "在我看来；依我看",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-restrict",
@@ -5232,25 +5253,27 @@
     "id": "易混词-personnel",
     "word": "personnel",
     "phonetic": "",
-    "meaning": "人员；员工",
+    "meaning": "人员；员工；人事部门",
     "example": "",
     "difficulty": "",
     "category": "易混词",
     "en": "personnel",
-    "zh": "人员；员工",
-    "section": "易混词"
+    "zh": "人员；员工；人事部门",
+    "section": "易混词",
+    "meaningReviewed": true
   },
   {
     "id": "易混词-invaluable",
     "word": "invaluable",
     "phonetic": "",
-    "meaning": "极其宝贵的",
+    "meaning": "极其宝贵的；非常有价值的",
     "example": "",
     "difficulty": "",
     "category": "易混词",
     "en": "invaluable",
-    "zh": "极其宝贵的",
-    "section": "易混词"
+    "zh": "极其宝贵的；非常有价值的",
+    "section": "易混词",
+    "meaningReviewed": true
   },
   {
     "id": "易混词-desert",
@@ -5280,25 +5303,27 @@
     "id": "易混词-sensible",
     "word": "sensible",
     "phonetic": "",
-    "meaning": "明智的",
+    "meaning": "明智的；合理的",
     "example": "",
     "difficulty": "",
     "category": "易混词",
     "en": "sensible",
-    "zh": "明智的",
-    "section": "易混词"
+    "zh": "明智的；合理的",
+    "section": "易混词",
+    "meaningReviewed": true
   },
   {
     "id": "易混词-sensitive",
     "word": "sensitive",
     "phonetic": "",
-    "meaning": "敏感的",
+    "meaning": "敏感的；易受影响的",
     "example": "",
     "difficulty": "",
     "category": "易混词",
     "en": "sensitive",
-    "zh": "敏感的",
-    "section": "易混词"
+    "zh": "敏感的；易受影响的",
+    "section": "易混词",
+    "meaningReviewed": true
   },
   {
     "id": "易混词-current",
