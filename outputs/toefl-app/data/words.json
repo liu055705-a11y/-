@@ -55,13 +55,14 @@
     "id": "听力词汇-expert",
     "word": "expert",
     "phonetic": "",
-    "meaning": "专家",
+    "meaning": "专家；熟练的",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "expert",
-    "zh": "专家",
-    "section": "听力词汇"
+    "zh": "专家；熟练的",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-casual",
@@ -80,13 +81,14 @@
     "id": "听力词汇-rule-of-thumb",
     "word": "rule of thumb",
     "phonetic": "",
-    "meaning": "经验法则",
+    "meaning": "经验法则；实用估算法",
     "example": "",
     "difficulty": "",
     "category": "听力短语",
     "en": "rule of thumb",
-    "zh": "经验法则",
-    "section": "听力短语"
+    "zh": "经验法则；实用估算法",
+    "section": "听力短语",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-indicate",
@@ -916,13 +918,14 @@
     "id": "听力词汇-find-out",
     "word": "find out",
     "phonetic": "",
-    "meaning": "查明",
+    "meaning": "查明；发现；弄清楚",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "find out",
-    "zh": "查明",
-    "section": "听力词汇"
+    "zh": "查明；发现；弄清楚",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-certain",
@@ -969,13 +972,14 @@
     "id": "听力词汇-sign-up",
     "word": "sign up",
     "phonetic": "",
-    "meaning": "报名",
+    "meaning": "报名；注册",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "sign up",
-    "zh": "报名",
-    "section": "听力词汇"
+    "zh": "报名；注册",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-introduction",
@@ -1086,13 +1090,14 @@
     "id": "听力词汇-fill-out",
     "word": "fill out",
     "phonetic": "",
-    "meaning": "填写",
+    "meaning": "填写；填完整",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "fill out",
-    "zh": "填写",
-    "section": "听力词汇"
+    "zh": "填写；填完整",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-signature",
@@ -1257,13 +1262,14 @@
     "id": "动物与演化-blowhole",
     "word": "blowhole",
     "phonetic": "",
-    "meaning": "呼吸孔",
+    "meaning": "呼吸孔；喷水孔",
     "example": "",
     "difficulty": "",
     "category": "动物与演化",
     "en": "blowhole",
-    "zh": "呼吸孔",
-    "section": "动物与演化"
+    "zh": "呼吸孔；喷水孔",
+    "section": "动物与演化",
+    "meaningReviewed": true
   },
   {
     "id": "动物与演化-limb",
@@ -1348,13 +1354,14 @@
     "id": "动物与演化-toe",
     "word": "toe",
     "phonetic": "",
-    "meaning": "脚趾",
+    "meaning": "脚趾；趾",
     "example": "",
     "difficulty": "",
     "category": "动物与演化",
     "en": "toe",
-    "zh": "脚趾",
-    "section": "动物与演化"
+    "zh": "脚趾；趾",
+    "section": "动物与演化",
+    "meaningReviewed": true
   },
   {
     "id": "动物与演化-tail",
@@ -1386,13 +1393,14 @@
     "id": "动物与演化-flesh-eating",
     "word": "flesh-eating",
     "phonetic": "",
-    "meaning": "食肉的；肉食性的",
+    "meaning": "食肉的；肉食性的；吃肉的",
     "example": "",
     "difficulty": "",
     "category": "动物与演化",
     "en": "flesh-eating",
-    "zh": "食肉的；肉食性的",
-    "section": "动物与演化"
+    "zh": "食肉的；肉食性的；吃肉的",
+    "section": "动物与演化",
+    "meaningReviewed": true
   },
   {
     "id": "动物与演化-ancestor",
@@ -1436,13 +1444,14 @@
     "id": "动物与演化-adapt-to",
     "word": "adapt to",
     "phonetic": "",
-    "meaning": "适应",
+    "meaning": "适应；适应于",
     "example": "",
     "difficulty": "",
     "category": "动物与演化",
     "en": "adapt to",
-    "zh": "适应",
-    "section": "动物与演化"
+    "zh": "适应；适应于",
+    "section": "动物与演化",
+    "meaningReviewed": true
   },
   {
     "id": "动物与演化-feature",
@@ -1615,13 +1624,14 @@
     "id": "学术阅读常见词-scientist",
     "word": "scientist",
     "phonetic": "",
-    "meaning": "科学家",
+    "meaning": "科学家；科研人员",
     "example": "",
     "difficulty": "",
     "category": "学术阅读常见词",
     "en": "scientist",
-    "zh": "科学家",
-    "section": "学术阅读常见词"
+    "zh": "科学家；科研人员",
+    "section": "学术阅读常见词",
+    "meaningReviewed": true
   },
   {
     "id": "学术阅读常见词-precious",
@@ -1723,13 +1733,14 @@
     "id": "学术阅读常见词-skull",
     "word": "skull",
     "phonetic": "",
-    "meaning": "头骨",
+    "meaning": "头骨；颅骨",
     "example": "",
     "difficulty": "",
     "category": "学术阅读常见词",
     "en": "skull",
-    "zh": "头骨",
-    "section": "学术阅读常见词"
+    "zh": "头骨；颅骨",
+    "section": "学术阅读常见词",
+    "meaningReviewed": true
   },
   {
     "id": "学术阅读常见词-shape",
@@ -1789,13 +1800,14 @@
     "id": "学术阅读常见词-visible",
     "word": "visible",
     "phonetic": "",
-    "meaning": "可见的；明显的",
+    "meaning": "可见的；看得见的；明显的",
     "example": "",
     "difficulty": "",
     "category": "学术阅读常见词",
     "en": "visible",
-    "zh": "可见的；明显的",
-    "section": "学术阅读常见词"
+    "zh": "可见的；看得见的；明显的",
+    "section": "学术阅读常见词",
+    "meaningReviewed": true
   },
   {
     "id": "学术阅读常见词-identified",
@@ -1898,13 +1910,14 @@
     "id": "学术阅读常见词-several-of",
     "word": "several of",
     "phonetic": "",
-    "meaning": "几个",
+    "meaning": "几个；其中几个",
     "example": "",
     "difficulty": "",
     "category": "阅读短语",
     "en": "several of",
-    "zh": "几个",
-    "section": "阅读短语"
+    "zh": "几个；其中几个",
+    "section": "阅读短语",
+    "meaningReviewed": true
   },
   {
     "id": "学术阅读常见词-portion",
@@ -1952,13 +1965,14 @@
     "id": "阅读词汇-endangered",
     "word": "endangered",
     "phonetic": "",
-    "meaning": "濒临灭绝的；受威胁的",
+    "meaning": "濒危的；濒临灭绝的；受威胁的",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "endangered",
-    "zh": "濒临灭绝的；受威胁的",
-    "section": "阅读词汇"
+    "zh": "濒危的；濒临灭绝的；受威胁的",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-prevented",
@@ -2225,13 +2239,14 @@
     "id": "阅读词汇-adjust-to",
     "word": "adjust to",
     "phonetic": "",
-    "meaning": "适应",
+    "meaning": "适应；调整以适应",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "adjust to",
-    "zh": "适应",
-    "section": "阅读词汇"
+    "zh": "适应；调整以适应",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-settlement",
@@ -2278,13 +2293,14 @@
     "id": "阅读词汇-desertification",
     "word": "desertification",
     "phonetic": "",
-    "meaning": "沙漠化",
+    "meaning": "沙漠化；荒漠化",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "desertification",
-    "zh": "沙漠化",
-    "section": "阅读词汇"
+    "zh": "沙漠化；荒漠化",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-crop",
@@ -2345,25 +2361,27 @@
     "id": "阅读词汇-openly",
     "word": "openly",
     "phonetic": "",
-    "meaning": "公开地",
+    "meaning": "公开地；坦率地",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "openly",
-    "zh": "公开地",
-    "section": "阅读词汇"
+    "zh": "公开地；坦率地",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-impressively",
     "word": "impressively",
     "phonetic": "",
-    "meaning": "令人印象深刻地",
+    "meaning": "令人印象深刻地；出色地",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "impressively",
-    "zh": "令人印象深刻地",
-    "section": "阅读词汇"
+    "zh": "令人印象深刻地；出色地",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-objectively",
@@ -4103,13 +4121,14 @@
     "id": "5-22-目标词-vicious-cycle",
     "word": "vicious cycle",
     "phonetic": "",
-    "meaning": "恶性循环",
+    "meaning": "恶性循环；恶性循环过程",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "vicious cycle",
-    "zh": "恶性循环",
-    "section": "5.22 目标词"
+    "zh": "恶性循环；恶性循环过程",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-form",
@@ -4232,25 +4251,27 @@
     "id": "5-22-目标词-regularly",
     "word": "regularly",
     "phonetic": "",
-    "meaning": "定期地",
+    "meaning": "定期地；经常地；规律地",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "regularly",
-    "zh": "定期地",
-    "section": "5.22 目标词"
+    "zh": "定期地；经常地；规律地",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-make-progress",
     "word": "make progress",
     "phonetic": "",
-    "meaning": "取得进展",
+    "meaning": "取得进展；进步",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "make progress",
-    "zh": "取得进展",
-    "section": "5.22 目标词"
+    "zh": "取得进展；进步",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-sustainable",
@@ -4334,13 +4355,14 @@
     "id": "5-22-目标词-engage-in",
     "word": "engage in",
     "phonetic": "",
-    "meaning": "参与",
+    "meaning": "参与；从事",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "engage in",
-    "zh": "参与",
-    "section": "5.22 目标词"
+    "zh": "参与；从事",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-dependent",
@@ -4372,13 +4394,14 @@
     "id": "口语-听力复习词-depend-on",
     "word": "depend on",
     "phonetic": "",
-    "meaning": "依赖",
+    "meaning": "依赖；取决于",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "depend on",
-    "zh": "依赖",
-    "section": "口语/听力复习词"
+    "zh": "依赖；取决于",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-independent",
@@ -4488,13 +4511,14 @@
     "id": "口语-听力复习词-choose",
     "word": "choose",
     "phonetic": "",
-    "meaning": "选择",
+    "meaning": "选择；挑选",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "choose",
-    "zh": "选择",
-    "section": "口语/听力复习词"
+    "zh": "选择；挑选",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-sense",
@@ -4550,13 +4574,14 @@
     "id": "口语-听力复习词-disappear",
     "word": "disappear",
     "phonetic": "",
-    "meaning": "消失",
+    "meaning": "消失；不见",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "disappear",
-    "zh": "消失",
-    "section": "口语/听力复习词"
+    "zh": "消失；不见",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-appearance",
@@ -4678,37 +4703,40 @@
     "id": "口语-听力复习词-advance",
     "word": "advance",
     "phonetic": "",
-    "meaning": "提前；进步",
+    "meaning": "提前；进步；推进；发展",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "advance",
-    "zh": "提前；进步",
-    "section": "口语/听力复习词"
+    "zh": "提前；进步；推进；发展",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-admission",
     "word": "admission",
     "phonetic": "",
-    "meaning": "准入；入场；录取",
+    "meaning": "准入；入场；录取；承认",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "admission",
-    "zh": "准入；入场；录取",
-    "section": "口语/听力复习词"
+    "zh": "准入；入场；录取；承认",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-legal",
     "word": "legal",
     "phonetic": "",
-    "meaning": "法律的",
+    "meaning": "法律的；合法的",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "legal",
-    "zh": "法律的",
-    "section": "口语/听力复习词"
+    "zh": "法律的；合法的",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-label",
@@ -4727,13 +4755,14 @@
     "id": "口语-听力复习词-cognitive",
     "word": "cognitive",
     "phonetic": "",
-    "meaning": "认知的",
+    "meaning": "认知的；认识的",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "cognitive",
-    "zh": "认知的",
-    "section": "口语/听力复习词"
+    "zh": "认知的；认识的",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-spectacle",
@@ -4776,13 +4805,14 @@
     "id": "口语-听力复习词-accept",
     "word": "accept",
     "phonetic": "",
-    "meaning": "接受",
+    "meaning": "接受；认可；接纳",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "accept",
-    "zh": "接受",
-    "section": "口语/听力复习词"
+    "zh": "接受；认可；接纳",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-academic-performance",
