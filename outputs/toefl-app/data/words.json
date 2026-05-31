@@ -2366,25 +2366,27 @@
     "id": "阅读词汇-objectively",
     "word": "objectively",
     "phonetic": "",
-    "meaning": "客观地",
+    "meaning": "客观地；如实地",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "objectively",
-    "zh": "客观地",
-    "section": "阅读词汇"
+    "zh": "客观地；如实地",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-increasingly",
     "word": "increasingly",
     "phonetic": "",
-    "meaning": "越来越",
+    "meaning": "越来越；日益",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "increasingly",
-    "zh": "越来越",
-    "section": "阅读词汇"
+    "zh": "越来越；日益",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-raising",
@@ -2500,13 +2502,14 @@
     "id": "阅读词汇-evaporation",
     "word": "evaporation",
     "phonetic": "",
-    "meaning": "蒸发",
+    "meaning": "蒸发；蒸发作用",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "evaporation",
-    "zh": "蒸发",
-    "section": "阅读词汇"
+    "zh": "蒸发；蒸发作用",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-salt",
@@ -2823,13 +2826,14 @@
     "id": "阅读词汇-dung",
     "word": "dung",
     "phonetic": "",
-    "meaning": "粪便",
+    "meaning": "粪便；动物粪便",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "dung",
-    "zh": "粪便",
-    "section": "阅读词汇"
+    "zh": "粪便；动物粪便",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-nutrient",
@@ -3119,13 +3123,14 @@
     "id": "阅读词汇-tubes",
     "word": "tubes",
     "phonetic": "",
-    "meaning": "管子",
+    "meaning": "管子；管道",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "tubes",
-    "zh": "管子",
-    "section": "阅读词汇"
+    "zh": "管子；管道",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-function",
@@ -3267,13 +3272,14 @@
     "id": "阅读词汇-logically",
     "word": "logically",
     "phonetic": "",
-    "meaning": "逻辑上",
+    "meaning": "逻辑上；合乎逻辑地",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "logically",
-    "zh": "逻辑上",
-    "section": "阅读词汇"
+    "zh": "逻辑上；合乎逻辑地",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-advance",
@@ -3400,25 +3406,27 @@
     "id": "阅读词汇-easily",
     "word": "easily",
     "phonetic": "",
-    "meaning": "容易地",
+    "meaning": "容易地；轻易地",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "easily",
-    "zh": "容易地",
-    "section": "阅读词汇"
+    "zh": "容易地；轻易地",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-intelligently",
     "word": "intelligently",
     "phonetic": "",
-    "meaning": "聪明地",
+    "meaning": "聪明地；明智地",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "intelligently",
-    "zh": "聪明地",
-    "section": "阅读词汇"
+    "zh": "聪明地；明智地",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-obviously",
@@ -3541,13 +3549,14 @@
     "id": "阅读词汇-fairground",
     "word": "fairground",
     "phonetic": "",
-    "meaning": "露天市场",
+    "meaning": "集市场地；游乐场地",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "fairground",
-    "zh": "露天市场",
-    "section": "阅读词汇"
+    "zh": "集市场地；游乐场地",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-amusement",
@@ -3722,13 +3731,14 @@
     "id": "阅读词汇-whichever",
     "word": "whichever",
     "phonetic": "",
-    "meaning": "无论哪个",
+    "meaning": "无论哪个；任何一个",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "whichever",
-    "zh": "无论哪个",
-    "section": "阅读词汇"
+    "zh": "无论哪个；任何一个",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-lecture",
@@ -3747,13 +3757,14 @@
     "id": "阅读词汇-movie",
     "word": "movie",
     "phonetic": "",
-    "meaning": "电影",
+    "meaning": "电影；影片",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "movie",
-    "zh": "电影",
-    "section": "阅读词汇"
+    "zh": "电影；影片",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-commonplace",
@@ -3798,13 +3809,14 @@
     "id": "阅读词汇-possible",
     "word": "possible",
     "phonetic": "",
-    "meaning": "可能的",
+    "meaning": "可能的；可行的",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "possible",
-    "zh": "可能的",
-    "section": "阅读词汇"
+    "zh": "可能的；可行的",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-photograph",
@@ -3901,13 +3913,14 @@
     "id": "阅读词汇-no-longer",
     "word": "no longer",
     "phonetic": "",
-    "meaning": "不再",
+    "meaning": "不再；不再是",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "no longer",
-    "zh": "不再",
-    "section": "阅读词汇"
+    "zh": "不再；不再是",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-displayed",
@@ -4023,13 +4036,14 @@
     "id": "5-22-目标词-witty",
     "word": "witty",
     "phonetic": "",
-    "meaning": "风趣的",
+    "meaning": "风趣的；机智的",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "witty",
-    "zh": "风趣的",
-    "section": "5.22 目标词"
+    "zh": "风趣的；机智的",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-pressure",
@@ -4061,13 +4075,14 @@
     "id": "5-22-目标词-experimental",
     "word": "experimental",
     "phonetic": "",
-    "meaning": "实验性的",
+    "meaning": "实验性的；试验性的",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "experimental",
-    "zh": "实验性的",
-    "section": "5.22 目标词"
+    "zh": "实验性的；试验性的",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-vicious-cycle",
@@ -4111,49 +4126,53 @@
     "id": "5-22-目标词-cooperation",
     "word": "cooperation",
     "phonetic": "",
-    "meaning": "合作",
+    "meaning": "合作；协作",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "cooperation",
-    "zh": "合作",
-    "section": "5.22 目标词"
+    "zh": "合作；协作",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-decision",
     "word": "decision",
     "phonetic": "",
-    "meaning": "决定",
+    "meaning": "决定；决策",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "decision",
-    "zh": "决定",
-    "section": "5.22 目标词"
+    "zh": "决定；决策",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-disturb",
     "word": "disturb",
     "phonetic": "",
-    "meaning": "打扰",
+    "meaning": "打扰；干扰；扰乱",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "disturb",
-    "zh": "打扰",
-    "section": "5.22 目标词"
+    "zh": "打扰；干扰；扰乱",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-confusion",
     "word": "confusion",
     "phonetic": "",
-    "meaning": "困惑",
+    "meaning": "困惑；混乱",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "confusion",
-    "zh": "困惑",
-    "section": "5.22 目标词"
+    "zh": "困惑；混乱",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-standard",
@@ -4185,13 +4204,14 @@
     "id": "5-22-目标词-experience",
     "word": "experience",
     "phonetic": "",
-    "meaning": "经历；经验",
+    "meaning": "经历；经验；体验",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "experience",
-    "zh": "经历；经验",
-    "section": "5.22 目标词"
+    "zh": "经历；经验；体验",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-regularly",
@@ -4221,49 +4241,53 @@
     "id": "5-22-目标词-sustainable",
     "word": "sustainable",
     "phonetic": "",
-    "meaning": "可持续的",
+    "meaning": "可持续的；可维持的",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "sustainable",
-    "zh": "可持续的",
-    "section": "5.22 目标词"
+    "zh": "可持续的；可维持的",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-immersive",
     "word": "immersive",
     "phonetic": "",
-    "meaning": "身临其境的",
+    "meaning": "身临其境的；沉浸式的",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "immersive",
-    "zh": "身临其境的",
-    "section": "5.22 目标词"
+    "zh": "身临其境的；沉浸式的",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-probably",
     "word": "probably",
     "phonetic": "",
-    "meaning": "大概",
+    "meaning": "大概；很可能",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "probably",
-    "zh": "大概",
-    "section": "5.22 目标词"
+    "zh": "大概；很可能",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-possibly",
     "word": "possibly",
     "phonetic": "",
-    "meaning": "可能",
+    "meaning": "可能；也许",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "possibly",
-    "zh": "可能",
-    "section": "5.22 目标词"
+    "zh": "可能；也许",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-disruption",
@@ -4306,13 +4330,14 @@
     "id": "口语-听力复习词-dependent",
     "word": "dependent",
     "phonetic": "",
-    "meaning": "依赖的",
+    "meaning": "依赖的；取决于……的",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "dependent",
-    "zh": "依赖的",
-    "section": "口语/听力复习词"
+    "zh": "依赖的；取决于……的",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-dependable",
@@ -4342,25 +4367,27 @@
     "id": "口语-听力复习词-independent",
     "word": "independent",
     "phonetic": "",
-    "meaning": "独立的",
+    "meaning": "独立的；不依赖的",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "independent",
-    "zh": "独立的",
-    "section": "口语/听力复习词"
+    "zh": "独立的；不依赖的",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-networking",
     "word": "networking",
     "phonetic": "",
-    "meaning": "建立关系网",
+    "meaning": "建立关系网；社交拓展；网络连接",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "networking",
-    "zh": "建立关系网",
-    "section": "口语/听力复习词"
+    "zh": "建立关系网；社交拓展；网络连接",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-habitat",
@@ -4391,13 +4418,14 @@
     "id": "口语-听力复习词-constant",
     "word": "constant",
     "phonetic": "",
-    "meaning": "持续的；不断的",
+    "meaning": "持续的；不断的；恒定的",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "constant",
-    "zh": "持续的；不断的",
-    "section": "口语/听力复习词"
+    "zh": "持续的；不断的；恒定的",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-mountain",
@@ -4415,13 +4443,14 @@
     "id": "口语-听力复习词-proper",
     "word": "proper",
     "phonetic": "",
-    "meaning": "恰当的",
+    "meaning": "恰当的；合适的；正确的",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "proper",
-    "zh": "恰当的",
-    "section": "口语/听力复习词"
+    "zh": "恰当的；合适的；正确的",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-preference",
@@ -4489,13 +4518,14 @@
     "id": "口语-听力复习词-appear",
     "word": "appear",
     "phonetic": "",
-    "meaning": "出现",
+    "meaning": "出现；显得；似乎",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "appear",
-    "zh": "出现",
-    "section": "口语/听力复习词"
+    "zh": "出现；显得；似乎",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-disappear",
