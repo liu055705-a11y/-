@@ -146,13 +146,14 @@
     "id": "听力词汇-method",
     "word": "method",
     "phonetic": "",
-    "meaning": "方法",
+    "meaning": "方法；方式",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "method",
-    "zh": "方法",
-    "section": "听力词汇"
+    "zh": "方法；方式",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-reference",
@@ -430,13 +431,14 @@
     "id": "听力词汇-geology",
     "word": "geology",
     "phonetic": "",
-    "meaning": "地质学",
+    "meaning": "地质学；地质",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "geology",
-    "zh": "地质学",
-    "section": "听力词汇"
+    "zh": "地质学；地质",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-capture",
@@ -1177,13 +1179,14 @@
     "id": "听力词汇-tight",
     "word": "tight",
     "phonetic": "",
-    "meaning": "紧的；时间紧的；紧张的",
+    "meaning": "紧的；时间紧的；紧张的；严密的",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "tight",
-    "zh": "紧的；时间紧的；紧张的",
-    "section": "听力词汇"
+    "zh": "紧的；时间紧的；紧张的；严密的",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-perhaps",
@@ -2556,13 +2559,14 @@
     "id": "阅读词汇-affect",
     "word": "affect",
     "phonetic": "",
-    "meaning": "影响",
+    "meaning": "影响；作用于",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "affect",
-    "zh": "影响",
-    "section": "阅读词汇"
+    "zh": "影响；作用于",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-spread",
@@ -2677,13 +2681,14 @@
     "id": "阅读词汇-overgrazing",
     "word": "overgrazing",
     "phonetic": "",
-    "meaning": "过度放牧",
+    "meaning": "过度放牧；过度放牧行为",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "overgrazing",
-    "zh": "过度放牧",
-    "section": "阅读词汇"
+    "zh": "过度放牧；过度放牧行为",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-contribute",
@@ -2977,13 +2982,14 @@
     "id": "阅读词汇-parlor",
     "word": "parlor",
     "phonetic": "",
-    "meaning": "客厅",
+    "meaning": "客厅；营业室；店铺",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "parlor",
-    "zh": "客厅",
-    "section": "阅读词汇"
+    "zh": "客厅；营业室；店铺",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-contain",
@@ -3031,13 +3037,14 @@
     "id": "阅读词汇-cent",
     "word": "cent",
     "phonetic": "",
-    "meaning": "美分",
+    "meaning": "美分；分币",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "cent",
-    "zh": "美分",
-    "section": "阅读词汇"
+    "zh": "美分；分币",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-except",
@@ -3084,13 +3091,14 @@
     "id": "阅读词汇-phonograph",
     "word": "phonograph",
     "phonetic": "",
-    "meaning": "留声机",
+    "meaning": "留声机；唱机",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "phonograph",
-    "zh": "留声机",
-    "section": "阅读词汇"
+    "zh": "留声机；唱机",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-proven",
@@ -3327,13 +3335,14 @@
     "id": "阅读词汇-work-on",
     "word": "work on",
     "phonetic": "",
-    "meaning": "从事；继续改进",
+    "meaning": "从事；致力于；继续改进",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "work on",
-    "zh": "从事；继续改进",
-    "section": "阅读词汇"
+    "zh": "从事；致力于；继续改进",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-replace",
@@ -3471,13 +3480,14 @@
     "id": "阅读词汇-such-as",
     "word": "such as",
     "phonetic": "",
-    "meaning": "例如",
+    "meaning": "例如；诸如",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "such as",
-    "zh": "例如",
-    "section": "阅读词汇"
+    "zh": "例如；诸如",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-assistance",
@@ -3719,13 +3729,14 @@
     "id": "阅读词汇-even-though",
     "word": "even though",
     "phonetic": "",
-    "meaning": "尽管",
+    "meaning": "尽管；即使",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "even though",
-    "zh": "尽管",
-    "section": "阅读词汇"
+    "zh": "尽管；即使",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-whichever",
@@ -3952,37 +3963,40 @@
     "id": "5-22-口语短语-respond-very-well-to-",
     "word": "respond very well to ...",
     "phonetic": "",
-    "meaning": "对……反应很好",
+    "meaning": "对……反应很好；回应良好；适应良好",
     "example": "",
     "difficulty": "",
     "category": "5.22 口语短语",
     "en": "respond very well to ...",
-    "zh": "对……反应很好",
-    "section": "5.22 口语短语"
+    "zh": "对……反应很好；回应良好；适应良好",
+    "section": "5.22 口语短语",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-口语短语-the-concert-was-a-huge-hit-",
     "word": "The concert was a huge hit.",
     "phonetic": "",
-    "meaning": "演出大受欢迎",
+    "meaning": "演出大受欢迎；非常成功",
     "example": "",
     "difficulty": "",
     "category": "5.22 口语短语",
     "en": "The concert was a huge hit.",
-    "zh": "演出大受欢迎",
-    "section": "5.22 口语短语"
+    "zh": "演出大受欢迎；非常成功",
+    "section": "5.22 口语短语",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-口语短语-the-crowd-went-wild-",
     "word": "The crowd went wild.",
     "phonetic": "",
-    "meaning": "群情激昂；观众很兴奋",
+    "meaning": "观众沸腾；群情激昂；观众很兴奋",
     "example": "",
     "difficulty": "",
     "category": "5.22 口语短语",
     "en": "The crowd went wild.",
-    "zh": "群情激昂；观众很兴奋",
-    "section": "5.22 口语短语"
+    "zh": "观众沸腾；群情激昂；观众很兴奋",
+    "section": "5.22 口语短语",
+    "meaningReviewed": true
   },
   {
     "id": "口语短语-deal-with-this-pressure-on-my-own",
@@ -4024,13 +4038,14 @@
     "id": "5-22-口语短语-play-a-vital-role-in-",
     "word": "play a vital role in ...",
     "phonetic": "",
-    "meaning": "在……中发挥重要作用",
+    "meaning": "在……中发挥重要作用；起关键作用",
     "example": "",
     "difficulty": "",
     "category": "5.22 口语短语",
     "en": "play a vital role in ...",
-    "zh": "在……中发挥重要作用",
-    "section": "5.22 口语短语"
+    "zh": "在……中发挥重要作用；起关键作用",
+    "section": "5.22 口语短语",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-witty",
@@ -4306,13 +4321,14 @@
     "id": "5-22-目标词-affect",
     "word": "affect",
     "phonetic": "",
-    "meaning": "影响",
+    "meaning": "影响；作用于",
     "example": "",
     "difficulty": "",
     "category": "5.22 目标词",
     "en": "affect",
-    "zh": "影响",
-    "section": "5.22 目标词"
+    "zh": "影响；作用于",
+    "section": "5.22 目标词",
+    "meaningReviewed": true
   },
   {
     "id": "5-22-目标词-engage-in",
@@ -4343,13 +4359,14 @@
     "id": "口语-听力复习词-dependable",
     "word": "dependable",
     "phonetic": "",
-    "meaning": "可靠的",
+    "meaning": "可靠的；可信赖的",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "dependable",
-    "zh": "可靠的",
-    "section": "口语/听力复习词"
+    "zh": "可靠的；可信赖的",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-depend-on",
@@ -4393,13 +4410,14 @@
     "id": "口语-听力复习词-habitat",
     "word": "habitat",
     "phonetic": "",
-    "meaning": "栖息地",
+    "meaning": "栖息地；生境",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "habitat",
-    "zh": "栖息地",
-    "section": "口语/听力复习词"
+    "zh": "栖息地；生境",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-founder",
@@ -4431,13 +4449,14 @@
     "id": "口语-听力复习词-mountain",
     "word": "mountain",
     "phonetic": "",
-    "meaning": "山",
+    "meaning": "山；山脉；大量",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "mountain",
-    "zh": "山",
-    "section": "口语/听力复习词"
+    "zh": "山；山脉；大量",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-proper",
@@ -4543,37 +4562,40 @@
     "id": "口语-听力复习词-appearance",
     "word": "appearance",
     "phonetic": "",
-    "meaning": "外表",
+    "meaning": "外表；出现",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "appearance",
-    "zh": "外表",
-    "section": "口语/听力复习词"
+    "zh": "外表；出现",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-propose",
     "word": "propose",
     "phonetic": "",
-    "meaning": "提议",
+    "meaning": "提议；提出；求婚",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "propose",
-    "zh": "提议",
-    "section": "口语/听力复习词"
+    "zh": "提议；提出；求婚",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-proposal",
     "word": "proposal",
     "phonetic": "",
-    "meaning": "提议；提案",
+    "meaning": "提议；提案；方案",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "proposal",
-    "zh": "提议；提案",
-    "section": "口语/听力复习词"
+    "zh": "提议；提案；方案",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-on-purpose",
@@ -4591,61 +4613,66 @@
     "id": "口语-听力复习词-contain",
     "word": "contain",
     "phonetic": "",
-    "meaning": "包含",
+    "meaning": "包含；容纳；控制",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "contain",
-    "zh": "包含",
-    "section": "口语/听力复习词"
+    "zh": "包含；容纳；控制",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-include",
     "word": "include",
     "phonetic": "",
-    "meaning": "包含",
+    "meaning": "包含；包括",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "include",
-    "zh": "包含",
-    "section": "口语/听力复习词"
+    "zh": "包含；包括",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-convince",
     "word": "convince",
     "phonetic": "",
-    "meaning": "使确信",
+    "meaning": "使确信；说服",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "convince",
-    "zh": "使确信",
-    "section": "口语/听力复习词"
+    "zh": "使确信；说服",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-financial",
     "word": "financial",
     "phonetic": "",
-    "meaning": "财务的",
+    "meaning": "财务的；金融的",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "financial",
-    "zh": "财务的",
-    "section": "口语/听力复习词"
+    "zh": "财务的；金融的",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-advise",
     "word": "advise",
     "phonetic": "",
-    "meaning": "建议",
+    "meaning": "建议；劝告",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "advise",
-    "zh": "建议",
-    "section": "口语/听力复习词"
+    "zh": "建议；劝告",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-advance",
@@ -4687,13 +4714,14 @@
     "id": "口语-听力复习词-label",
     "word": "label",
     "phonetic": "",
-    "meaning": "标签",
+    "meaning": "标签；标记",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "label",
-    "zh": "标签",
-    "section": "口语/听力复习词"
+    "zh": "标签；标记",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-cognitive",
@@ -4735,13 +4763,14 @@
     "id": "口语-听力复习词-overlook",
     "word": "overlook",
     "phonetic": "",
-    "meaning": "忽视",
+    "meaning": "忽视；俯瞰",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "overlook",
-    "zh": "忽视",
-    "section": "口语/听力复习词"
+    "zh": "忽视；俯瞰",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-accept",
@@ -4783,13 +4812,14 @@
     "id": "口语-听力复习词-motivate",
     "word": "motivate",
     "phonetic": "",
-    "meaning": "激励",
+    "meaning": "激励；成为动机",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "motivate",
-    "zh": "激励",
-    "section": "口语/听力复习词"
+    "zh": "激励；成为动机",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-summary",
