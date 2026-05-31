@@ -9,7 +9,8 @@
     "category": "听力词汇",
     "en": "data",
     "zh": "数据；资料",
-    "section": "听力词汇"
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-summarize",
@@ -506,7 +507,8 @@
     "category": "听力词汇",
     "en": "asthma",
     "zh": "哮喘",
-    "section": "听力词汇"
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-medicine",
@@ -722,7 +724,8 @@
     "category": "听力词汇",
     "en": "awfully",
     "zh": "非常；极其",
-    "section": "听力词汇"
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-psychology",
@@ -734,7 +737,8 @@
     "category": "听力词汇",
     "en": "psychology",
     "zh": "心理学",
-    "section": "听力词汇"
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-insight",
@@ -1046,7 +1050,8 @@
     "category": "听力词汇",
     "en": "politely",
     "zh": "有礼貌地",
-    "section": "听力词汇"
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-especially",
@@ -1058,7 +1063,8 @@
     "category": "听力词汇",
     "en": "especially",
     "zh": "尤其",
-    "section": "听力词汇"
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-registrar",
@@ -1165,7 +1171,8 @@
     "category": "听力词汇",
     "en": "lab",
     "zh": "实验室",
-    "section": "听力词汇"
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-quite",
@@ -1245,7 +1252,8 @@
     "category": "动物与演化",
     "en": "whale",
     "zh": "鲸",
-    "section": "动物与演化"
+    "section": "动物与演化",
+    "meaningReviewed": true
   },
   {
     "id": "动物与演化-mammal",
@@ -1257,7 +1265,8 @@
     "category": "动物与演化",
     "en": "mammal",
     "zh": "哺乳动物",
-    "section": "动物与演化"
+    "section": "动物与演化",
+    "meaningReviewed": true
   },
   {
     "id": "动物与演化-blowhole",
@@ -1426,7 +1435,8 @@
     "category": "动物与演化",
     "en": "archaeocete",
     "zh": "古鲸",
-    "section": "动物与演化"
+    "section": "动物与演化",
+    "meaningReviewed": true
   },
   {
     "id": "动物与演化-modern",
@@ -1672,7 +1682,8 @@
     "category": "学术阅读常见词",
     "en": "scarce",
     "zh": "稀少的；缺乏的",
-    "section": "学术阅读常见词"
+    "section": "学术阅读常见词",
+    "meaningReviewed": true
   },
   {
     "id": "学术阅读常见词-valuable",
@@ -5002,19 +5013,21 @@
     "category": "口语/听力复习词",
     "en": "it takes two to tango",
     "zh": "一个巴掌拍不响；双方都有责任",
-    "section": "口语/听力复习词"
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-innocent",
     "word": "innocent",
     "phonetic": "",
-    "meaning": "无辜的",
+    "meaning": "无辜的；天真的",
     "example": "",
     "difficulty": "",
     "category": "口语/听力复习词",
     "en": "innocent",
-    "zh": "无辜的",
-    "section": "口语/听力复习词"
+    "zh": "无辜的；天真的",
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-value",
@@ -5169,7 +5182,8 @@
     "category": "口语/听力复习词",
     "en": "freedom",
     "zh": "自由",
-    "section": "口语/听力复习词"
+    "section": "口语/听力复习词",
+    "meaningReviewed": true
   },
   {
     "id": "口语-听力复习词-personable",
@@ -5285,7 +5299,8 @@
     "category": "易混词",
     "en": "desert",
     "zh": "沙漠",
-    "section": "易混词"
+    "section": "易混词",
+    "meaningReviewed": true
   },
   {
     "id": "易混词-dessert",
@@ -5297,7 +5312,8 @@
     "category": "易混词",
     "en": "dessert",
     "zh": "甜点",
-    "section": "易混词"
+    "section": "易混词",
+    "meaningReviewed": true
   },
   {
     "id": "易混词-sensible",
