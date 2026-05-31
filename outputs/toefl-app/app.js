@@ -293,9 +293,23 @@
 
   function isValidSpellingItem(item) {
     const word = String(item?.en || item?.word || "").trim();
-    if (!word || word.length > 40) return false;
+    if (!word || word.length > 70) return false;
     if (/[=\u3400-\u9fff；;/]/.test(word)) return false;
-    return /^[a-zA-Z][a-zA-Z' -]*[a-zA-Z.]?$/.test(word);
+    if (isCompleteSentence(word)) return false;
+    return /^[a-zA-Z][a-zA-Z' -]*(?:[a-zA-Z]|\.\.\.)$/.test(word);
+  }
+
+  function isCompleteSentence(text) {
+    const value = String(text || "").trim();
+    if (value.endsWith("...")) return value.split(/\s+/).length >= 8;
+    return /[.!?]$/.test(value) || value.split(/\s+/).length >= 8;
+  }
+
+  function isDictationText(text) {
+    const value = String(text || "").trim();
+    if (!/[a-z]/i.test(value)) return false;
+    if (/[=\u3400-\u9fff；;]/.test(value)) return false;
+    return value.split(/\s+/).length >= 2 || isCompleteSentence(value);
   }
 
   function spellingPool() {
@@ -318,22 +332,31 @@
   }
 
   function buildDictationPool() {
-    if (data.dictation?.length) {
-      return data.dictation.filter((item) => item.text);
-    }
-    const phrases = entries
-      .filter((item) => item.en.split(/\s+/).length >= 2)
+    const sourceDictation = (data.dictation || [])
+      .filter((item) => isDictationText(item.text))
       .map((item) => ({
+        ...item,
+        section: item.section || item.category || item.source || "听写材料"
+      }));
+    const wordPhrases = entries
+      .filter((item) => isDictationText(item.en))
+      .map((item) => ({
+        id: `word-dictation-${item.id}`,
         text: item.en,
         section: item.section,
         hint: item.zh
       }));
-    const prompts = (data.speaking || []).map((item) => ({
-      text: item.prompt,
-      section: "口语题目",
-      hint: item.targets.join(", ")
-    }));
-    return [...phrases, ...prompts].filter((item) => item.text);
+    return uniqueByText([...sourceDictation, ...wordPhrases]);
+  }
+
+  function uniqueByText(items) {
+    const seen = new Set();
+    return items.filter((item) => {
+      const key = String(item.text || "").toLowerCase().trim();
+      if (!key || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
   }
 
   function prioritizeDictation(pool) {
