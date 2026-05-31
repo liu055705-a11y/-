@@ -7,7 +7,7 @@ window.TOEFL_DATA_READY = Promise.all([
   const entries = words.map((item) => ({
     ...item,
     en: item.en || item.word,
-    zh: item.zh || item.meaning,
+    zh: item.meaning || item.zh,
     section: item.section || item.category || "综合"
   }));
 

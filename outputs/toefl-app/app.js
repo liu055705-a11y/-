@@ -196,13 +196,15 @@
     state.progress.stats.dictationPractice ||= 0;
     for (const [key, item] of Object.entries(state.progress.wrong)) {
       const type = item.type || "单词";
+      const entry = findEntryById(item.id || key);
       state.progress.wrong[key] = {
         id: item.id || key,
         type,
         at: item.at || Date.now(),
-        en: item.en || item.text || key,
-        zh: item.zh || item.original || item.hint || "",
-        section: item.section || type,
+        en: item.en || item.text || entry?.en || key,
+        zh: item.zh || item.original || item.hint || entry?.zh || "",
+        section: item.section || entry?.section || type,
+        partOfSpeech: item.partOfSpeech || entry?.partOfSpeech || "",
         count: item.count || 1
       };
     }
@@ -552,6 +554,7 @@
       en: item.en,
       zh: item.zh,
       section: item.section,
+      partOfSpeech: item.partOfSpeech || "",
       count: (previous.count || 0) + 1
     };
     addTomorrowReview({
@@ -607,6 +610,18 @@
     return type === "dictation" ? "听写" : type === "spelling" ? "拼写" : "单词";
   }
 
+  function findEntryById(id) {
+    return entries.find((entry) => entry.id === id);
+  }
+
+  function partLabel(item) {
+    return `词性：${item?.partOfSpeech || "未标注"}`;
+  }
+
+  function sourceLabel(item) {
+    return `来源标签：${item?.section || item?.category || "未标注"}`;
+  }
+
   function renderQuiz() {
     const item = currentQuizItem();
     el.quizIndex.textContent = `${state.quizIndex + 1} / ${state.quiz.length || 5}`;
@@ -624,7 +639,7 @@
     el.spellingSection.textContent = item.section;
     updateSpellingStats();
     el.spellingMeaning.textContent = item.zh;
-    el.spellingExample.textContent = item.example || "暂无例句";
+    el.spellingExample.textContent = `${partLabel(item)} · ${item.example || "暂无例句"}`;
     el.spellingInput.value = "";
     el.spellingInput.disabled = false;
     document.querySelector("#checkSpelling").disabled = false;
@@ -649,7 +664,7 @@
         <div>
           <small>${escapeHtml(item.type || "单词")}</small>
           <strong>${escapeHtml(item.en)}</strong>
-          <small>${escapeHtml(item.zh || "")} · ${escapeHtml(item.section || "")}</small>
+          <small>${escapeHtml(item.zh || "")} · ${escapeHtml(partLabel(item))} · ${escapeHtml(sourceLabel(item))}</small>
           <small>错误 ${item.count || 1} 次 · 最近 ${formatDateTime(item.at)}</small>
         </div>
         <div class="wrong-actions">
@@ -685,8 +700,8 @@
       label: "单词/短语",
       speak: item.en,
       title: item.en,
-      meta: [item.zh, item.section, item.difficulty].filter(Boolean).join(" · "),
-      search: [item.en, item.zh, item.section, item.difficulty].join(" ")
+      meta: [item.zh, partLabel(item), sourceLabel(item), item.difficulty].filter(Boolean).join(" · "),
+      search: [item.en, item.zh, item.section, item.difficulty, item.partOfSpeech].join(" ")
     }));
     const dictationItems = (data.dictation || []).map((item) => ({
       type: "dictation",
@@ -849,7 +864,7 @@
     document.querySelector("#showBtn").addEventListener("click", () => {
       const item = currentQuizItem();
       el.feedback.className = "feedback";
-      el.feedback.textContent = `答案：${termBack(item)}`;
+      el.feedback.textContent = `答案：${termBack(item)} · ${partLabel(item)}`;
       state.quizAnswerShown = true;
       document.querySelector("#knowBtn").disabled = false;
       document.querySelector("#missBtn").disabled = false;
@@ -995,12 +1010,12 @@
       state.spellingCorrect += 1;
       state.progress.stats.spellingCorrect = (state.progress.stats.spellingCorrect || 0) + 1;
       el.spellingFeedback.className = "feedback good";
-      el.spellingFeedback.textContent = "拼写正确。建议选择“我会了”。";
+      el.spellingFeedback.textContent = `拼写正确。${partLabel(item)}。建议选择“我会了”。`;
     } else {
       state.spellingWrong += 1;
       state.progress.stats.spellingWrong = (state.progress.stats.spellingWrong || 0) + 1;
       el.spellingFeedback.className = "feedback bad";
-      el.spellingFeedback.textContent = `拼写错误。正确单词：${item.en}。建议选择“还不会”。`;
+      el.spellingFeedback.textContent = `拼写错误。正确单词：${item.en}。${partLabel(item)}。建议选择“还不会”。`;
     }
     recordPractice("spelling");
     updateSpellingStats();
@@ -1038,6 +1053,7 @@
         en: item.en,
         zh: item.zh,
         section: item.section,
+        partOfSpeech: item.partOfSpeech || "",
         count: (previous.count || 0) + 1
       };
       addTomorrowReview({
