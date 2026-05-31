@@ -762,13 +762,14 @@
     "id": "听力词汇-instinct",
     "word": "instinct",
     "phonetic": "",
-    "meaning": "本能",
+    "meaning": "本能；直觉",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "instinct",
-    "zh": "本能",
-    "section": "听力词汇"
+    "zh": "本能；直觉",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-correct",
@@ -1188,13 +1189,14 @@
     "id": "听力词汇-perhaps",
     "word": "perhaps",
     "phonetic": "",
-    "meaning": "可能",
+    "meaning": "也许；可能",
     "example": "",
     "difficulty": "",
     "category": "听力词汇",
     "en": "perhaps",
-    "zh": "可能",
-    "section": "听力词汇"
+    "zh": "也许；可能",
+    "section": "听力词汇",
+    "meaningReviewed": true
   },
   {
     "id": "听力词汇-appreciate",
@@ -1368,13 +1370,14 @@
     "id": "动物与演化-vestigial",
     "word": "vestigial",
     "phonetic": "",
-    "meaning": "残留的；退化的",
+    "meaning": "残留的；退化的；遗留的",
     "example": "",
     "difficulty": "",
     "category": "动物与演化",
     "en": "vestigial",
-    "zh": "残留的；退化的",
-    "section": "动物与演化"
+    "zh": "残留的；退化的；遗留的",
+    "section": "动物与演化",
+    "meaningReviewed": true
   },
   {
     "id": "动物与演化-flesh-eating",
@@ -1456,13 +1459,14 @@
     "id": "动物与演化-propulsion",
     "word": "propulsion",
     "phonetic": "",
-    "meaning": "推进力；推进",
+    "meaning": "推进；推进力；推动",
     "example": "",
     "difficulty": "",
     "category": "动物与演化",
     "en": "propulsion",
-    "zh": "推进力；推进",
-    "section": "动物与演化"
+    "zh": "推进；推进力；推动",
+    "section": "动物与演化",
+    "meaningReviewed": true
   },
   {
     "id": "学术阅读常见词-obvious",
@@ -2040,13 +2044,14 @@
     "id": "阅读词汇-soil",
     "word": "soil",
     "phonetic": "",
-    "meaning": "土壤",
+    "meaning": "土壤；土地",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "soil",
-    "zh": "土壤",
-    "section": "阅读词汇"
+    "zh": "土壤；土地",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-increased",
@@ -2468,13 +2473,14 @@
     "id": "阅读词汇-dried",
     "word": "dried",
     "phonetic": "",
-    "meaning": "干的",
+    "meaning": "干的；干燥的；晒干的",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "dried",
-    "zh": "干的",
-    "section": "阅读词汇"
+    "zh": "干的；干燥的；晒干的",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-factor",
@@ -2628,13 +2634,14 @@
     "id": "阅读词汇-erosion",
     "word": "erosion",
     "phonetic": "",
-    "meaning": "侵蚀",
+    "meaning": "侵蚀；腐蚀；流失",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "erosion",
-    "zh": "侵蚀",
-    "section": "阅读词汇"
+    "zh": "侵蚀；腐蚀；流失",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-track",
@@ -2654,13 +2661,14 @@
     "id": "阅读词汇-susceptible",
     "word": "susceptible",
     "phonetic": "",
-    "meaning": "易受影响的",
+    "meaning": "易受影响的；易感染的",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "susceptible",
-    "zh": "易受影响的",
-    "section": "阅读词汇"
+    "zh": "易受影响的；易感染的",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-overgrazing",
@@ -2774,13 +2782,14 @@
     "id": "阅读词汇-firewood",
     "word": "firewood",
     "phonetic": "",
-    "meaning": "木柴",
+    "meaning": "木柴；柴火",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "firewood",
-    "zh": "木柴",
-    "section": "阅读词汇"
+    "zh": "木柴；柴火",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-vulnerable",
@@ -2923,13 +2932,14 @@
     "id": "阅读词汇-projector",
     "word": "projector",
     "phonetic": "",
-    "meaning": "投影仪",
+    "meaning": "投影仪；放映机",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "projector",
-    "zh": "投影仪",
-    "section": "阅读词汇"
+    "zh": "投影仪；放映机",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-screen",
@@ -3043,13 +3053,14 @@
     "id": "阅读词汇-arcade",
     "word": "arcade",
     "phonetic": "",
-    "meaning": "商场；拱廊",
+    "meaning": "拱廊；商场；游艺厅",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "arcade",
-    "zh": "商场；拱廊",
-    "section": "阅读词汇"
+    "zh": "拱廊；商场；游艺厅",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-mode",
@@ -3095,13 +3106,14 @@
     "id": "阅读词汇-recording",
     "word": "recording",
     "phonetic": "",
-    "meaning": "录音",
+    "meaning": "录音；录像；记录",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "recording",
-    "zh": "录音",
-    "section": "阅读词汇"
+    "zh": "录音；录像；记录",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-tubes",
@@ -3133,13 +3145,14 @@
     "id": "阅读词汇-similar",
     "word": "similar",
     "phonetic": "",
-    "meaning": "相似的",
+    "meaning": "相似的；类似的",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "similar",
-    "zh": "相似的",
-    "section": "阅读词汇"
+    "zh": "相似的；类似的",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-rough",
@@ -3159,13 +3172,14 @@
     "id": "阅读词汇-apiece",
     "word": "apiece",
     "phonetic": "",
-    "meaning": "各自地",
+    "meaning": "每个；每件",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "apiece",
-    "zh": "各自地",
-    "section": "阅读词汇"
+    "zh": "每个；每件",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-cost",
@@ -3199,13 +3213,14 @@
     "id": "阅读词汇-describe",
     "word": "describe",
     "phonetic": "",
-    "meaning": "描述",
+    "meaning": "描述；说明；形容",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "describe",
-    "zh": "描述",
-    "section": "阅读词汇"
+    "zh": "描述；说明；形容",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-contrast",
@@ -3239,13 +3254,14 @@
     "id": "阅读词汇-illustrate",
     "word": "illustrate",
     "phonetic": "",
-    "meaning": "说明",
+    "meaning": "说明；阐明；举例说明",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "illustrate",
-    "zh": "说明",
-    "section": "阅读词汇"
+    "zh": "说明；阐明；举例说明",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-logically",
@@ -3331,25 +3347,27 @@
     "id": "阅读词汇-unless",
     "word": "unless",
     "phonetic": "",
-    "meaning": "除非",
+    "meaning": "除非；如果不",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "unless",
-    "zh": "除非",
-    "section": "阅读词汇"
+    "zh": "除非；如果不",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-machine",
     "word": "machine",
     "phonetic": "",
-    "meaning": "机器",
+    "meaning": "机器；机械装置",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "machine",
-    "zh": "机器",
-    "section": "阅读词汇"
+    "zh": "机器；机械装置",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-readily",
@@ -3369,13 +3387,14 @@
     "id": "阅读词汇-frequently",
     "word": "frequently",
     "phonetic": "",
-    "meaning": "经常地",
+    "meaning": "经常地；频繁地",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "frequently",
-    "zh": "经常地",
-    "section": "阅读词汇"
+    "zh": "经常地；频繁地",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-easily",
@@ -3405,37 +3424,40 @@
     "id": "阅读词汇-obviously",
     "word": "obviously",
     "phonetic": "",
-    "meaning": "显然地",
+    "meaning": "显然地；明显地",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "obviously",
-    "zh": "显然地",
-    "section": "阅读词汇"
+    "zh": "显然地；明显地",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-a-handful-of",
     "word": "a handful of",
     "phonetic": "",
-    "meaning": "少量的",
+    "meaning": "少量；一小部分",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "a handful of",
-    "zh": "少量的",
-    "section": "阅读词汇"
+    "zh": "少量；一小部分",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-charging-admission",
     "word": "charging admission",
     "phonetic": "",
-    "meaning": "收入场费",
+    "meaning": "收取入场费",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "charging admission",
-    "zh": "收入场费",
-    "section": "阅读词汇"
+    "zh": "收取入场费",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-such-as",
@@ -3453,13 +3475,14 @@
     "id": "阅读词汇-assistance",
     "word": "assistance",
     "phonetic": "",
-    "meaning": "帮助",
+    "meaning": "帮助；援助",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "assistance",
-    "zh": "帮助",
-    "section": "阅读词汇"
+    "zh": "帮助；援助",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-former",
@@ -3479,37 +3502,40 @@
     "id": "阅读词汇-perfected",
     "word": "perfected",
     "phonetic": "",
-    "meaning": "完善",
+    "meaning": "完善的；改进的；已完善",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "perfected",
-    "zh": "完善",
-    "section": "阅读词汇"
+    "zh": "完善的；改进的；已完善",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-makeshift",
     "word": "makeshift",
     "phonetic": "",
-    "meaning": "临时设计的",
+    "meaning": "临时的；临时替代的",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "makeshift",
-    "zh": "临时设计的",
-    "section": "阅读词汇"
+    "zh": "临时的；临时替代的",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-storefront",
     "word": "storefront",
     "phonetic": "",
-    "meaning": "店面",
+    "meaning": "店面；店铺正面",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "storefront",
-    "zh": "店面",
-    "section": "阅读词汇"
+    "zh": "店面；店铺正面",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-fairground",
@@ -3527,25 +3553,27 @@
     "id": "阅读词汇-amusement",
     "word": "amusement",
     "phonetic": "",
-    "meaning": "娱乐",
+    "meaning": "娱乐；消遣；乐趣",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "amusement",
-    "zh": "娱乐",
-    "section": "阅读词汇"
+    "zh": "娱乐；消遣；乐趣",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-audience",
     "word": "audience",
     "phonetic": "",
-    "meaning": "观众",
+    "meaning": "观众；听众；读者",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "audience",
-    "zh": "观众",
-    "section": "阅读词汇"
+    "zh": "观众；听众；读者",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-advent",
@@ -3565,25 +3593,27 @@
     "id": "阅读词汇-motion",
     "word": "motion",
     "phonetic": "",
-    "meaning": "运动",
+    "meaning": "运动；移动；动作",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "motion",
-    "zh": "运动",
-    "section": "阅读词汇"
+    "zh": "运动；移动；动作",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-ultimate",
     "word": "ultimate",
     "phonetic": "",
-    "meaning": "最终的",
+    "meaning": "最终的；终极的；根本的",
     "example": "",
     "difficulty": "",
     "category": "阅读词汇",
     "en": "ultimate",
-    "zh": "最终的",
-    "section": "阅读词汇"
+    "zh": "最终的；终极的；根本的",
+    "section": "阅读词汇",
+    "meaningReviewed": true
   },
   {
     "id": "阅读词汇-differ",
