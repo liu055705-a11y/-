@@ -10,7 +10,8 @@
     "en": "data",
     "zh": "数据；资料",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-summarize",
@@ -24,7 +25,8 @@
     "zh": "总结",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "v."
   },
   {
     "id": "听力词汇-graph",
@@ -37,7 +39,8 @@
     "en": "graph",
     "zh": "图表；曲线图",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-stuff",
@@ -50,7 +53,8 @@
     "en": "stuff",
     "zh": "东西；材料；填充；塞满",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-expert",
@@ -63,7 +67,8 @@
     "en": "expert",
     "zh": "专家；熟练的",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-casual",
@@ -76,7 +81,8 @@
     "en": "casual",
     "zh": "休闲的；随意的；非正式的；偶然的",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adj."
   },
   {
     "id": "听力词汇-rule-of-thumb",
@@ -103,7 +109,8 @@
     "zh": "表明",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "v."
   },
   {
     "id": "听力词汇-evolution",
@@ -116,7 +123,8 @@
     "en": "evolution",
     "zh": "进化；演变；发展",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-approach",
@@ -130,7 +138,8 @@
     "zh": "方法；接近",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./v."
   },
   {
     "id": "听力词汇-chart",
@@ -143,7 +152,8 @@
     "en": "chart",
     "zh": "图表；绘制；记录",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-method",
@@ -156,7 +166,8 @@
     "en": "method",
     "zh": "方法；方式",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-reference",
@@ -170,7 +181,8 @@
     "zh": "参考",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./v."
   },
   {
     "id": "听力词汇-publish",
@@ -184,7 +196,8 @@
     "zh": "出版",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "v."
   },
   {
     "id": "听力词汇-management",
@@ -198,7 +211,8 @@
     "zh": "管理",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-tool",
@@ -211,7 +225,8 @@
     "en": "tool",
     "zh": "工具；方法；手段",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-regional",
@@ -224,7 +239,8 @@
     "en": "regional",
     "zh": "地区的；区域性的",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adj."
   },
   {
     "id": "听力词汇-journal",
@@ -237,7 +253,8 @@
     "en": "journal",
     "zh": "期刊；日志；日记",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-demonstrate",
@@ -251,7 +268,8 @@
     "zh": "证明",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "v."
   },
   {
     "id": "听力词汇-illustrate",
@@ -265,7 +283,8 @@
     "zh": "举例说明",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "v."
   },
   {
     "id": "听力词汇-emphasize",
@@ -278,7 +297,8 @@
     "en": "emphasize",
     "zh": "强调；重视",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "v."
   },
   {
     "id": "听力词汇-collect",
@@ -291,7 +311,8 @@
     "en": "collect",
     "zh": "收集；领取；聚集",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "v."
   },
   {
     "id": "听力词汇-publication",
@@ -305,7 +326,8 @@
     "zh": "出版物",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-length",
@@ -318,7 +340,8 @@
     "en": "length",
     "zh": "长度；时长；篇幅",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-encouragement",
@@ -331,7 +354,8 @@
     "en": "encouragement",
     "zh": "鼓励；支持",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-dispute",
@@ -345,7 +369,8 @@
     "zh": "争论",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./v."
   },
   {
     "id": "听力词汇-application",
@@ -359,7 +384,8 @@
     "zh": "申请；应用",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-separate",
@@ -373,7 +399,8 @@
     "zh": "单独的；分开的",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj./v."
   },
   {
     "id": "听力词汇-paragraph",
@@ -386,7 +413,8 @@
     "en": "paragraph",
     "zh": "段落；段",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-specify",
@@ -400,7 +428,8 @@
     "zh": "具体说明",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "v."
   },
   {
     "id": "听力词汇-statement",
@@ -414,7 +443,8 @@
     "zh": "声明；陈述",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-motivation",
@@ -428,7 +458,8 @@
     "zh": "动力",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-geology",
@@ -441,7 +472,8 @@
     "en": "geology",
     "zh": "地质学；地质",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-capture",
@@ -455,7 +487,8 @@
     "zh": "捕获",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "v."
   },
   {
     "id": "听力词汇-field",
@@ -468,7 +501,8 @@
     "en": "field",
     "zh": "领域；实地；田野；场地",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-personal",
@@ -482,7 +516,8 @@
     "zh": "个人的",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "听力词汇-overboard",
@@ -495,7 +530,8 @@
     "en": "go overboard",
     "zh": "做得过头；过分；过火",
     "section": "听力短语",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adv."
   },
   {
     "id": "听力词汇-asthma",
@@ -508,7 +544,8 @@
     "en": "asthma",
     "zh": "哮喘",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-medicine",
@@ -521,7 +558,8 @@
     "en": "medicine",
     "zh": "药物；医学",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-organization",
@@ -534,7 +572,8 @@
     "en": "organization",
     "zh": "组织；机构；组织方式",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-academic",
@@ -547,7 +586,8 @@
     "en": "academic",
     "zh": "学术的；学校的；学业的",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adj."
   },
   {
     "id": "听力词汇-influence",
@@ -561,7 +601,8 @@
     "zh": "影响",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./v."
   },
   {
     "id": "听力词汇-athletic",
@@ -574,7 +615,8 @@
     "en": "athletic",
     "zh": "运动的；健壮的",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adj."
   },
   {
     "id": "听力词汇-receive",
@@ -588,7 +630,8 @@
     "zh": "接收",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "v."
   },
   {
     "id": "听力词汇-major",
@@ -602,7 +645,8 @@
     "zh": "专业；主要的",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./adj."
   },
   {
     "id": "听力词汇-concern",
@@ -616,7 +660,8 @@
     "zh": "担心",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./v."
   },
   {
     "id": "听力词汇-assignment",
@@ -630,7 +675,8 @@
     "zh": "作业",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-entrepreneur",
@@ -643,7 +689,8 @@
     "en": "entrepreneur",
     "zh": "企业家；创业者",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-campus",
@@ -656,7 +703,8 @@
     "en": "campus",
     "zh": "校园；校区",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-contact",
@@ -670,7 +718,8 @@
     "zh": "联系",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./v."
   },
   {
     "id": "听力词汇-figure",
@@ -684,7 +733,8 @@
     "zh": "数字；人物；图形；认为",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-section",
@@ -698,7 +748,8 @@
     "zh": "部分",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-profile",
@@ -712,7 +763,8 @@
     "zh": "轮廓；简介",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-awfully",
@@ -725,7 +777,8 @@
     "en": "awfully",
     "zh": "非常；极其",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adv."
   },
   {
     "id": "听力词汇-psychology",
@@ -738,7 +791,8 @@
     "en": "psychology",
     "zh": "心理学",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-insight",
@@ -752,7 +806,8 @@
     "zh": "洞察",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-risky",
@@ -765,7 +820,8 @@
     "en": "risky",
     "zh": "有风险的；冒险的",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adj."
   },
   {
     "id": "听力词汇-instinct",
@@ -778,7 +834,8 @@
     "en": "instinct",
     "zh": "本能；直觉",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-correct",
@@ -792,7 +849,8 @@
     "zh": "正确的；改正",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj./v."
   },
   {
     "id": "听力词汇-assistance",
@@ -805,7 +863,8 @@
     "en": "assistance",
     "zh": "帮助；援助",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-schedule",
@@ -819,7 +878,8 @@
     "zh": "日程；时间安排；安排",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./v."
   },
   {
     "id": "听力词汇-inform",
@@ -833,7 +893,8 @@
     "zh": "通知",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "v."
   },
   {
     "id": "听力词汇-print",
@@ -847,7 +908,8 @@
     "zh": "打印；印刷",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./v."
   },
   {
     "id": "听力词汇-detail",
@@ -861,7 +923,8 @@
     "zh": "细节",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-typical",
@@ -944,7 +1007,8 @@
     "zh": "必然的；某个",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "听力词汇-respond-to",
@@ -971,7 +1035,8 @@
     "en": "advisor",
     "zh": "导师；顾问",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-sign-up",
@@ -998,7 +1063,8 @@
     "zh": "简介",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-journalism",
@@ -1011,7 +1077,8 @@
     "en": "journalism",
     "zh": "新闻业；新闻学",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-aware",
@@ -1025,7 +1092,8 @@
     "zh": "知道的",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "听力词汇-communicate",
@@ -1038,7 +1106,8 @@
     "en": "communicate",
     "zh": "交流；沟通；传递信息",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "v."
   },
   {
     "id": "听力词汇-politely",
@@ -1051,7 +1120,8 @@
     "en": "politely",
     "zh": "有礼貌地",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adv."
   },
   {
     "id": "听力词汇-especially",
@@ -1064,7 +1134,8 @@
     "en": "especially",
     "zh": "尤其",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adv."
   },
   {
     "id": "听力词汇-registrar",
@@ -1077,7 +1148,8 @@
     "en": "registrar",
     "zh": "教务主任；注册主管；登记员",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-permission",
@@ -1091,7 +1163,8 @@
     "zh": "许可；允许",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-fill-out",
@@ -1117,7 +1190,8 @@
     "en": "signature",
     "zh": "签名；署名；特征",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-senior",
@@ -1131,7 +1205,8 @@
     "zh": "毕业班学生；高级的",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./adj."
   },
   {
     "id": "听力词汇-fulfill",
@@ -1145,7 +1220,8 @@
     "zh": "履行；满足",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "v."
   },
   {
     "id": "听力词汇-general",
@@ -1159,7 +1235,8 @@
     "zh": "总体的；一般的",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "听力词汇-lab",
@@ -1172,7 +1249,8 @@
     "en": "lab",
     "zh": "实验室",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "听力词汇-quite",
@@ -1186,7 +1264,8 @@
     "zh": "相当",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adv."
   },
   {
     "id": "听力词汇-tight",
@@ -1199,7 +1278,8 @@
     "en": "tight",
     "zh": "紧的；时间紧的；紧张的；严密的",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adj."
   },
   {
     "id": "听力词汇-perhaps",
@@ -1212,7 +1292,8 @@
     "en": "perhaps",
     "zh": "也许；可能",
     "section": "听力词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adv."
   },
   {
     "id": "听力词汇-appreciate",
@@ -1226,7 +1307,8 @@
     "zh": "欣赏；感激",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "v."
   },
   {
     "id": "听力词汇-situation",
@@ -1240,7 +1322,8 @@
     "zh": "情况",
     "section": "听力词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "动物与演化-whale",
@@ -1253,7 +1336,8 @@
     "en": "whale",
     "zh": "鲸",
     "section": "动物与演化",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "动物与演化-mammal",
@@ -1266,7 +1350,8 @@
     "en": "mammal",
     "zh": "哺乳动物",
     "section": "动物与演化",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "动物与演化-blowhole",
@@ -1279,7 +1364,8 @@
     "en": "blowhole",
     "zh": "呼吸孔；喷水孔",
     "section": "动物与演化",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "动物与演化-limb",
@@ -1292,7 +1378,8 @@
     "en": "limb",
     "zh": "肢；臂；腿",
     "section": "动物与演化",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "动物与演化-functional",
@@ -1306,7 +1393,8 @@
     "zh": "功能性的",
     "section": "动物与演化",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "动物与演化-extinct",
@@ -1319,7 +1407,8 @@
     "en": "extinct",
     "zh": "灭绝的；绝种的",
     "section": "动物与演化",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adj."
   },
   {
     "id": "动物与演化-marine",
@@ -1332,7 +1421,8 @@
     "en": "marine",
     "zh": "海洋的；海生的",
     "section": "动物与演化",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adj."
   },
   {
     "id": "动物与演化-fossil",
@@ -1345,7 +1435,8 @@
     "en": "fossil",
     "zh": "化石；化石的",
     "section": "动物与演化",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n./adj."
   },
   {
     "id": "动物与演化-skeleton",
@@ -1358,7 +1449,8 @@
     "en": "skeleton",
     "zh": "骨架；骨骼",
     "section": "动物与演化",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "动物与演化-toe",
@@ -1371,7 +1463,8 @@
     "en": "toe",
     "zh": "脚趾；趾",
     "section": "动物与演化",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "动物与演化-tail",
@@ -1384,7 +1477,8 @@
     "en": "tail",
     "zh": "尾巴；尾部",
     "section": "动物与演化",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "动物与演化-vestigial",
@@ -1397,7 +1491,8 @@
     "en": "vestigial",
     "zh": "残留的；退化的；遗留的",
     "section": "动物与演化",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adj."
   },
   {
     "id": "动物与演化-flesh-eating",
@@ -1410,7 +1505,8 @@
     "en": "flesh-eating",
     "zh": "食肉的；肉食性的；吃肉的",
     "section": "动物与演化",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adj."
   },
   {
     "id": "动物与演化-ancestor",
@@ -1423,7 +1519,8 @@
     "en": "ancestor",
     "zh": "祖先；祖先物种",
     "section": "动物与演化",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "动物与演化-archaeocete",
@@ -1436,7 +1533,8 @@
     "en": "archaeocete",
     "zh": "古鲸",
     "section": "动物与演化",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "动物与演化-modern",
@@ -1449,7 +1547,8 @@
     "en": "modern",
     "zh": "现代的；近代的；新式的",
     "section": "动物与演化",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adj."
   },
   {
     "id": "动物与演化-adapt-to",
@@ -1476,7 +1575,8 @@
     "zh": "特征",
     "section": "动物与演化",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./v."
   },
   {
     "id": "动物与演化-propulsion",
@@ -1489,7 +1589,8 @@
     "en": "propulsion",
     "zh": "推进；推进力；推动",
     "section": "动物与演化",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "学术阅读常见词-obvious",
@@ -1503,7 +1604,8 @@
     "zh": "显然的",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "学术阅读常见词-absence",
@@ -1517,7 +1619,8 @@
     "zh": "缺席；不存在",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "学术阅读常见词-presence",
@@ -1531,7 +1634,8 @@
     "zh": "出席；存在",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "学术阅读常见词-present",
@@ -1545,7 +1649,8 @@
     "zh": "存在的；目前的；呈现",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj./v."
   },
   {
     "id": "学术阅读常见词-disguise",
@@ -1559,7 +1664,8 @@
     "zh": "伪装",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./v."
   },
   {
     "id": "学术阅读常见词-envision",
@@ -1573,7 +1679,8 @@
     "zh": "想象",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "v."
   },
   {
     "id": "学术阅读常见词-record",
@@ -1587,7 +1694,8 @@
     "zh": "记录；记载",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./v."
   },
   {
     "id": "学术阅读常见词-missing",
@@ -1601,7 +1709,8 @@
     "zh": "缺失的",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "学术阅读常见词-intermediate",
@@ -1615,7 +1724,8 @@
     "zh": "中间的",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "学术阅读常见词-discovery",
@@ -1629,7 +1739,8 @@
     "zh": "发现",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "学术阅读常见词-scientist",
@@ -1642,7 +1753,8 @@
     "en": "scientist",
     "zh": "科学家；科研人员",
     "section": "学术阅读常见词",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "学术阅读常见词-precious",
@@ -1656,7 +1768,8 @@
     "zh": "珍贵的",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "学术阅读常见词-exact",
@@ -1670,7 +1783,8 @@
     "zh": "准确的",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "学术阅读常见词-scarce",
@@ -1683,7 +1797,8 @@
     "en": "scarce",
     "zh": "稀少的；缺乏的",
     "section": "学术阅读常见词",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adj."
   },
   {
     "id": "学术阅读常见词-valuable",
@@ -1697,7 +1812,8 @@
     "zh": "有价值的",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "学术阅读常见词-initial",
@@ -1711,7 +1827,8 @@
     "zh": "初始的",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "学术阅读常见词-structure",
@@ -1725,7 +1842,8 @@
     "zh": "结构",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./v."
   },
   {
     "id": "学术阅读常见词-adaptation",
@@ -1739,7 +1857,8 @@
     "zh": "适应；改编",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "学术阅读常见词-skull",
@@ -1752,7 +1871,8 @@
     "en": "skull",
     "zh": "头骨；颅骨",
     "section": "学术阅读常见词",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "学术阅读常见词-shape",
@@ -1766,7 +1886,8 @@
     "zh": "形状",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./v."
   },
   {
     "id": "学术阅读常见词-location",
@@ -1779,7 +1900,8 @@
     "en": "location",
     "zh": "位置；地点",
     "section": "学术阅读常见词",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "学术阅读常见词-located",
@@ -1792,7 +1914,8 @@
     "en": "located",
     "zh": "位于；坐落于；位于某处的",
     "section": "学术阅读常见词",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adj./v."
   },
   {
     "id": "学术阅读常见词-exposed",
@@ -1806,7 +1929,8 @@
     "zh": "暴露的",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj./v."
   },
   {
     "id": "学术阅读常见词-visible",
@@ -1819,7 +1943,8 @@
     "en": "visible",
     "zh": "可见的；看得见的；明显的",
     "section": "学术阅读常见词",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adj."
   },
   {
     "id": "学术阅读常见词-identified",
@@ -1833,7 +1958,8 @@
     "zh": "被识别的",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj./v."
   },
   {
     "id": "学术阅读常见词-limited",
@@ -1847,7 +1973,8 @@
     "zh": "有限的",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "学术阅读常见词-lack",
@@ -1861,7 +1988,8 @@
     "zh": "缺乏",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./v."
   },
   {
     "id": "学术阅读常见词-enlarge",
@@ -1874,7 +2002,8 @@
     "en": "enlarge",
     "zh": "放大；扩大",
     "section": "学术阅读常见词",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "v."
   },
   {
     "id": "学术阅读常见词-receive",
@@ -1888,7 +2017,8 @@
     "zh": "接收",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "v."
   },
   {
     "id": "学术阅读常见词-shallow",
@@ -1902,7 +2032,8 @@
     "zh": "浅的",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "学术阅读常见词-major",
@@ -1916,7 +2047,8 @@
     "zh": "主要的",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj./n./v."
   },
   {
     "id": "学术阅读常见词-several-of",
@@ -1943,7 +2075,8 @@
     "zh": "部分",
     "section": "学术阅读常见词",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "阅读词汇-threatened",
@@ -1957,7 +2090,8 @@
     "zh": "受威胁的",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj./v."
   },
   {
     "id": "阅读词汇-restricted",
@@ -1971,7 +2105,8 @@
     "zh": "受限制的",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj./v."
   },
   {
     "id": "阅读词汇-endangered",
@@ -1984,7 +2119,8 @@
     "en": "endangered",
     "zh": "濒危的；濒临灭绝的；受威胁的",
     "section": "阅读词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adj."
   },
   {
     "id": "阅读词汇-prevented",
@@ -1998,7 +2134,8 @@
     "zh": "被阻止的；阻止",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "v."
   },
   {
     "id": "阅读词汇-rejected",
@@ -2012,7 +2149,8 @@
     "zh": "被拒绝的；拒绝",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "v."
   },
   {
     "id": "阅读词汇-loss",
@@ -2026,7 +2164,8 @@
     "zh": "损失；丧失",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "阅读词汇-natural",
@@ -2040,7 +2179,8 @@
     "zh": "自然的",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "阅读词汇-vegetation",
@@ -2053,7 +2193,8 @@
     "en": "vegetation",
     "zh": "植被；植物群",
     "section": "阅读词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "阅读词汇-consequence",
@@ -2067,7 +2208,8 @@
     "zh": "后果；结果",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "阅读词汇-soil",
@@ -2080,7 +2222,8 @@
     "en": "soil",
     "zh": "土壤；土地",
     "section": "阅读词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "阅读词汇-increased",
@@ -2094,7 +2237,8 @@
     "zh": "增加的；提高的；增大的",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj./v."
   },
   {
     "id": "阅读词汇-stony",
@@ -2107,7 +2251,8 @@
     "en": "stony",
     "zh": "多石的；石质的",
     "section": "阅读词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adj."
   },
   {
     "id": "阅读词汇-content",
@@ -2121,7 +2266,8 @@
     "zh": "内容；含量",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./adj."
   },
   {
     "id": "阅读词汇-reduced",
@@ -2135,7 +2281,8 @@
     "zh": "减少的",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj./v."
   },
   {
     "id": "阅读词汇-absorption",
@@ -2148,7 +2295,8 @@
     "en": "absorption",
     "zh": "吸收；吸收过程；吸收量",
     "section": "阅读词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "阅读词汇-runoff",
@@ -2161,7 +2309,8 @@
     "en": "runoff",
     "zh": "径流；流失水",
     "section": "阅读词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "阅读词汇-delicate",
@@ -2175,7 +2324,8 @@
     "zh": "脆弱的",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "阅读词汇-fragile",
@@ -2217,7 +2367,8 @@
     "zh": "复杂的；综合体；建筑群；复合体",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj./n."
   },
   {
     "id": "阅读词汇-period",
@@ -2231,7 +2382,8 @@
     "zh": "时期；阶段；周期；句号",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "阅读词汇-border",
@@ -2245,7 +2397,8 @@
     "zh": "边境",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./v."
   },
   {
     "id": "阅读词汇-adjust-to",
@@ -2447,7 +2600,8 @@
     "zh": "正确的；恰当的",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "阅读词汇-failure",
@@ -2529,7 +2683,8 @@
     "zh": "因素",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "阅读词汇-evaporation",
@@ -2624,7 +2779,8 @@
     "zh": "各种各样的",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "阅读词汇-involved",
@@ -2638,7 +2794,8 @@
     "zh": "有关的；参与的",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj./v."
   },
   {
     "id": "阅读词汇-effort",
@@ -2652,7 +2809,8 @@
     "zh": "努力",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "阅读词汇-accelerate",
@@ -2801,7 +2959,8 @@
     "zh": "常见的",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "阅读词汇-cattle",
@@ -2841,7 +3000,8 @@
     "zh": "脆弱的",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "阅读词汇-extensive",
@@ -2882,7 +3042,8 @@
     "zh": "营养物",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./adj."
   },
   {
     "id": "阅读词汇-semi-arid",
@@ -2937,7 +3098,8 @@
     "zh": "进化；发展",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "v."
   },
   {
     "id": "阅读词汇-purpose",
@@ -2965,7 +3127,8 @@
     "zh": "图像",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "阅读词汇-projector",
@@ -2978,7 +3141,8 @@
     "en": "projector",
     "zh": "投影仪；放映机",
     "section": "阅读词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "阅读词汇-screen",
@@ -2992,7 +3156,8 @@
     "zh": "屏幕",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./v."
   },
   {
     "id": "阅读词汇-device",
@@ -3006,7 +3171,8 @@
     "zh": "设备",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n."
   },
   {
     "id": "阅读词汇-parlor",
@@ -3033,7 +3199,8 @@
     "zh": "包含",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "v."
   },
   {
     "id": "阅读词汇-individual",
@@ -3047,7 +3214,8 @@
     "zh": "单独的",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj./n."
   },
   {
     "id": "阅读词汇-successive",
@@ -3061,7 +3229,8 @@
     "zh": "连续的",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "adj."
   },
   {
     "id": "阅读词汇-cent",
@@ -3074,7 +3243,8 @@
     "en": "cent",
     "zh": "美分；分币",
     "section": "阅读词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "阅读词汇-except",
@@ -3088,7 +3258,8 @@
     "zh": "除……之外",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "prep./conj."
   },
   {
     "id": "阅读词汇-arcade",
@@ -3101,7 +3272,8 @@
     "en": "arcade",
     "zh": "拱廊；商场；游艺厅",
     "section": "阅读词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "阅读词汇-mode",
@@ -3128,7 +3300,8 @@
     "en": "phonograph",
     "zh": "留声机；唱机",
     "section": "阅读词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "阅读词汇-proven",
@@ -3236,7 +3409,8 @@
     "zh": "价格；花费",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./v."
   },
   {
     "id": "阅读词汇-approximately",
@@ -3277,7 +3451,8 @@
     "zh": "对比",
     "section": "阅读词汇",
     "meaningReviewed": true,
-    "meaningReviewedAt": "2026-05-31"
+    "meaningReviewedAt": "2026-05-31",
+    "partOfSpeech": "n./v."
   },
   {
     "id": "阅读词汇-popularity",
@@ -3412,7 +3587,8 @@
     "en": "machine",
     "zh": "机器；机械装置",
     "section": "阅读词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "阅读词汇-readily",
@@ -3596,7 +3772,8 @@
     "en": "fairground",
     "zh": "集市场地；游乐场地",
     "section": "阅读词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "阅读词汇-amusement",
@@ -3649,7 +3826,8 @@
     "en": "motion",
     "zh": "运动；移动；动作",
     "section": "阅读词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "n."
   },
   {
     "id": "阅读词汇-ultimate",
@@ -3857,7 +4035,8 @@
     "en": "possible",
     "zh": "可能的；可行的",
     "section": "阅读词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adj."
   },
   {
     "id": "阅读词汇-photograph",
@@ -3935,7 +4114,8 @@
     "en": "appropriate",
     "zh": "合适的；恰当的",
     "section": "阅读词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adj."
   },
   {
     "id": "阅读词汇-relatively",
@@ -3948,7 +4128,8 @@
     "en": "relatively",
     "zh": "相对地；比较地",
     "section": "阅读词汇",
-    "meaningReviewed": true
+    "meaningReviewed": true,
+    "partOfSpeech": "adv."
   },
   {
     "id": "阅读词汇-no-longer",
