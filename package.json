@@ -6,6 +6,11 @@
   "scripts": {
     "build": "node scripts/build-netlify.mjs",
     "check:data": "node scripts/check-data-quality.mjs",
-    "start": "node scripts/serve-static.mjs"
+    "start": "node scripts/serve-static.mjs",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.95.0"
   }
 }
